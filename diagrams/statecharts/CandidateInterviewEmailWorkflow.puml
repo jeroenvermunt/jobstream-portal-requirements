@@ -1,0 +1,60 @@
+@startuml
+title Candidate First-Interview Email Workflow
+
+state "Interview Details Entered" as InterviewDetailsEntered
+state "Preview Ready" as PreviewReady
+state "Schedule-Only Confirmation Ready" as ScheduleOnlyReady
+state "Interview Saved And Email Requested" as EmailRequested
+state "Interview Saved, Manual Notification Required" as ManualNotificationRequired
+state "Email Accepted For Sending" as EmailAccepted
+state "Email Failed" as EmailFailed
+state "Email Retry Requested" as RetryRequested
+state "Preview Invalidated" as PreviewInvalidated
+
+[*] --> InterviewDetailsEntered : FirstInterviewDetailsEntered
+
+InterviewDetailsEntered --> PreviewReady : PreviewInterviewConfirmation\n[email and Reply-To valid]
+InterviewDetailsEntered --> ScheduleOnlyReady : PreviewInterviewConfirmation\n[email or Reply-To unavailable]
+
+PreviewReady --> InterviewDetailsEntered : EditInterviewDetails
+PreviewReady --> PreviewInvalidated : CandidateOrAppointmentChanged
+PreviewInvalidated --> InterviewDetailsEntered : ReloadCurrentDetails
+
+PreviewReady --> EmailRequested : ScheduleInterviewAndRequestConfirmation
+ScheduleOnlyReady --> ManualNotificationRequired : ScheduleInterviewWithoutEmail
+
+EmailRequested --> EmailAccepted : ProviderAcceptedRequest
+EmailRequested --> EmailFailed : ProviderRejectedOrFailedRequest
+EmailFailed --> RetryRequested : RetryCandidateEmail
+RetryRequested --> EmailAccepted : ProviderAcceptedRetry
+RetryRequested --> EmailFailed : ProviderRejectedOrFailedRetry
+EmailFailed --> ManualNotificationRequired : ContinueWithManualNotification
+
+EmailAccepted --> [*]
+ManualNotificationRequired --> [*]
+
+note right of PreviewReady
+Read-only fixed Jobstream template.
+Candidate preference selects Dutch or English;
+missing or unsupported preference defaults to Dutch.
+end note
+
+note right of EmailRequested
+The interview schedule and durable email request
+are persisted idempotently before provider delivery.
+end note
+
+note right of EmailFailed
+The interview remains scheduled.
+Retry targets only the existing email request and
+cannot repeat the lifecycle transition.
+end note
+
+note bottom
+Provider acceptance is not proof of candidate delivery,
+receipt, opening, or reading.
+TODO: Select the email provider and approve production
+template copy, sender-domain controls, and failure policy.
+end note
+
+@enduml

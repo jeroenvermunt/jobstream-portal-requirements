@@ -1,0 +1,35 @@
+@startuml
+title <size:24>System Context – Recruitment Marketing Platform</size>
+
+set separator none
+left to right direction
+
+<style>
+  root {
+    BackgroundColor: #ffffff
+    FontColor: #444444
+  }
+</style>
+
+!include <C4/C4>
+!include <C4/C4_Context>
+
+Person(RecruitmentMarketer, "Recruitment Marketer", $descr="Manages job vacancies, deals and recruitment campaigns in HubSpot.", $tags="", $link="")
+Person(SelectionAgent, "Selection Agent", $descr="Calls candidates and maintains candidate statuses in HubSpot.", $tags="", $link="")
+Person(CustomerUser, "Customer User", $descr="Reviews and approves candidates via the customer portal.", $tags="", $link="")
+System(MetaAdsFacebookLeadForms, "Meta Ads (Facebook Lead Forms)", $descr="Provides lead form submissions from advertising campaigns.", $tags="", $link="")
+System(HubSpot, "HubSpot", $descr="CRM, Workflows and CMS hosting recruitment data and automation.", $tags="", $link="")
+System(RecruitmentMarketingPlatform, "Recruitment Marketing Platform", $descr="HubSpot-centred system supporting candidate intake, qualification and customer approval.", $tags="", $link="")
+
+Rel(MetaAdsFacebookLeadForms, RecruitmentMarketingPlatform, "Sends lead submissions (webhook/API)", $techn="HTTPS", $tags="", $link="")
+Rel(RecruitmentMarketer, RecruitmentMarketingPlatform, "Manages deals, vacancies and campaigns", $techn="Web UI", $tags="", $link="")
+Rel(SelectionAgent, RecruitmentMarketingPlatform, "Contacts candidates and updates their status", $techn="Web UI", $tags="", $link="")
+Rel(CustomerUser, RecruitmentMarketingPlatform, "Reviews and approves candidates", $techn="Web UI", $tags="", $link="")
+Rel(RecruitmentMarketingPlatform, MetaAdsFacebookLeadForms, "Receives lead submissions", $techn="Webhook/HTTPS", $tags="", $link="")
+Rel(RecruitmentMarketer, HubSpot, "Uses HubSpot interface", $techn="HTTPS", $tags="", $link="")
+Rel(SelectionAgent, HubSpot, "Uses HubSpot interface", $techn="HTTPS", $tags="", $link="")
+Rel(HubSpot, RecruitmentMarketingPlatform, "Hosts CRM, Workflows and CMS components", $techn="Internal", $tags="", $link="")
+
+SHOW_LEGEND(true)
+hide stereotypes
+@enduml

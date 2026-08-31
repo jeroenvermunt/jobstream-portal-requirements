@@ -1,0 +1,555 @@
+@startuml
+title ER Diagram - Customer Recruitment Portal
+
+hide methods
+hide stereotypes
+skinparam linetype ortho
+
+' Conceptual portal ERD.
+' PK/FK names are draft logical identifiers unless marked with a source-system field.
+
+entity "CustomerTenant" as CustomerTenant {
+  * customer_tenant_id : string <<PK>>
+  --
+  source_company_id : string <<FK>> ' HubSpot company id, if HubSpot remains source
+  name : string
+  contract_model : string           ' TODO: approved commercial model values
+  status : string
+}
+
+entity "WorkScope" as WorkScope {
+  * work_scope_id : string <<PK>>
+  --
+  customer_tenant_id : string <<FK>>
+  parent_work_scope_id : string <<FK>> ' TODO: confirm hierarchy rules
+  scope_type : string                  ' TODO: company/department/location/vacancy/recruiter
+  name : string
+  status : string
+}
+
+entity "PortalUser" as PortalUser {
+  * user_id : string <<PK>>
+  --
+  identity_subject : string            ' TODO: identity provider claim
+  email : string
+  display_name : string
+  user_type : string                   ' customer, jobstream, privacy/security
+  preferred_language : string          ' nl/en
+  status : string
+}
+
+entity "UserInvitation" as UserInvitation {
+  * invitation_id : string <<PK>>
+  --
+  customer_tenant_id : string <<FK>>
+  invited_by_user_id : string <<FK>>
+  email : string
+  display_name : string
+  role_key : string
+  status : string                       ' pending/accepted/expired/revoked
+  expires_at : datetime
+  accepted_by_user_id : string <<FK>>
+  accepted_at : datetime
+}
+
+entity "Role" as Role {
+  * role_id : string <<PK>>
+  --
+  role_key : string
+  label : string
+  description : string
+}
+
+entity "UserAccessGrant" as UserAccessGrant {
+  * access_grant_id : string <<PK>>
+  --
+  user_id : string <<FK>>
+  role_id : string <<FK>>
+  customer_tenant_id : string <<FK>>
+  work_scope_id : string <<FK>>
+  granted_at : datetime
+  revoked_at : datetime
+}
+
+entity "JobVacancy" as JobVacancy {
+  * vacancy_id : string <<PK>>
+  --
+  source_vacancy_id : string <<FK>>    ' HubSpot job vacancy id, if HubSpot remains source
+  customer_tenant_id : string <<FK>>
+  reference_id : string
+  title : string
+  lifecycle_state : string             ' source lifecycle, not customer-candidate stage
+  status : string
+}
+
+entity "Candidate" as Candidate {
+  * candidate_id : string <<PK>>
+  --
+  source_contact_id : string <<FK>>    ' HubSpot contact id, if HubSpot remains source
+  approved_profile_fields : json       ' TODO: approved field catalogue
+  contact_channels : json              ' TODO: visibility/encryption policy
+  preferred_communication_language : string ' nl/en; absent/unsupported defaults to nl for REQ-15
+  created_at : datetime
+}
+
+entity "SourceLead" as SourceLead {
+  * source_lead_id : string <<PK>>
+  --
+  source_system : string               ' HubSpot/TODO
+  source_lead_object_id : string
+  customer_tenant_id : string <<FK>>
+  vacancy_id : string <<FK>>
+  candidate_id : string <<FK>>
+  source_status : string
+  supplied_at : datetime
+}
+
+entity "CustomerCandidate" as CustomerCandidate {
+  * customer_candidate_id : string <<PK>>
+  --
+  source_lead_id : string <<FK>>
+  customer_tenant_id : string <<FK>>   ' materialized for tenant isolation
+  assigned_work_scope_id : string <<FK>>
+  assigned_recruiter_user_id : string <<FK>>
+  current_stage_key : string <<FK>>
+  transfer_confirmation_status : string
+  commercial_approval_status : string
+  retention_status : string
+  retained_until : datetime
+  follow_up_attention_status : string
+  handoff_at : datetime
+  stage_changed_at : datetime
+  latest_activity_at : datetime
+  terminal_at : datetime
+}
+
+entity "InterviewAppointment" as InterviewAppointment {
+  * interview_appointment_id : string <<PK>>
+  --
+  customer_candidate_id : string <<FK>>
+  scheduled_by_user_id : string <<FK>>
+  starts_at : datetime
+  timezone : string                     ' required IANA timezone; TODO: approve source/default
+  format : string                       ' video/phone/on-site; TODO: approved codes
+  location_or_meeting_link : string
+  schedule_version : integer
+  status : string                       ' scheduled; later change/cancel states are out of REQ-15
+  created_at : datetime
+  updated_at : datetime
+}
+
+entity "StageDefinition" as StageDefinition {
+  * stage_key : string <<PK>>
+  --
+  label_nl : string
+  label_en : string
+  sort_order : integer
+  is_terminal : boolean
+  requires_note : boolean
+  requires_rejection_reason : boolean
+}
+
+entity "StageTransition" as StageTransition {
+  * transition_id : string <<PK>>
+  --
+  from_stage_key : string <<FK>>
+  to_stage_key : string <<FK>>
+  recommended : boolean
+  requires_note : boolean
+  requires_rejection_reason : boolean
+  status : string
+}
+
+entity "RejectionReason" as RejectionReason {
+  * rejection_reason_id : string <<PK>>
+  --
+  reason_code : string
+  label_nl : string
+  label_en : string
+  active : boolean
+  sort_order : integer
+}
+
+entity "ActivityEntry" as ActivityEntry {
+  * activity_id : string <<PK>>
+  --
+  customer_candidate_id : string <<FK>>
+  actor_user_id : string <<FK>>
+  activity_type : string
+  occurred_at : datetime
+  observed_by_system : boolean
+  previous_stage_key : string <<FK>>
+  new_stage_key : string <<FK>>
+  contact_channel : string
+  outcome_code : string                ' TODO: approved action/outcome taxonomy
+  rejection_reason_id : string <<FK>>
+  note_text : text
+}
+
+entity "CandidateNote" as CandidateNote {
+  * candidate_note_id : string <<PK>>
+  --
+  customer_candidate_id : string <<FK>>
+  author_user_id : string <<FK>>
+  source_activity_id : string <<FK>>   ' optional action-linked note
+  note_type : string                   ' team/handover
+  body : text
+  created_at : datetime
+  corrected_by_note_id : string <<FK>> ' TODO: approve correction policy
+}
+
+entity "CandidateMention" as CandidateMention {
+  * candidate_mention_id : string <<PK>>
+  --
+  candidate_note_id : string <<FK>>
+  mentioned_user_id : string <<FK>>
+  created_at : datetime
+}
+
+entity "CandidateAssessment" as CandidateAssessment {
+  * candidate_assessment_id : string <<PK>>
+  --
+  customer_candidate_id : string <<FK>>
+  author_user_id : string <<FK>>
+  assessment : string                  ' negative/positive/strong-positive/withdrawn
+  revision : integer
+  is_current : boolean
+  created_at : datetime
+}
+
+entity "ContactTrackingToken" as ContactTrackingToken {
+  * contact_tracking_token_id : string <<PK>>
+  --
+  customer_candidate_id : string <<FK>>
+  actor_user_id : string <<FK>>
+  opaque_token_hash : string
+  channel : string                     ' email
+  expires_at : datetime
+  consumed_at : datetime
+}
+
+entity "TrackedEmailReceipt" as TrackedEmailReceipt {
+  * tracked_email_receipt_id : string <<PK>>
+  --
+  contact_tracking_token_id : string <<FK>>
+  sender_address : string
+  recipient_address : string
+  subject : string
+  provider_message_id : string
+  received_at : datetime
+  processing_status : string
+}
+
+entity "FieldVisibilityPolicy" as FieldVisibilityPolicy {
+  * field_visibility_policy_id : string <<PK>>
+  --
+  policy_name : string
+  version : string
+  before_confirmation_fields : json    ' TODO: approve profile/CV field list
+  after_confirmation_fields : json     ' includes approved contact fields
+  approved_at : datetime
+}
+
+entity "DataTransferConfirmation" as DataTransferConfirmation {
+  * transfer_confirmation_id : string <<PK>>
+  --
+  customer_candidate_id : string <<FK>>
+  actor_user_id : string <<FK>>
+  field_visibility_policy_id : string <<FK>>
+  candidate_document_id : string <<FK>>
+  confirmed_at : datetime
+  legal_text_version : string          ' TODO: approved confirmation wording
+  document_version : string
+  retained_until : datetime            ' confirmed_at + 90 days
+  status : string
+}
+
+entity "CustomerExportPackage" as CustomerExportPackage {
+  * export_package_id : string <<PK>>
+  --
+  transfer_confirmation_id : string <<FK>>
+  document_version : string
+  content_hash : string
+  storage_location : string
+  generated_at : datetime
+  published_at : datetime
+  first_downloaded_at : datetime
+  retained_until : datetime            ' transfer confirmation + 90 days
+  status : string                      ' preparing/available/disposed/failed
+}
+
+entity "CommercialPolicy" as CommercialPolicy {
+  * commercial_policy_id : string <<PK>>
+  --
+  customer_tenant_id : string <<FK>>
+  model_type : string                  ' TODO: unlimited/per-candidate/incidental
+  requires_per_candidate_approval : boolean
+  effective_from : date
+  effective_until : date
+}
+
+entity "CommercialApproval" as CommercialApproval {
+  * commercial_approval_id : string <<PK>>
+  --
+  customer_candidate_id : string <<FK>>
+  commercial_policy_id : string <<FK>>
+  actor_user_id : string <<FK>>
+  approved_at : datetime
+  status : string
+  billing_event_reference : string     ' TODO: only if billing event is approved
+}
+
+entity "CandidateDocument" as CandidateDocument {
+  * candidate_document_id : string <<PK>>
+  --
+  candidate_id : string <<FK>>
+  source_document_id : string
+  document_version : string
+  document_type : string               ' CV/source document/TODO
+  source_language : string
+  storage_location : string            ' HubSpot/File Store/TODO
+  field_visibility_policy_id : string <<FK>>
+  portal_copy_retained_until : datetime ' only portal-owned copy; source policy is separate
+  portal_copy_disposal_status : string
+}
+
+entity "RetentionDisposal" as RetentionDisposal {
+  * retention_disposal_id : string <<PK>>
+  --
+  transfer_confirmation_id : string <<FK>>
+  scheduled_at : datetime
+  completed_at : datetime
+  status : string
+  disposed_targets : json              ' database/file/search/derived copies
+  failure_summary : string
+}
+
+entity "MinimizedTransferEvidence" as MinimizedTransferEvidence {
+  * transfer_evidence_id : string <<PK>>
+  --
+  transfer_confirmation_id : string <<FK>>
+  evidence_payload : json               ' TODO: approve exact minimized fields
+  purpose : string
+  policy_version : string
+  retained_until : datetime             ' TODO: separately approved term
+  created_at : datetime
+}
+
+entity "FollowUpPolicy" as FollowUpPolicy {
+  * follow_up_policy_id : string <<PK>>
+  --
+  customer_tenant_id : string <<FK>>
+  stage_key : string <<FK>>
+  threshold_minutes : integer          ' TODO: 24h/48h/policy-dependent
+  working_hours_rule : string          ' TODO
+  cadence_rule : string                ' TODO
+  escalation_rule : string             ' TODO
+  active : boolean
+}
+
+entity "FollowUpReminder" as FollowUpReminder {
+  * reminder_id : string <<PK>>
+  --
+  customer_candidate_id : string <<FK>>
+  follow_up_policy_id : string <<FK>>
+  recipient_user_id : string <<FK>>
+  status : string
+  due_at : datetime
+  sent_at : datetime
+  suppressed_until : datetime
+  escalation_level : integer
+}
+
+entity "NotificationTemplate" as NotificationTemplate {
+  * notification_template_id : string <<PK>>
+  --
+  template_key : string                ' first-interview-confirmation for REQ-15
+  version : string
+  language : string                    ' nl/en
+  sender_address : string              ' no-reply@jobstream.nl for REQ-15
+  subject_template : text
+  body_template : text
+  status : string
+  approved_at : datetime
+}
+
+entity "NotificationRequest" as NotificationRequest {
+  * notification_request_id : string <<PK>>
+  --
+  customer_candidate_id : string <<FK>>
+  interview_appointment_id : string <<FK>>
+  reminder_id : string <<FK>>
+  notification_template_id : string <<FK>>
+  requested_by_user_id : string <<FK>>
+  notification_type : string           ' first-interview-confirmation/reminder/TODO
+  recipient_address : string
+  reply_to_address : string
+  language : string
+  token_snapshot : json                ' retention follows REQ-13
+  idempotency_key : string
+  status : string
+  requested_at : datetime
+}
+
+entity "NotificationDeliveryAttempt" as NotificationDeliveryAttempt {
+  * notification_delivery_attempt_id : string <<PK>>
+  --
+  notification_request_id : string <<FK>>
+  attempt_number : integer
+  provider_reference : string
+  status : string                      ' requested/accepted/failed; not proof of delivery or reading
+  attempted_at : datetime
+  failure_code : string
+}
+
+entity "UserNotification" as UserNotification {
+  * user_notification_id : string <<PK>>
+  --
+  recipient_user_id : string <<FK>>
+  candidate_mention_id : string <<FK>>
+  notification_request_id : string <<FK>>
+  channel : string                     ' in-product/email
+  created_at : datetime
+  read_at : datetime                   ' in-product only
+}
+
+entity "AuditEvent" as AuditEvent {
+  * audit_event_id : string <<PK>>
+  --
+  actor_user_id : string <<FK>>
+  customer_tenant_id : string <<FK>>
+  customer_candidate_id : string <<FK>>
+  event_type : string
+  purpose : string
+  occurred_at : datetime
+  metadata_reference : string
+  retained_until : datetime            ' follows event-specific approved policy
+}
+
+' --- Authorization and scope ---
+
+CustomerTenant ||--o{ WorkScope : defines
+CustomerTenant ||--o{ JobVacancy : owns
+CustomerTenant ||--o{ UserAccessGrant : scopes
+PortalUser ||--o{ UserAccessGrant : has
+Role ||--o{ UserAccessGrant : grants
+WorkScope ||--o{ UserAccessGrant : narrows
+CustomerTenant ||--o{ UserInvitation : invites within
+PortalUser ||--o{ UserInvitation : sends
+UserInvitation ||--o{ UserAccessGrant : prepares
+
+' --- Source association and portal work item ---
+
+CustomerTenant ||--o{ SourceLead : owns
+JobVacancy ||--o{ SourceLead : receives
+Candidate ||--o{ SourceLead : referenced by
+SourceLead ||--o| CustomerCandidate : supplies
+
+CustomerTenant ||--o{ CustomerCandidate : isolates
+WorkScope ||--o{ CustomerCandidate : assigns
+PortalUser ||--o{ CustomerCandidate : owns follow-up
+CustomerCandidate ||--o{ InterviewAppointment : schedules
+PortalUser ||--o{ InterviewAppointment : scheduled by
+
+note right of SourceLead
+The portal preserves the source association rule:
+Contact/Candidate is associated to JobVacancy through
+SourceLead. There is no direct Candidate--JobVacancy
+relationship in this ERD.
+end note
+
+note right of CustomerCandidate
+Central portal work item for one supplied candidate
+in one customer/vacancy context. Queue, kanban,
+detail, transfer, activity, and oversight screens
+operate on this object.
+end note
+
+' --- Lifecycle and activity ---
+
+StageDefinition ||--o{ CustomerCandidate : current stage
+StageDefinition ||--o{ StageTransition : from
+StageDefinition ||--o{ StageTransition : to
+
+CustomerCandidate ||--o{ ActivityEntry : timeline
+PortalUser ||--o{ ActivityEntry : actor
+RejectionReason ||--o{ ActivityEntry : reason
+CustomerCandidate ||--o{ CandidateNote : notes
+PortalUser ||--o{ CandidateNote : authors
+ActivityEntry ||--o| CandidateNote : links action note
+CandidateNote ||--o{ CandidateMention : mentions
+PortalUser ||--o{ CandidateMention : mentioned colleague
+CustomerCandidate ||--o{ CandidateAssessment : assessments
+PortalUser ||--o{ CandidateAssessment : assesses
+CustomerCandidate ||--o{ ContactTrackingToken : contact context
+PortalUser ||--o{ ContactTrackingToken : invokes shortcut
+ContactTrackingToken ||--o| TrackedEmailReceipt : verifies at most once
+
+note bottom of ContactTrackingToken
+The externally visible tracking address contains only an opaque,
+single-invocation token. A verified receipt stores metadata only;
+message bodies and attachments are discarded after processing.
+end note
+
+note bottom of ActivityEntry
+TODO: Confirm whether notes are immutable activity payloads
+or separate correctable records with correction history.
+end note
+
+' --- Transfer confirmation, commercial approval, export, and documents ---
+
+CustomerCandidate ||--o| DataTransferConfirmation : transfer
+PortalUser ||--o{ DataTransferConfirmation : confirms
+FieldVisibilityPolicy ||--o{ DataTransferConfirmation : controls
+CandidateDocument ||--o{ DataTransferConfirmation : versions
+DataTransferConfirmation ||--|| CustomerExportPackage : prepares
+DataTransferConfirmation ||--o| RetentionDisposal : expires
+DataTransferConfirmation ||--o| MinimizedTransferEvidence : minimizes to
+
+CustomerTenant ||--o{ CommercialPolicy : configures
+CommercialPolicy ||--o{ CommercialApproval : applies
+CustomerCandidate ||--o{ CommercialApproval : approvals
+PortalUser ||--o{ CommercialApproval : actor
+
+Candidate ||--o{ CandidateDocument : has
+FieldVisibilityPolicy ||--o{ CandidateDocument : controls access
+
+note bottom of DataTransferConfirmation
+The successful confirmation is the controller-transfer point.
+It is idempotent per customer and candidate context and starts
+the fixed 90-day retention period for portal candidate content.
+end note
+
+note bottom of MinimizedTransferEvidence
+TODO: Legal approval is required for the exact minimized fields,
+authorized audience, purpose, and retention term after 90 days.
+end note
+
+' --- Follow-up reminders and audit ---
+
+CustomerTenant ||--o{ FollowUpPolicy : defines
+StageDefinition ||--o{ FollowUpPolicy : evaluates stage
+FollowUpPolicy ||--o{ FollowUpReminder : creates
+CustomerCandidate ||--o{ FollowUpReminder : reminder target
+PortalUser ||--o{ FollowUpReminder : recipient
+CustomerCandidate ||--o{ NotificationRequest : notification context
+InterviewAppointment ||--o{ NotificationRequest : confirms
+FollowUpReminder ||--o{ NotificationRequest : requests
+NotificationTemplate ||--o{ NotificationRequest : renders
+PortalUser ||--o{ NotificationRequest : requested by
+NotificationRequest ||--o{ NotificationDeliveryAttempt : delivery attempts
+NotificationRequest ||--o{ UserNotification : creates
+CandidateMention ||--o{ UserNotification : notifies
+PortalUser ||--o{ UserNotification : receives
+
+note bottom of NotificationRequest
+REQ-15 requests are idempotent per customer candidate,
+interview schedule version, and template version. Token data
+and addresses follow REQ-13 authorization and retention rules.
+end note
+
+CustomerTenant ||--o{ AuditEvent : contains
+CustomerCandidate ||--o{ AuditEvent : context
+PortalUser ||--o{ AuditEvent : actor
+
+@enduml

@@ -1,0 +1,11 @@
+.agents/
+.codex/
+.DS_Store
+*.swp
+*.swo
+
+# The prototype is tracked as a pinned Git submodule.
+frontend/node_modules/
+frontend/dist/
+frontend/test-results/
+frontend/.env.local

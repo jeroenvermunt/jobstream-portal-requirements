@@ -1,0 +1,26 @@
+@startuml
+title Job Vacancy lifecycle (HubSpot job vacancy object)
+
+[*] --> Content_Available
+
+Content_Available --> Requirements_Available
+
+Requirements_Available --> Deal_Won
+
+Deal_Won --> Campaign_Live
+
+Campaign_Live --> Campaign_Closed
+
+note right of Campaign_Live
+The vacancy is published and the
+integration with Meta is active.
+end note
+
+Campaign_Closed --> [*]
+
+note right of Campaign_Closed
+All candidates associated with this
+vacancy are set to Rejected.
+end note
+
+@enduml

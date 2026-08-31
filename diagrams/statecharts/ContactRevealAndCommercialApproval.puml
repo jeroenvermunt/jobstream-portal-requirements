@@ -1,0 +1,70 @@
+@startuml
+title Candidate Data Transfer, Export, Retention, And Commercial Approval
+
+state "Profile And CV Available\nContact And Export Blocked" as PreConfirmation
+state "Commercial Approval Required" as CommercialApprovalRequired
+state "Commercial Approval Recorded" as CommercialApprovalRecorded
+state "Preparing Version-Bound Export" as PreparingExport
+state "Export Preparation Failed" as ExportPreparationFailed
+state "Ready For Transfer Confirmation" as ReadyForConfirmation
+state "Transfer Confirmed" as TransferConfirmed
+state "Contact And Customer Copy Available" as CustomerCopyAvailable
+state "90-Day Retention Expired" as RetentionExpired
+state "Candidate Content Disposed" as CandidateContentDisposed
+state "Transfer Blocked" as TransferBlocked
+
+[*] --> PreConfirmation : CandidateOpened
+
+PreConfirmation --> CommercialApprovalRequired : StartTransfer\n[per-candidate contract]
+PreConfirmation --> PreparingExport : StartTransfer\n[no commercial approval required]
+PreConfirmation --> TransferBlocked : StartTransfer\n[not authorized or policy missing]
+
+CommercialApprovalRequired --> CommercialApprovalRecorded : ApproveCandidateCommercially
+CommercialApprovalRecorded --> PreparingExport : CommercialApprovalStored
+
+PreparingExport --> ReadyForConfirmation : ExportPackagePrepared
+PreparingExport --> ExportPreparationFailed : ExportPreparationFailed
+ExportPreparationFailed --> PreparingExport : RetryExportPreparation
+
+ReadyForConfirmation --> TransferConfirmed : ConfirmTransfer\n[authorized user and approved legal text]
+TransferConfirmed --> CustomerCopyAvailable : PublishPreparedPackageAndContactData
+
+CustomerCopyAvailable --> CustomerCopyAvailable : RetrySamePackageDownload\n[within 90 days]
+CustomerCopyAvailable --> RetentionExpired : 90DaysElapsed
+RetentionExpired --> CandidateContentDisposed : DeleteOrAnonymizePortalCopies
+
+CandidateContentDisposed --> [*]
+TransferBlocked --> [*]
+
+note right of TransferConfirmed
+Confirmation is the controller-transfer point,
+independent of physical storage or download completion.
+The idempotent record identifies customer, user,
+candidate context, vacancy, CV/document version,
+legal-text version, confirmation time, and export.
+end note
+
+note right of CustomerCopyAvailable
+The same prepared export package remains available
+for retry until the 90-day retention expiry.
+end note
+
+note right of CandidateContentDisposed
+Dispose of candidate content, export packages,
+derived copies, and search-index data. Keep only
+legally approved minimized transfer evidence.
+end note
+
+note right of CommercialApprovalRequired
+TODO: Confirm whether commercial approval creates
+a billable event and how incidental/free candidates
+are represented.
+end note
+
+note bottom
+TODO: Approve final confirmation text and the exact
+fields, audience, and retention term for minimized
+transfer evidence before production.
+end note
+
+@enduml

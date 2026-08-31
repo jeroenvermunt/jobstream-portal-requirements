@@ -1,0 +1,37 @@
+@startuml
+title Follow-Up Reminder Workflow
+
+state "Awaiting Qualifying Action" as AwaitingQualifyingAction
+state "Within Follow-Up Expectation" as WithinFollowUpExpectation
+state "Requires Attention" as RequiresAttention
+state "Reminder Requested" as ReminderRequested
+state "Reminder Sent" as ReminderSent
+state "Follow-Up Completed" as FollowUpCompleted
+state "Reminder Suppressed" as ReminderSuppressed
+
+[*] --> AwaitingQualifyingAction : CandidateSuppliedOrStageRequiresAction
+AwaitingQualifyingAction --> WithinFollowUpExpectation : FollowUpClockStarted
+WithinFollowUpExpectation --> RequiresAttention : FollowUpThresholdPassed
+WithinFollowUpExpectation --> FollowUpCompleted : QualifyingOutcomeLogged
+
+RequiresAttention --> ReminderRequested : ReminderPolicyEvaluated
+RequiresAttention --> FollowUpCompleted : QualifyingOutcomeLogged
+ReminderRequested --> ReminderSent : NotificationDelivered
+ReminderRequested --> ReminderSuppressed : SuppressionRuleApplied
+ReminderSent --> FollowUpCompleted : QualifyingOutcomeLogged
+ReminderSent --> ReminderSuppressed : CadenceLimitReached
+ReminderSuppressed --> RequiresAttention : SuppressionWindowExpired
+
+FollowUpCompleted --> [*]
+
+note right of ReminderRequested
+Notification delivery must go through the
+Notification Framework and record a timeline activity.
+end note
+
+note bottom
+TODO: Confirm start, pause, reset, stop, working-hours,
+threshold, cadence, channel, recipient, and escalation rules.
+end note
+
+@enduml

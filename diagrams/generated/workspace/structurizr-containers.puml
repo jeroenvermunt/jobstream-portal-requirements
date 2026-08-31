@@ -1,0 +1,226 @@
+@startuml
+title <size:24>Container View - Platform-Standard Customer Recruitment Portal</size>
+
+set separator none
+left to right direction
+skinparam ranksep 60
+skinparam nodesep 30
+hide stereotype
+
+<style>
+  root {
+    BackgroundColor: #ffffff;
+    FontColor: #444444;
+  }
+  // Element,API
+  .Element-RWxlbWVudCxBUEk= {
+    BackgroundColor: #438dd5;
+    LineColor: #2e6295;
+    LineStyle: 0;
+    LineThickness: 2;
+    FontColor: #ffffff;
+    FontSize: 24;
+    HorizontalAlignment: center;
+    Shadowing: 0;
+    MaximumWidth: 450;
+  }
+  // Element,Business Module
+  .Element-RWxlbWVudCxCdXNpbmVzcyBNb2R1bGU= {
+    BackgroundColor: #85bbf0;
+    LineColor: #5d82a8;
+    LineStyle: 0;
+    LineThickness: 2;
+    FontColor: #000000;
+    FontSize: 24;
+    HorizontalAlignment: center;
+    Shadowing: 0;
+    MaximumWidth: 450;
+  }
+  // Element,Database
+  .Element-RWxlbWVudCxEYXRhYmFzZQ== {
+    BackgroundColor: #2f95d6;
+    LineColor: #206895;
+    LineStyle: 0;
+    LineThickness: 2;
+    FontColor: #ffffff;
+    FontSize: 24;
+    HorizontalAlignment: center;
+    Shadowing: 0;
+    MaximumWidth: 450;
+  }
+  // Element,External System
+  .Element-RWxlbWVudCxFeHRlcm5hbCBTeXN0ZW0= {
+    BackgroundColor: #999999;
+    LineColor: #6b6b6b;
+    LineStyle: 0;
+    LineThickness: 2;
+    FontColor: #ffffff;
+    FontSize: 24;
+    HorizontalAlignment: center;
+    Shadowing: 0;
+    MaximumWidth: 450;
+  }
+  // Element,File Store
+  .Element-RWxlbWVudCxGaWxlIFN0b3Jl {
+    BackgroundColor: #2f95d6;
+    LineColor: #206895;
+    LineStyle: 0;
+    LineThickness: 2;
+    FontColor: #ffffff;
+    FontSize: 24;
+    HorizontalAlignment: center;
+    Shadowing: 0;
+    MaximumWidth: 450;
+  }
+  // Element,Integration
+  .Element-RWxlbWVudCxJbnRlZ3JhdGlvbg== {
+    BackgroundColor: #438dd5;
+    LineColor: #2e6295;
+    LineStyle: 0;
+    LineThickness: 2;
+    FontColor: #ffffff;
+    FontSize: 24;
+    HorizontalAlignment: center;
+    Shadowing: 0;
+    MaximumWidth: 450;
+  }
+  // Element,Message Bus
+  .Element-RWxlbWVudCxNZXNzYWdlIEJ1cw== {
+    BackgroundColor: #f5a623;
+    LineColor: #ab7418;
+    LineStyle: 0;
+    LineThickness: 2;
+    FontColor: #000000;
+    FontSize: 24;
+    HorizontalAlignment: center;
+    Shadowing: 0;
+    MaximumWidth: 450;
+  }
+  // Element,Person
+  .Element-RWxlbWVudCxQZXJzb24= {
+    BackgroundColor: #ffffff;
+    LineColor: #444444;
+    LineStyle: 0;
+    LineThickness: 2;
+    FontColor: #444444;
+    FontSize: 24;
+    HorizontalAlignment: center;
+    Shadowing: 0;
+    MaximumWidth: 450;
+  }
+  // Element,Platform Services
+  .Element-RWxlbWVudCxQbGF0Zm9ybSBTZXJ2aWNlcw== {
+    BackgroundColor: #0b6b50;
+    LineColor: #074a38;
+    LineStyle: 0;
+    LineThickness: 2;
+    FontColor: #ffffff;
+    FontSize: 24;
+    HorizontalAlignment: center;
+    Shadowing: 0;
+    MaximumWidth: 450;
+  }
+  // Element,Search Index
+  .Element-RWxlbWVudCxTZWFyY2ggSW5kZXg= {
+    BackgroundColor: #2f95d6;
+    LineColor: #206895;
+    LineStyle: 0;
+    LineThickness: 2;
+    FontColor: #ffffff;
+    FontSize: 24;
+    HorizontalAlignment: center;
+    Shadowing: 0;
+    MaximumWidth: 450;
+  }
+  // Element,Web Application
+  .Element-RWxlbWVudCxXZWIgQXBwbGljYXRpb24= {
+    BackgroundColor: #438dd5;
+    LineColor: #2e6295;
+    LineStyle: 0;
+    LineThickness: 2;
+    FontColor: #ffffff;
+    FontSize: 24;
+    HorizontalAlignment: center;
+    Shadowing: 0;
+    MaximumWidth: 450;
+  }
+  // Element,Worker
+  .Element-RWxlbWVudCxXb3JrZXI= {
+    BackgroundColor: #438dd5;
+    LineColor: #2e6295;
+    LineStyle: 0;
+    LineThickness: 2;
+    FontColor: #ffffff;
+    FontSize: 24;
+    HorizontalAlignment: center;
+    Shadowing: 0;
+    MaximumWidth: 450;
+  }
+  // Relationship
+  .Relationship-UmVsYXRpb25zaGlw {
+    LineThickness: 2;
+    LineStyle: 10-10;
+    LineColor: #444444;
+    FontColor: #444444;
+    FontSize: 24;
+  }
+  // Customer Recruitment Portal
+  .Boundary-Q3VzdG9tZXIgUmVjcnVpdG1lbnQgUG9ydGFs {
+    BackgroundColor: #ffffff;
+    LineColor: #0b4884;
+    LineStyle: 0;
+    LineThickness: 2;
+    FontColor: #ffffff;
+    FontSize: 24;
+    HorizontalAlignment: center;
+    Shadowing: 0;
+  }
+</style>
+
+person "==Customer Recruiter\n<size:16>[Person]</size>\n\nCustomer user who reviews assigned Jobstream candidates, confirms the candidate-data transfer, downloads the customer copy, contacts candidates, records outcomes, and progresses the customer-side workflow." <<Element-RWxlbWVudCxQZXJzb24=>> as CustomerRecruiter
+person "==Customer Recruitment Manager\n<size:16>[Person]</size>\n\nCustomer user who reviews candidate progress within an authorized customer scope." <<Element-RWxlbWVudCxQZXJzb24=>> as CustomerRecruitmentManager
+person "==Jobstream Operations User\n<size:16>[Person]</size>\n\nJobstream user who monitors customer follow-up, reviews activity history, and supports stalled candidate progress." <<Element-RWxlbWVudCxQZXJzb24=>> as JobstreamOperationsUser
+person "==Privacy/Security Owner\n<size:16>[Person]</size>\n\nApproves confirmation wording, pre-confirmation visibility, minimized evidence, retention, access, audit, and authentication rules before production release." <<Element-RWxlbWVudCxQZXJzb24=>> as PrivacySecurityOwner
+rectangle "==HubSpot CRM\n<size:16>[Software System]</size>\n\nCurrent source for candidate, vacancy, customer, and association data. TODO: confirm whether HubSpot remains system of record for customer-stage and activity data." <<Element-RWxlbWVudCxFeHRlcm5hbCBTeXN0ZW0=>> as HubSpotCRM
+rectangle "==TODO: Identity Provider\n<size:16>[Software System]</size>\n\nAuthenticates assigned customer and Jobstream users. TODO: select identity provider, MFA, account recovery, and session policy." <<Element-RWxlbWVudCxFeHRlcm5hbCBTeXN0ZW0=>> as TODOIdentityProvider
+rectangle "==User Email Client\n<size:16>[Software System]</size>\n\nExternal mail client opened through mailto links; the portal cannot prove message delivery from this action." <<Element-RWxlbWVudCxFeHRlcm5hbCBTeXN0ZW0=>> as UserEmailClient
+rectangle "==WhatsApp\n<size:16>[Software System]</size>\n\nExternal WhatsApp application or web endpoint opened through supported phone links; first release does not verify message delivery." <<Element-RWxlbWVudCxFeHRlcm5hbCBTeXN0ZW0=>> as WhatsApp
+rectangle "==TODO: Notification Channels\n<size:16>[Software System]</size>\n\nExternal channels used by the Notification Framework for reminders and access messages. TODO: approve channels and cadence." <<Element-RWxlbWVudCxFeHRlcm5hbCBTeXN0ZW0=>> as TODONotificationChannels
+
+rectangle "Customer Recruitment Portal\n<size:16>[Software System]</size>" <<Boundary-Q3VzdG9tZXIgUmVjcnVpdG1lbnQgUG9ydGFs>> {
+  rectangle "==Portal Web Application\n<size:16>[Container: TODO: Web application technology]</size>\n\nDutch/English UI for candidate queue, kanban/list views, candidate detail, transfer confirmation, export download, contact shortcuts, logging, stage updates, guidance, and oversight." <<Element-RWxlbWVudCxXZWIgQXBwbGljYXRpb24=>> as CustomerRecruitmentPortal.PortalWebApplication
+  rectangle "==Business Object API\n<size:16>[Container: TODO: API service technology]</size>\n\nExposes standard object APIs plus idempotent transfer-confirmation and lifecycle-transition commands; enforces permission checks consistently for UI, workflows, and integrations." <<Element-RWxlbWVudCxBUEk=>> as CustomerRecruitmentPortal.BusinessObjectAPI
+  rectangle "==Customer Recruitment Business Module\n<size:16>[Container: TODO: Application module]</size>\n\nDefines customer recruitment business objects, lifecycle rules, transfer and export rules, activity types, permissions, retention workflows, and notifications without reimplementing platform services." <<Element-RWxlbWVudCxCdXNpbmVzcyBNb2R1bGU=>> as CustomerRecruitmentPortal.CustomerRecruitmentBusinessModule
+  rectangle "==Platform Services\n<size:16>[Container: TODO: Shared platform runtime]</size>\n\nReusable Object Framework, State Engine, Timeline Engine, Activity Framework, Permission Framework, Workflow Engine, Notification Framework, Template Engine, Audit Framework, Search Framework, and File Framework." <<Element-RWxlbWVudCxQbGF0Zm9ybSBTZXJ2aWNlcw==>> as CustomerRecruitmentPortal.PlatformServices
+  rectangle "==Workflow And Notification Worker\n<size:16>[Container: TODO: Worker service technology]</size>\n\nConsumes domain events, executes 90-day retention disposal across portal stores, evaluates follow-up workflows, requests notifications, and records timeline activities." <<Element-RWxlbWVudCxXb3JrZXI=>> as CustomerRecruitmentPortal.WorkflowAndNotificationWorker
+  rectangle "==HubSpot Synchronization Adapter\n<size:16>[Container: TODO: Integration service technology]</size>\n\nMaps HubSpot candidate, vacancy, company, and association data into portal business objects and synchronizes approved updates where the architecture decision allows it." <<Element-RWxlbWVudCxJbnRlZ3JhdGlvbg==>> as CustomerRecruitmentPortal.HubSpotSynchronizationAdapter
+  database "==Business Application Data Store\n<size:16>[Container: PostgreSQL]</size>\n\nStores business objects, lifecycle state, transfer confirmations, minimized evidence, retention state, timelines, activities, permissions, and audit metadata." <<Element-RWxlbWVudCxEYXRhYmFzZQ==>> as CustomerRecruitmentPortal.BusinessApplicationDataStore
+  queue "==Domain Event Bus\n<size:16>[Container: TODO: Event bus technology]</size>\n\nPublishes meaningful business changes for workflows, notifications, integrations, analytics, and audit consumers." <<Element-RWxlbWVudCxNZXNzYWdlIEJ1cw==>> as CustomerRecruitmentPortal.DomainEventBus
+  database "==Search Index\n<size:16>[Container: PostgreSQL full-text search and indexes]</size>\n\nSupports authorized candidate queue, kanban, and oversight search and removes transfer-context candidate content at the 90-day expiry." <<Element-RWxlbWVudCxTZWFyY2ggSW5kZXg=>> as CustomerRecruitmentPortal.SearchIndex
+  folder "==File Store\n<size:16>[Container: TODO: File storage technology]</size>\n\nStores or references approved CV/source documents and version-bound customer export packages; portal-owned transfer copies expire after 90 days. TODO: confirm source-document storage boundary." <<Element-RWxlbWVudCxGaWxlIFN0b3Jl>> as CustomerRecruitmentPortal.FileStore
+}
+
+CustomerRecruiter --> CustomerRecruitmentPortal.PortalWebApplication <<Relationship-UmVsYXRpb25zaGlw>> : "Reviews assigned candidates, confirms data transfer, downloads the customer copy, uses contact shortcuts, logs outcomes, and changes stages\n<size:16>[HTTPS]</size>"
+CustomerRecruitmentManager --> CustomerRecruitmentPortal.PortalWebApplication <<Relationship-UmVsYXRpb25zaGlw>> : "Reviews candidates and follow-up progress in an authorized customer scope\n<size:16>[HTTPS]</size>"
+JobstreamOperationsUser --> CustomerRecruitmentPortal.PortalWebApplication <<Relationship-UmVsYXRpb25zaGlw>> : "Reviews oversight views, activity history, stalled candidates, and customer follow-up evidence\n<size:16>[HTTPS]</size>"
+PrivacySecurityOwner --> CustomerRecruitmentPortal.PortalWebApplication <<Relationship-UmVsYXRpb25zaGlw>> : "Reviews configured privacy/audit behavior where administrative review screens exist\n<size:16>[HTTPS/TODO]</size>"
+JobstreamOperationsUser --> HubSpotCRM <<Relationship-UmVsYXRpb25zaGlw>> : "Maintains source candidate, vacancy, customer, and association data where HubSpot remains the operational CRM\n<size:16>[HubSpot UI]</size>"
+CustomerRecruitmentPortal.PortalWebApplication --> TODOIdentityProvider <<Relationship-UmVsYXRpb25zaGlw>> : "Authenticates assigned users and receives identity/session claims\n<size:16>[OIDC/SAML/TODO]</size>"
+CustomerRecruitmentPortal.PortalWebApplication --> CustomerRecruitmentPortal.BusinessObjectAPI <<Relationship-UmVsYXRpb25zaGlw>> : "Reads objects and submits transfer-confirmation, export-download, transition, and activity commands\n<size:16>[JSON/HTTPS]</size>"
+CustomerRecruitmentPortal.PortalWebApplication --> UserEmailClient <<Relationship-UmVsYXRpb25zaGlw>> : "Opens mailto contact shortcut after transfer confirmation\n<size:16>[mailto]</size>"
+CustomerRecruitmentPortal.PortalWebApplication --> WhatsApp <<Relationship-UmVsYXRpb25zaGlw>> : "Opens WhatsApp contact shortcut after transfer confirmation\n<size:16>[HTTPS/deep link]</size>"
+CustomerRecruitmentPortal.BusinessObjectAPI --> CustomerRecruitmentPortal.CustomerRecruitmentBusinessModule <<Relationship-UmVsYXRpb25zaGlw>> : "Delegates customer recruitment rules, object definitions, validation, and transition commands\n<size:16>[In-process call (ASSUMPTION)]</size>"
+CustomerRecruitmentPortal.BusinessObjectAPI --> CustomerRecruitmentPortal.PlatformServices <<Relationship-UmVsYXRpb25zaGlw>> : "Uses object, state, timeline, activity, permission, audit, search, and file services\n<size:16>[Internal API]</size>"
+CustomerRecruitmentPortal.CustomerRecruitmentBusinessModule --> CustomerRecruitmentPortal.PlatformServices <<Relationship-UmVsYXRpb25zaGlw>> : "Configures and invokes shared platform capabilities instead of implementing its own infrastructure\n<size:16>[Internal API]</size>"
+CustomerRecruitmentPortal.PlatformServices --> CustomerRecruitmentPortal.BusinessApplicationDataStore <<Relationship-UmVsYXRpb25zaGlw>> : "Persists objects, state, timeline, activities, permissions, and audit metadata\n<size:16>[SQL]</size>"
+CustomerRecruitmentPortal.PlatformServices --> CustomerRecruitmentPortal.DomainEventBus <<Relationship-UmVsYXRpb25zaGlw>> : "Publishes domain events for meaningful business changes\n<size:16>[TODO]</size>"
+CustomerRecruitmentPortal.PlatformServices --> CustomerRecruitmentPortal.SearchIndex <<Relationship-UmVsYXRpb25zaGlw>> : "Indexes authorized object and timeline data for queue and oversight views\n<size:16>[SQL]</size>"
+CustomerRecruitmentPortal.PlatformServices --> CustomerRecruitmentPortal.FileStore <<Relationship-UmVsYXRpb25zaGlw>> : "Stores or retrieves CV/source documents and version-bound customer export packages through the File Framework\n<size:16>[TODO]</size>"
+CustomerRecruitmentPortal.WorkflowAndNotificationWorker --> CustomerRecruitmentPortal.DomainEventBus <<Relationship-UmVsYXRpb25zaGlw>> : "Consumes domain events such as CandidateSupplied, TransferConfirmed, TransferRetentionExpired, StageChanged, FollowUpOverdue, and CandidateRejected\n<size:16>[TODO]</size>"
+CustomerRecruitmentPortal.WorkflowAndNotificationWorker --> CustomerRecruitmentPortal.PlatformServices <<Relationship-UmVsYXRpb25zaGlw>> : "Executes configured workflows, disposes expired database/file/search copies, creates activities, requests notifications, and records disposal evidence\n<size:16>[Internal API]</size>"
+CustomerRecruitmentPortal.WorkflowAndNotificationWorker --> TODONotificationChannels <<Relationship-UmVsYXRpb25zaGlw>> : "Delivers reminders and workflow notifications through approved channels\n<size:16>[TODO]</size>"
+CustomerRecruitmentPortal.HubSpotSynchronizationAdapter --> HubSpotCRM <<Relationship-UmVsYXRpb25zaGlw>> : "Reads and writes approved CRM data and associations\n<size:16>[HubSpot API]</size>"
+CustomerRecruitmentPortal.HubSpotSynchronizationAdapter --> CustomerRecruitmentPortal.PlatformServices <<Relationship-UmVsYXRpb25zaGlw>> : "Creates or updates mapped business objects, relationships, activities, and timeline entries\n<size:16>[Internal API]</size>"
+CustomerRecruitmentPortal.HubSpotSynchronizationAdapter --> CustomerRecruitmentPortal.DomainEventBus <<Relationship-UmVsYXRpb25zaGlw>> : "Publishes synchronization and integration events\n<size:16>[TODO]</size>"
+
+@enduml
