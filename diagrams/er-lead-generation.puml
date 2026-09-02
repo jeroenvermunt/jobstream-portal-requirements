@@ -1,0 +1,91 @@
+@startuml
+title ER Diagram - Recruitment Marketing (HubSpot objects)
+
+hide methods
+hide stereotypes
+
+' --- Core HubSpot objects (conceptual ERD) ---
+
+entity "Company" as Company {
+  * company_id : string <<PK>>  ' TODO: actual HubSpot object id field
+  --
+  name : string
+  ' TODO: portal access / permissions model (not provided)
+}
+
+entity "JobVacancy" as Vacancy {
+  * vacancy_id : string <<PK>>  ' 
+  --
+  reference_id : string <<FK>>       ' internal reference id
+  content_available : boolean   '
+  requirements_available : boolean
+  lifecycle_state : string      '
+  meta_campaign_live : boolean  ' 
+}
+
+entity "Contact (candidate)" as Candidate {
+  * candidate_id : string <<PK>> '
+  --
+  created_at : datetime
+}
+
+entity "Lead" as Lead {
+  * lead_id : string <<PK>> '
+  --
+  created_at : datetime
+  status : string      
+  vacancy_id : string <<FK>>  ' link to JobVacancy (not enforced in HubSpot)
+  candidate_id : string <<FK>> ' link to Contact (candidate)
+}
+
+
+entity "LeadForm" as LeadForm {
+  * lead_form_id : string <<PK>> ' Meta lead form id
+  --
+  source : string                ' expected: Meta
+  name : string
+}
+
+' --- Relationships (based on the requirements) ---
+
+Company ||--o{ Vacancy
+
+Vacancy ||--|| LeadForm
+Candidate }o--|| LeadForm
+
+Vacancy ||--o{ Lead : "has leads"
+Lead }o--|| Candidate : "references contact"
+Lead }o--|| Company
+
+note on link
+Contact (candidate) is not directly associated
+to JobVacancy. The association runs through Lead:
+JobVacancy -> Lead -> Contact (candidate).
+end note
+
+note right of Vacancy
+Lifecycle states:
+- Content_Available
+- Requirements_Available
+- Deal_Won
+- Campaign_Live
+- Campaign_Closed
+end note
+
+note right of Lead
+Status values:
+- New
+- Attempting
+- Connected,
+- Sending_Documents
+- Qualified_By_Us,
+- Approved_By_Customer
+- Rejected
+end note
+
+note left of LeadForm
+Created/managed in Meta (Facebook Lead Forms),
+linked to Vacancy via HubSpot workflow.
+end note
+
+@enduml

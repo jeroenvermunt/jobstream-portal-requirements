@@ -1,0 +1,76 @@
+@startuml
+title Customer Candidate Workflow
+
+state "Supplied by Jobstream" as SuppliedByJobstream
+state "Approved for Contact" as ApprovedForContact
+state "Contact Attempted" as ContactAttempted
+state "Contacted" as Contacted
+state "Interview Scheduled" as InterviewScheduled
+state "Waiting for Internal Approval" as WaitingForInternalApproval
+state "Approved" as Approved
+state "Offer Made" as OfferMade
+state "Hired or Signed" as HiredOrSigned
+state "Rejected" as Rejected
+
+[*] --> SuppliedByJobstream : CandidateSupplied
+
+SuppliedByJobstream --> ApprovedForContact : TransferConfirmed\nvia State Engine
+ApprovedForContact --> ContactAttempted : NoResponseOutcomeLogged
+ApprovedForContact --> Contacted : ResponseOutcomeLogged
+ContactAttempted --> ContactAttempted : NoResponseOutcomeLogged
+ContactAttempted --> Contacted : ResponseOutcomeLogged
+Contacted --> InterviewScheduled : ScheduleInterviewAndRequestConfirmation
+Contacted --> WaitingForInternalApproval : InternalApprovalRequested
+InterviewScheduled --> InterviewScheduled : FollowUpInterviewScheduled
+InterviewScheduled --> InterviewScheduled : TrialDayScheduled
+InterviewScheduled --> InterviewScheduled : InterviewDidNotHappen
+InterviewScheduled --> OfferMade : OfferRecorded
+WaitingForInternalApproval --> Approved : CustomerApproved
+Approved --> OfferMade : OfferRecorded
+OfferMade --> HiredOrSigned : HireOrSignRecorded
+
+SuppliedByJobstream --> Rejected : RejectCandidate\n[rejection reason provided]
+ApprovedForContact --> Rejected : RejectCandidate\n[rejection reason provided]
+ContactAttempted --> Rejected : RejectCandidate\n[rejection reason provided]
+Contacted --> Rejected : RejectCandidate\n[rejection reason provided]
+InterviewScheduled --> Rejected : RejectCandidate\n[rejection reason provided]
+InterviewScheduled --> Rejected : CandidateWithdrew
+WaitingForInternalApproval --> Rejected : RejectCandidate\n[rejection reason provided]
+Approved --> Rejected : RejectCandidate\n[rejection reason provided]\nTODO: confirm if allowed
+OfferMade --> Rejected : RejectCandidate\n[rejection reason provided]\nTODO: confirm if allowed
+
+HiredOrSigned --> [*]
+Rejected --> [*]
+
+note right of SuppliedByJobstream
+ASSUMPTION: This is the customer-side
+dynamic object lifecycle, separate from the
+older HubSpot candidate/source lifecycle.
+end note
+
+note right of ApprovedForContact
+Contact details become available only after
+the transfer workflow records confirmation.
+end note
+
+note right of InterviewScheduled
+The interview remains scheduled when the
+email request is unavailable or fails.
+Email retry follows CandidateInterviewEmailWorkflow
+and does not repeat this transition.
+end note
+
+note left of Contacted
+The queue's five visible phases are a presentation
+projection over these canonical lifecycle states.
+Click and drag actions both invoke the same validated
+transition command; a drop never bypasses required details.
+end note
+
+note bottom
+TODO: Confirm final stage labels, transition matrix,
+backward/reopen behavior, and whether "Approved"
+is a durable stage or an action outcome.
+end note
+
+@enduml

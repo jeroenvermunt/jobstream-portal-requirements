@@ -1,0 +1,31 @@
+# {{PROJECT_NAME}}
+
+This README gives people and agents fast, reliable context about the project.
+
+## Project Context
+
+**Goal:** [What outcome should this project achieve?]
+
+**Current phase:** [Discovery, definition, delivery, validation, or maintenance]
+
+**Stakeholders:** [Decision owners and principal users]
+
+**Success criteria:** [Observable outcomes]
+
+**Constraints:** [Technical, business, legal, timing, or budget constraints]
+
+## Domain Terms
+
+| Term | Meaning |
+| --- | --- |
+| [Term] | [Project-specific definition] |
+
+## Sources Of Truth
+
+| Path | Purpose | Status |
+| --- | --- | --- |
+| [path] | [What this artifact establishes] | [Draft / reviewed / final / outdated] |
+
+## Open Decisions
+
+- [Decision that still affects scope or implementation]

@@ -1,0 +1,77 @@
+@startuml
+title <size:24>System Context – Recruitment Marketing Platform</size>
+
+set separator none
+left to right direction
+skinparam ranksep 60
+skinparam nodesep 30
+hide stereotype
+
+<style>
+  root {
+    BackgroundColor: #ffffff;
+    FontColor: #444444;
+  }
+  // Element,ExternalSystem
+  .Element-RWxlbWVudCxFeHRlcm5hbFN5c3RlbQ== {
+    BackgroundColor: #999999;
+    LineColor: #6b6b6b;
+    LineStyle: 0;
+    LineThickness: 2;
+    FontColor: #ffffff;
+    FontSize: 24;
+    HorizontalAlignment: center;
+    Shadowing: 0;
+    MaximumWidth: 450;
+  }
+  // Element,Person
+  .Element-RWxlbWVudCxQZXJzb24= {
+    BackgroundColor: #ffffff;
+    LineColor: #444444;
+    LineStyle: 0;
+    LineThickness: 2;
+    FontColor: #444444;
+    FontSize: 24;
+    HorizontalAlignment: center;
+    Shadowing: 0;
+    MaximumWidth: 450;
+  }
+  // Element,SystemOfInterest
+  .Element-RWxlbWVudCxTeXN0ZW1PZkludGVyZXN0 {
+    BackgroundColor: #1168bd;
+    LineColor: #0b4884;
+    LineStyle: 0;
+    LineThickness: 2;
+    FontColor: #ffffff;
+    FontSize: 24;
+    HorizontalAlignment: center;
+    Shadowing: 0;
+    MaximumWidth: 450;
+  }
+  // Relationship
+  .Relationship-UmVsYXRpb25zaGlw {
+    LineThickness: 2;
+    LineStyle: 10-10;
+    LineColor: #444444;
+    FontColor: #444444;
+    FontSize: 24;
+  }
+</style>
+
+person "==Recruitment Marketer\n<size:16>[Person]</size>\n\nManages job vacancies, deals and recruitment campaigns in HubSpot." <<Element-RWxlbWVudCxQZXJzb24=>> as RecruitmentMarketer
+person "==Selection Agent\n<size:16>[Person]</size>\n\nCalls candidates and maintains candidate statuses in HubSpot." <<Element-RWxlbWVudCxQZXJzb24=>> as SelectionAgent
+person "==Customer User\n<size:16>[Person]</size>\n\nReviews and approves candidates via the customer portal." <<Element-RWxlbWVudCxQZXJzb24=>> as CustomerUser
+rectangle "==Meta Ads (Facebook Lead Forms)\n<size:16>[Software System]</size>\n\nProvides lead form submissions from advertising campaigns." <<Element-RWxlbWVudCxFeHRlcm5hbFN5c3RlbQ==>> as MetaAdsFacebookLeadForms
+rectangle "==HubSpot\n<size:16>[Software System]</size>\n\nCRM, Workflows and CMS hosting recruitment data and automation." <<Element-RWxlbWVudCxFeHRlcm5hbFN5c3RlbQ==>> as HubSpot
+rectangle "==Recruitment Marketing Platform\n<size:16>[Software System]</size>\n\nHubSpot-centred system supporting candidate intake, qualification and customer approval." <<Element-RWxlbWVudCxTeXN0ZW1PZkludGVyZXN0>> as RecruitmentMarketingPlatform
+
+MetaAdsFacebookLeadForms --> RecruitmentMarketingPlatform <<Relationship-UmVsYXRpb25zaGlw>> : "Sends lead submissions (webhook/API)\n<size:16>[HTTPS]</size>"
+RecruitmentMarketer --> RecruitmentMarketingPlatform <<Relationship-UmVsYXRpb25zaGlw>> : "Manages deals, vacancies and campaigns\n<size:16>[Web UI]</size>"
+SelectionAgent --> RecruitmentMarketingPlatform <<Relationship-UmVsYXRpb25zaGlw>> : "Contacts candidates and updates their status\n<size:16>[Web UI]</size>"
+CustomerUser --> RecruitmentMarketingPlatform <<Relationship-UmVsYXRpb25zaGlw>> : "Reviews and approves candidates\n<size:16>[Web UI]</size>"
+RecruitmentMarketingPlatform --> MetaAdsFacebookLeadForms <<Relationship-UmVsYXRpb25zaGlw>> : "Receives lead submissions\n<size:16>[Webhook/HTTPS]</size>"
+RecruitmentMarketer --> HubSpot <<Relationship-UmVsYXRpb25zaGlw>> : "Uses HubSpot interface\n<size:16>[HTTPS]</size>"
+SelectionAgent --> HubSpot <<Relationship-UmVsYXRpb25zaGlw>> : "Uses HubSpot interface\n<size:16>[HTTPS]</size>"
+HubSpot --> RecruitmentMarketingPlatform <<Relationship-UmVsYXRpb25zaGlw>> : "Hosts CRM, Workflows and CMS components\n<size:16>[Internal]</size>"
+
+@enduml

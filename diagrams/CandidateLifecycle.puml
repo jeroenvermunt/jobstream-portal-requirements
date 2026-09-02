@@ -1,0 +1,31 @@
+@startuml
+title Candidate lifecycle (HubSpot candidate object)
+
+[*] --> New : LeadFormSubmitted\n(Meta lead form completed)\n=> Candidate created
+
+New --> Attempting
+Attempting --> Connected
+Connected --> Sending_Documents
+Sending_Documents --> Qualified_By_Us : Screening_approved\n(Selection_Agent)
+
+Qualified_By_Us --> Approved_By_Customer: Customer_approved\n(Customer)
+
+Approved_By_Customer --> [*]
+
+New --> Rejected
+Attempting --> Rejected
+Connected --> Rejected
+Sending_Documents --> Rejected
+Qualified_By_Us --> Rejected
+
+note left of Qualified_By_Us
+In this state, the candidate is visible
+in the customer portal (based on company link).
+end note
+
+note left of New
+In this state, the candidate is visible in the candidate
+pipeline (lead object HubSpot) for the selection agent.
+end note
+
+@enduml

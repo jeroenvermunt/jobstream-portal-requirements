@@ -1,0 +1,24 @@
+digraph {
+  compound=true
+  graph [fontname="Arial", rankdir=LR, ranksep=1.0, nodesep=1.0]
+  node [fontname="Arial", shape=box, margin="0.4,0.3"]
+  edge [fontname="Arial"]
+  label=<<br /><font point-size="34">System Context – Recruitment Marketing Platform</font>>
+
+  1 [id=1,shape=rect, label=<<font point-size="34">Recruitment Marketer</font><br /><font point-size="19">[Person]</font><br /><br /><font point-size="24">Manages job vacancies, deals<br />and recruitment campaigns in<br />HubSpot.</font>>, style=filled, color="#444444", fillcolor="#ffffff", fontcolor="#444444"]
+  2 [id=2,shape=rect, label=<<font point-size="34">Selection Agent</font><br /><font point-size="19">[Person]</font><br /><br /><font point-size="24">Calls candidates and maintains<br />candidate statuses in HubSpot.</font>>, style=filled, color="#444444", fillcolor="#ffffff", fontcolor="#444444"]
+  3 [id=3,shape=rect, label=<<font point-size="34">Customer User</font><br /><font point-size="19">[Person]</font><br /><br /><font point-size="24">Reviews and approves<br />candidates via the customer<br />portal.</font>>, style=filled, color="#444444", fillcolor="#ffffff", fontcolor="#444444"]
+  5 [id=5,shape=rect, label=<<font point-size="34">Meta Ads (Facebook<br />Lead Forms)</font><br /><font point-size="19">[Software System]</font><br /><br /><font point-size="24">Provides lead form submissions<br />from advertising campaigns.</font>>, style=filled, color="#6b6b6b", fillcolor="#999999", fontcolor="#ffffff"]
+  6 [id=6,shape=rect, label=<<font point-size="34">HubSpot</font><br /><font point-size="19">[Software System]</font><br /><br /><font point-size="24">CRM, Workflows and CMS hosting<br />recruitment data and<br />automation.</font>>, style=filled, color="#6b6b6b", fillcolor="#999999", fontcolor="#ffffff"]
+  7 [id=7,shape=rect, label=<<font point-size="34">Recruitment Marketing<br />Platform</font><br /><font point-size="19">[Software System]</font><br /><br /><font point-size="24">HubSpot-centred system<br />supporting candidate intake,<br />qualification and customer<br />approval.</font>>, style=filled, color="#0b4884", fillcolor="#1168bd", fontcolor="#ffffff"]
+
+  5 -> 7 [id=12, label=<<font point-size="24">Sends lead submissions<br />(webhook/API)</font><br /><font point-size="19">[HTTPS]</font>>, style="dashed", color="#444444", fontcolor="#444444"]
+  1 -> 7 [id=13, label=<<font point-size="24">Manages deals, vacancies<br />and campaigns</font><br /><font point-size="19">[Web UI]</font>>, style="dashed", color="#444444", fontcolor="#444444"]
+  2 -> 7 [id=14, label=<<font point-size="24">Contacts candidates and<br />updates their status</font><br /><font point-size="19">[Web UI]</font>>, style="dashed", color="#444444", fontcolor="#444444"]
+  3 -> 7 [id=15, label=<<font point-size="24">Reviews and approves<br />candidates</font><br /><font point-size="19">[Web UI]</font>>, style="dashed", color="#444444", fontcolor="#444444"]
+  7 -> 5 [id=17, label=<<font point-size="24">Receives lead submissions</font><br /><font point-size="19">[Webhook/HTTPS]</font>>, style="dashed", color="#444444", fontcolor="#444444"]
+  1 -> 6 [id=23, label=<<font point-size="24">Uses HubSpot interface</font><br /><font point-size="19">[HTTPS]</font>>, style="dashed", color="#444444", fontcolor="#444444"]
+  2 -> 6 [id=24, label=<<font point-size="24">Uses HubSpot interface</font><br /><font point-size="19">[HTTPS]</font>>, style="dashed", color="#444444", fontcolor="#444444"]
+  6 -> 7 [id=25, label=<<font point-size="24">Hosts CRM, Workflows and<br />CMS components</font><br /><font point-size="19">[Internal]</font>>, style="dashed", color="#444444", fontcolor="#444444"]
+
+}

@@ -1,0 +1,66 @@
+@startuml
+title <size:24>Container View - Platform-Standard Customer Recruitment Portal</size>
+
+set separator none
+left to right direction
+
+<style>
+  root {
+    BackgroundColor: #ffffff
+    FontColor: #444444
+  }
+</style>
+
+!include <C4/C4>
+!include <C4/C4_Context>
+!include <C4/C4_Container>
+
+Person(CustomerRecruiter, "Customer Recruiter", $descr="Customer user who reviews assigned Jobstream candidates, confirms the candidate-data transfer, downloads the customer copy, contacts candidates, records outcomes, and progresses the customer-side workflow.", $tags="", $link="")
+Person(CustomerRecruitmentManager, "Customer Recruitment Manager", $descr="Customer user who reviews candidate progress within an authorized customer scope.", $tags="", $link="")
+Person(JobstreamOperationsUser, "Jobstream Operations User", $descr="Jobstream user who monitors customer follow-up, reviews activity history, and supports stalled candidate progress.", $tags="", $link="")
+Person(PrivacySecurityOwner, "Privacy/Security Owner", $descr="Approves confirmation wording, pre-confirmation visibility, minimized evidence, retention, access, audit, and authentication rules before production release.", $tags="", $link="")
+System(HubSpotCRM, "HubSpot CRM", $descr="Current source for candidate, vacancy, customer, and association data. TODO: confirm whether HubSpot remains system of record for customer-stage and activity data.", $tags="", $link="")
+System(TODOIdentityProvider, "TODO: Identity Provider", $descr="Authenticates assigned customer and Jobstream users. TODO: select identity provider, MFA, account recovery, and session policy.", $tags="", $link="")
+System(UserEmailClient, "User Email Client", $descr="External mail client opened through mailto links; the portal cannot prove message delivery from this action.", $tags="", $link="")
+System(WhatsApp, "WhatsApp", $descr="External WhatsApp application or web endpoint opened through supported phone links; first release does not verify message delivery.", $tags="", $link="")
+System(TODONotificationChannels, "TODO: Notification Channels", $descr="External channels used by the Notification Framework for reminders and access messages. TODO: approve channels and cadence.", $tags="", $link="")
+
+System_Boundary("CustomerRecruitmentPortal_boundary", "Customer Recruitment Portal", $tags="") {
+  Container(CustomerRecruitmentPortal.PortalWebApplication, "Portal Web Application", $techn="TODO: Web application technology", $descr="Dutch/English UI for candidate queue, kanban/list views, candidate detail, transfer confirmation, export download, contact shortcuts, logging, stage updates, guidance, and oversight.", $tags="", $link="")
+  Container(CustomerRecruitmentPortal.BusinessObjectAPI, "Business Object API", $techn="TODO: API service technology", $descr="Exposes standard object APIs plus idempotent transfer-confirmation and lifecycle-transition commands; enforces permission checks consistently for UI, workflows, and integrations.", $tags="", $link="")
+  Container(CustomerRecruitmentPortal.CustomerRecruitmentBusinessModule, "Customer Recruitment Business Module", $techn="TODO: Application module", $descr="Defines customer recruitment business objects, lifecycle rules, transfer and export rules, activity types, permissions, retention workflows, and notifications without reimplementing platform services.", $tags="", $link="")
+  Container(CustomerRecruitmentPortal.PlatformServices, "Platform Services", $techn="TODO: Shared platform runtime", $descr="Reusable Object Framework, State Engine, Timeline Engine, Activity Framework, Permission Framework, Workflow Engine, Notification Framework, Template Engine, Audit Framework, Search Framework, and File Framework.", $tags="", $link="")
+  Container(CustomerRecruitmentPortal.WorkflowAndNotificationWorker, "Workflow And Notification Worker", $techn="TODO: Worker service technology", $descr="Consumes domain events, executes 90-day retention disposal across portal stores, evaluates follow-up workflows, requests notifications, and records timeline activities.", $tags="", $link="")
+  Container(CustomerRecruitmentPortal.HubSpotSynchronizationAdapter, "HubSpot Synchronization Adapter", $techn="TODO: Integration service technology", $descr="Maps HubSpot candidate, vacancy, company, and association data into portal business objects and synchronizes approved updates where the architecture decision allows it.", $tags="", $link="")
+  ContainerDb(CustomerRecruitmentPortal.BusinessApplicationDataStore, "Business Application Data Store", $techn="PostgreSQL", $descr="Stores business objects, lifecycle state, transfer confirmations, minimized evidence, retention state, timelines, activities, permissions, and audit metadata.", $tags="", $link="")
+  ContainerQueue(CustomerRecruitmentPortal.DomainEventBus, "Domain Event Bus", $techn="TODO: Event bus technology", $descr="Publishes meaningful business changes for workflows, notifications, integrations, analytics, and audit consumers.", $tags="", $link="")
+  ContainerDb(CustomerRecruitmentPortal.SearchIndex, "Search Index", $techn="PostgreSQL full-text search and indexes", $descr="Supports authorized candidate queue, kanban, and oversight search and removes transfer-context candidate content at the 90-day expiry.", $tags="", $link="")
+  Container(CustomerRecruitmentPortal.FileStore, "File Store", $techn="TODO: File storage technology", $descr="Stores or references approved CV/source documents and version-bound customer export packages; portal-owned transfer copies expire after 90 days. TODO: confirm source-document storage boundary.", $tags="", $link="")
+}
+
+Rel(CustomerRecruiter, CustomerRecruitmentPortal.PortalWebApplication, "Reviews assigned candidates, confirms data transfer, downloads the customer copy, uses contact shortcuts, logs outcomes, and changes stages", $techn="HTTPS", $tags="", $link="")
+Rel(CustomerRecruitmentManager, CustomerRecruitmentPortal.PortalWebApplication, "Reviews candidates and follow-up progress in an authorized customer scope", $techn="HTTPS", $tags="", $link="")
+Rel(JobstreamOperationsUser, CustomerRecruitmentPortal.PortalWebApplication, "Reviews oversight views, activity history, stalled candidates, and customer follow-up evidence", $techn="HTTPS", $tags="", $link="")
+Rel(PrivacySecurityOwner, CustomerRecruitmentPortal.PortalWebApplication, "Reviews configured privacy/audit behavior where administrative review screens exist", $techn="HTTPS/TODO", $tags="", $link="")
+Rel(JobstreamOperationsUser, HubSpotCRM, "Maintains source candidate, vacancy, customer, and association data where HubSpot remains the operational CRM", $techn="HubSpot UI", $tags="", $link="")
+Rel(CustomerRecruitmentPortal.PortalWebApplication, TODOIdentityProvider, "Authenticates assigned users and receives identity/session claims", $techn="OIDC/SAML/TODO", $tags="", $link="")
+Rel(CustomerRecruitmentPortal.PortalWebApplication, CustomerRecruitmentPortal.BusinessObjectAPI, "Reads objects and submits transfer-confirmation, export-download, transition, and activity commands", $techn="JSON/HTTPS", $tags="", $link="")
+Rel(CustomerRecruitmentPortal.PortalWebApplication, UserEmailClient, "Opens mailto contact shortcut after transfer confirmation", $techn="mailto", $tags="", $link="")
+Rel(CustomerRecruitmentPortal.PortalWebApplication, WhatsApp, "Opens WhatsApp contact shortcut after transfer confirmation", $techn="HTTPS/deep link", $tags="", $link="")
+Rel(CustomerRecruitmentPortal.BusinessObjectAPI, CustomerRecruitmentPortal.CustomerRecruitmentBusinessModule, "Delegates customer recruitment rules, object definitions, validation, and transition commands", $techn="In-process call (ASSUMPTION)", $tags="", $link="")
+Rel(CustomerRecruitmentPortal.BusinessObjectAPI, CustomerRecruitmentPortal.PlatformServices, "Uses object, state, timeline, activity, permission, audit, search, and file services", $techn="Internal API", $tags="", $link="")
+Rel(CustomerRecruitmentPortal.CustomerRecruitmentBusinessModule, CustomerRecruitmentPortal.PlatformServices, "Configures and invokes shared platform capabilities instead of implementing its own infrastructure", $techn="Internal API", $tags="", $link="")
+Rel(CustomerRecruitmentPortal.PlatformServices, CustomerRecruitmentPortal.BusinessApplicationDataStore, "Persists objects, state, timeline, activities, permissions, and audit metadata", $techn="SQL", $tags="", $link="")
+Rel(CustomerRecruitmentPortal.PlatformServices, CustomerRecruitmentPortal.DomainEventBus, "Publishes domain events for meaningful business changes", $techn="TODO", $tags="", $link="")
+Rel(CustomerRecruitmentPortal.PlatformServices, CustomerRecruitmentPortal.SearchIndex, "Indexes authorized object and timeline data for queue and oversight views", $techn="SQL", $tags="", $link="")
+Rel(CustomerRecruitmentPortal.PlatformServices, CustomerRecruitmentPortal.FileStore, "Stores or retrieves CV/source documents and version-bound customer export packages through the File Framework", $techn="TODO", $tags="", $link="")
+Rel(CustomerRecruitmentPortal.WorkflowAndNotificationWorker, CustomerRecruitmentPortal.DomainEventBus, "Consumes domain events such as CandidateSupplied, TransferConfirmed, TransferRetentionExpired, StageChanged, FollowUpOverdue, and CandidateRejected", $techn="TODO", $tags="", $link="")
+Rel(CustomerRecruitmentPortal.WorkflowAndNotificationWorker, CustomerRecruitmentPortal.PlatformServices, "Executes configured workflows, disposes expired database/file/search copies, creates activities, requests notifications, and records disposal evidence", $techn="Internal API", $tags="", $link="")
+Rel(CustomerRecruitmentPortal.WorkflowAndNotificationWorker, TODONotificationChannels, "Delivers reminders and workflow notifications through approved channels", $techn="TODO", $tags="", $link="")
+Rel(CustomerRecruitmentPortal.HubSpotSynchronizationAdapter, HubSpotCRM, "Reads and writes approved CRM data and associations", $techn="HubSpot API", $tags="", $link="")
+Rel(CustomerRecruitmentPortal.HubSpotSynchronizationAdapter, CustomerRecruitmentPortal.PlatformServices, "Creates or updates mapped business objects, relationships, activities, and timeline entries", $techn="Internal API", $tags="", $link="")
+Rel(CustomerRecruitmentPortal.HubSpotSynchronizationAdapter, CustomerRecruitmentPortal.DomainEventBus, "Publishes synchronization and integration events", $techn="TODO", $tags="", $link="")
+
+SHOW_LEGEND(true)
+hide stereotypes
+@enduml

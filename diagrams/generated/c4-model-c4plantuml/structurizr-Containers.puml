@@ -1,0 +1,40 @@
+@startuml
+title <size:24>Container View – Recruitment Marketing Platform (HubSpot-centric)</size>
+
+set separator none
+left to right direction
+
+<style>
+  root {
+    BackgroundColor: #ffffff
+    FontColor: #444444
+  }
+</style>
+
+!include <C4/C4>
+!include <C4/C4_Context>
+!include <C4/C4_Container>
+
+Person(RecruitmentMarketer, "Recruitment Marketer", $descr="Manages job vacancies, deals and recruitment campaigns in HubSpot.", $tags="", $link="")
+Person(SelectionAgent, "Selection Agent", $descr="Calls candidates and maintains candidate statuses in HubSpot.", $tags="", $link="")
+Person(CustomerUser, "Customer User", $descr="Reviews and approves candidates via the customer portal.", $tags="", $link="")
+Person(Candidate, "Candidate", $descr="Submits personal details via a Meta lead form.", $tags="", $link="")
+System(MetaAdsFacebookLeadForms, "Meta Ads (Facebook Lead Forms)", $descr="Provides lead form submissions from advertising campaigns.", $tags="", $link="")
+
+System_Boundary("RecruitmentMarketingPlatform_boundary", "Recruitment Marketing Platform", $tags="") {
+  Container(RecruitmentMarketingPlatform.LeadIntakeIntegration, "Lead Intake Integration", $techn="HubSpot workflow", $descr="Receives Meta lead events and creates or updates Candidate records in HubSpot. TODO: native vs custom implementation.", $tags="", $link="")
+  Container(RecruitmentMarketingPlatform.HubSpotCRMDataModel, "HubSpot CRM Data Model", $techn="HubSpot CRM", $descr="Standard and custom objects: Deal, Company, Job Vacancy and Candidate, including relationships.", $tags="", $link="")
+  Container(RecruitmentMarketingPlatform.CustomerPortalHubSpotCMSModule, "Customer Portal (HubSpot CMS Module)", $techn="HubSpot CMS", $descr="Displays candidate data based on lead pipeline status, linked company and vacancy objects. Support candidate approval.", $tags="", $link="")
+}
+
+Rel(Candidate, MetaAdsFacebookLeadForms, "Submits lead form", $techn="", $tags="", $link="")
+Rel(RecruitmentMarketingPlatform.LeadIntakeIntegration, MetaAdsFacebookLeadForms, "Receives lead submissions", $techn="Webhook/HTTPS", $tags="", $link="")
+Rel(RecruitmentMarketingPlatform.LeadIntakeIntegration, RecruitmentMarketingPlatform.HubSpotCRMDataModel, "Creates/updates Candidate records", $techn="HubSpot API (assumption)", $tags="", $link="")
+Rel(RecruitmentMarketingPlatform.CustomerPortalHubSpotCMSModule, RecruitmentMarketingPlatform.HubSpotCRMDataModel, "Reads candidate data via lead-company relationship", $techn="HubSpot internal", $tags="", $link="")
+Rel(CustomerUser, RecruitmentMarketingPlatform.CustomerPortalHubSpotCMSModule, "Approves or rejects candidate", $techn="HTTPS", $tags="", $link="")
+Rel(RecruitmentMarketer, RecruitmentMarketingPlatform.HubSpotCRMDataModel, "Maintains Job Vacancies, Deals and relationships", $techn="HubSpot UI", $tags="", $link="")
+Rel(SelectionAgent, RecruitmentMarketingPlatform.HubSpotCRMDataModel, "Updates Candidate status", $techn="HubSpot UI", $tags="", $link="")
+
+SHOW_LEGEND(true)
+hide stereotypes
+@enduml

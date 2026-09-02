@@ -1,0 +1,4 @@
+interface:
+  display_name: "Initialize Software Project"
+  short_description: "Create a consistent software project workspace"
+  default_prompt: "Use $initialize-software-project to initialize this folder as a structured software development project."

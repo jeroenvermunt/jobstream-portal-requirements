@@ -1,0 +1,43 @@
+@startuml
+title <size:24>System Context - Customer Recruitment Portal</size>
+
+set separator none
+left to right direction
+
+<style>
+  root {
+    BackgroundColor: #ffffff
+    FontColor: #444444
+  }
+</style>
+
+!include <C4/C4>
+!include <C4/C4_Context>
+
+Person(CustomerRecruiter, "Customer Recruiter", $descr="Customer user who reviews assigned Jobstream candidates, confirms the candidate-data transfer, downloads the customer copy, contacts candidates, records outcomes, and progresses the customer-side workflow.", $tags="", $link="")
+System(TODONotificationChannels, "TODO: Notification Channels", $descr="External channels used by the Notification Framework for reminders and access messages. TODO: approve channels and cadence.", $tags="", $link="")
+System(CustomerRecruitmentPortal, "Customer Recruitment Portal", $descr="Business application that lets authorized customer users review Jobstream candidates, confirm data transfer, obtain a customer copy, and perform contact, follow-up, stage progression, notes, and oversight.", $tags="", $link="")
+Person(CustomerRecruitmentManager, "Customer Recruitment Manager", $descr="Customer user who reviews candidate progress within an authorized customer scope.", $tags="", $link="")
+Person(JobstreamOperationsUser, "Jobstream Operations User", $descr="Jobstream user who monitors customer follow-up, reviews activity history, and supports stalled candidate progress.", $tags="", $link="")
+Person(Candidate, "Candidate", $descr="Data subject represented in the recruitment workflow; not a direct portal user in the first release.", $tags="", $link="")
+Person(PrivacySecurityOwner, "Privacy/Security Owner", $descr="Approves confirmation wording, pre-confirmation visibility, minimized evidence, retention, access, audit, and authentication rules before production release.", $tags="", $link="")
+System(HubSpotCRM, "HubSpot CRM", $descr="Current source for candidate, vacancy, customer, and association data. TODO: confirm whether HubSpot remains system of record for customer-stage and activity data.", $tags="", $link="")
+System(TODOIdentityProvider, "TODO: Identity Provider", $descr="Authenticates assigned customer and Jobstream users. TODO: select identity provider, MFA, account recovery, and session policy.", $tags="", $link="")
+System(UserEmailClient, "User Email Client", $descr="External mail client opened through mailto links; the portal cannot prove message delivery from this action.", $tags="", $link="")
+System(WhatsApp, "WhatsApp", $descr="External WhatsApp application or web endpoint opened through supported phone links; first release does not verify message delivery.", $tags="", $link="")
+
+Rel(CustomerRecruiter, CustomerRecruitmentPortal, "Reviews assigned candidates, confirms data transfer, downloads the customer copy, uses contact shortcuts, logs outcomes, and changes stages", $techn="HTTPS", $tags="", $link="")
+Rel(CustomerRecruitmentManager, CustomerRecruitmentPortal, "Reviews candidates and follow-up progress in an authorized customer scope", $techn="HTTPS", $tags="", $link="")
+Rel(JobstreamOperationsUser, CustomerRecruitmentPortal, "Reviews oversight views, activity history, stalled candidates, and customer follow-up evidence", $techn="HTTPS", $tags="", $link="")
+Rel(PrivacySecurityOwner, CustomerRecruitmentPortal, "Reviews configured privacy/audit behavior where administrative review screens exist", $techn="HTTPS/TODO", $tags="", $link="")
+Rel(Candidate, HubSpotCRM, "Provides source candidate information through the existing Jobstream recruitment process", $techn="Existing process", $tags="", $link="")
+Rel(JobstreamOperationsUser, HubSpotCRM, "Maintains source candidate, vacancy, customer, and association data where HubSpot remains the operational CRM", $techn="HubSpot UI", $tags="", $link="")
+Rel(CustomerRecruitmentPortal, TODOIdentityProvider, "Authenticates assigned users and receives identity/session claims", $techn="OIDC/SAML/TODO", $tags="", $link="")
+Rel(CustomerRecruitmentPortal, UserEmailClient, "Opens mailto contact shortcut after transfer confirmation", $techn="mailto", $tags="", $link="")
+Rel(CustomerRecruitmentPortal, WhatsApp, "Opens WhatsApp contact shortcut after transfer confirmation", $techn="HTTPS/deep link", $tags="", $link="")
+Rel(CustomerRecruitmentPortal, TODONotificationChannels, "Delivers reminders and workflow notifications through approved channels", $techn="TODO", $tags="", $link="")
+Rel(CustomerRecruitmentPortal, HubSpotCRM, "Reads and writes approved CRM data and associations", $techn="HubSpot API", $tags="", $link="")
+
+SHOW_LEGEND(true)
+hide stereotypes
+@enduml

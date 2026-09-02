@@ -1,0 +1,4 @@
+interface:
+  display_name: "Regenerate Diagram Images"
+  short_description: "Refresh project diagram PNG outputs"
+  default_prompt: "Use $regenerate-diagram-images to refresh all generated diagram images after I edit the UML or C4 DSL files."

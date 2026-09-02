@@ -1,0 +1,1032 @@
+[00:00:00.000 -> 00:00:08.440] Oké, ik ben er nu aan het opnemen.
+[00:00:08.440 -> 00:00:09.600] Dat is eigenlijk een beetje het doel.
+[00:00:09.720 -> 00:00:10.540] En wat zit daarin?
+[00:00:11.100 -> 00:00:13.060] Dus hier aan de rechterkant zie je groen-rood.
+[00:00:13.300 -> 00:00:13.720] Inbegrepen.
+[00:00:14.480 -> 00:00:14.960] Kandidaatoverzicht.
+[00:00:15.080 -> 00:00:16.280] Ja, dat schrijf niet meer.
+[00:00:17.720 -> 00:00:18.120] Oké.
+[00:00:19.120 -> 00:00:20.160] Kandidaatoverzicht staat daar.
+[00:00:22.520 -> 00:00:23.720] Laten we het wel even zien.
+[00:00:25.720 -> 00:00:26.700] Beschrijven wat er staat.
+[00:00:27.220 -> 00:00:28.780] Een soort van...
+[00:00:28.780 -> 00:00:32.380] Dus we kunnen zien, oké, kandidaat overzicht, kunnen zien.
+[00:00:32.800 -> 00:00:34.780] Zet hier ook kandidaatdetails bekijken?
+[00:00:34.900 -> 00:00:37.920] Daar moeten we naar kijken, denk ik, van ja, is dat wel wat we willen?
+[00:00:38.100 -> 00:00:41.000] Hoeveel? Welke details niet? Welke details wel?
+[00:00:42.680 -> 00:00:47.520] Het goedkeuren afwijzen en de toegang er tot.
+[00:00:48.060 -> 00:00:53.820] En dus wat er dus niet in zit, is filtering, matching, document beheren.
+[00:00:54.280 -> 00:00:56.640] Eigenlijk gaan we allemaal meer toeters en bellen.
+[00:00:56.640 -> 00:00:57.680] Dat zit er niet in.
+[00:00:58.780 -> 00:01:04.680] Ja, dus wat het inhoudt is dat we gaan mensen...
+[00:01:04.680 -> 00:01:05.420] Waarom niet dan?
+[00:01:06.940 -> 00:01:08.100] Waarom zit dat er niet in dan?
+[00:01:08.960 -> 00:01:09.720] Die andere dingen.
+[00:01:10.060 -> 00:01:10.240] Ja?
+[00:01:10.920 -> 00:01:11.880] Ja, omdat we...
+[00:01:11.880 -> 00:01:13.720] Het doel is hem zo minimaal...
+[00:01:13.720 -> 00:01:15.800] Gewoon zo minimaal mogelijk insteken als MVP.
+[00:01:16.080 -> 00:01:16.860] Dus dat is goedkoper.
+[00:01:17.220 -> 00:01:20.060] Maar ook dat het gewoon alleen de dingen heeft die het nodig heeft.
+[00:01:21.060 -> 00:01:23.580] Ja, maar voor de klant die het ziet.
+[00:01:23.760 -> 00:01:24.720] Voor de klant, ja.
+[00:01:25.620 -> 00:01:27.820] Zij zijn gewoon alleen gekwalificeerde kandidaten.
+[00:01:27.820 -> 00:01:30.380] Maar ik zie hier ook staan niet inbegrepen documentbeheer.
+[00:01:30.380 -> 00:01:34.880] Bedoel je daar dan stel wij hebben een cv en dat soort dingen die komen er wel in toch neem ik aan?
+[00:01:34.880 -> 00:01:36.880] Of andere dingen?
+[00:01:36.880 -> 00:01:40.320] Ja, als dat nodig is dan wel natuurlijk.
+[00:01:40.320 -> 00:01:41.320] Dat is wel fijn denk ik.
+[00:01:41.320 -> 00:01:46.820] Maar hoe moeilijk is het om vanuit dat inlogportaal ook daar een ATS systeem aan te koppelen?
+[00:01:46.820 -> 00:01:50.320] Dus dat een ATS systeem waar je het toen over had?
+[00:01:50.320 -> 00:01:54.320] Ons eigen ATS systeem?
+[00:01:54.320 -> 00:01:55.320] Ja.
+[00:01:55.320 -> 00:02:00.480] Dat is anders. Het is er allebei nog niet.
+[00:02:00.480 -> 00:02:03.080] Je kan het niet tegelijk, of is dat roerlijk?
+[00:02:03.080 -> 00:02:06.960] Ja, je kan wel. Je kunt het overwegen en je kan de specificaties schrijven.
+[00:02:06.960 -> 00:02:08.960] Ik vraag me over wat het kost.
+[00:02:08.960 -> 00:02:15.080] Want als zij dan ook nog hun ATS systeem daar aan zouden kunnen koppelen...
+[00:02:15.080 -> 00:02:22.480] Hoe software een beetje werkt, we denken altijd van wat ik doe als ik specificaties schrijf.
+[00:02:22.480 -> 00:02:24.880] Ik zeg altijd van oké, wat moet de klant kunnen doen?
+[00:02:25.380 -> 00:02:28.720] Ik heb nu gezegd, oké, de klant moet akkoord kunnen geven op kandidaten.
+[00:02:29.620 -> 00:02:32.480] En het hele portaal wordt daar omheen ontwikkeld.
+[00:02:32.480 -> 00:02:33.300] En dat hult dus niet?
+[00:02:34.300 -> 00:02:38.140] Ja, dus het andere is dan, oké, wat zit er dan in een ATS-systeem?
+[00:02:38.280 -> 00:02:39.500] Dat kan ik verder uitwerken.
+[00:02:40.200 -> 00:02:43.340] Alleen dat is een hele andere functie.
+[00:02:43.340 -> 00:02:47.580] Want het gaat veel minder over audit en over accorderen.
+[00:02:47.660 -> 00:02:49.480] Maar het gaat veel meer over tracken.
+[00:02:49.480 -> 00:02:53.640] En ook tracken van notities, tracken van belletjes.
+[00:02:53.640 -> 00:02:55.640] Dat gaan we huisdillen.
+[00:02:55.640 -> 00:02:59.640] Alleen goedkeren is niet goed genoeg.
+[00:02:59.640 -> 00:03:04.120] Ja, ik verwacht dat dat wel heel meer extra is.
+[00:03:04.120 -> 00:03:10.040] Want een inlogportaal hoort toch juist dat je kandidaten daar in zet en dan moeten zij zeggen...
+[00:03:10.040 -> 00:03:12.040] Maar waarom zouden ze moeten goedkeren?
+[00:03:12.040 -> 00:03:14.040] Ze krijgen toch gewoon een kandidaten beschikbaar?
+[00:03:14.040 -> 00:03:18.040] Maar daarna moeten ze wel een handelingen mee doen.
+[00:03:18.040 -> 00:03:19.700] Dat kunnen we niet zien. Dan is het alleen goedkeuren.
+[00:03:19.780 -> 00:03:20.760] Ja, keur hem goed. En dan?
+[00:03:21.280 -> 00:03:25.580] Nee, dat zei ik tegen Jeroen. Daarna moet er een opmerkingveld wel komen van wat ze ermee gaan doen.
+[00:03:26.620 -> 00:03:27.180] Dat is puur voor ons.
+[00:03:27.180 -> 00:03:33.320] Kijk, hoe ik een makkelijk ATS-systeem bij ons zie, is dat wij ook een eigen ATS-systeem hebben.
+[00:03:33.380 -> 00:03:35.960] Daar staan ruwe leads in. Maar stel dat wij acht kandidaten voorstellen,
+[00:03:36.060 -> 00:03:39.520] moet het bij hun ook een soort ATS-achtig systeem staan.
+[00:03:39.960 -> 00:03:42.760] Van zijn aangeleverde topstream. Dan moeten zij hem wel verder kunnen zetten.
+[00:03:43.780 -> 00:03:46.540] Ik zou wel graag willen dat de recruiters van de bedrijven die wij helpen,
+[00:03:46.540 -> 00:03:48.480] kunnen werken in het inlogportaal. Niet alleen op een
+[00:03:48.480 -> 00:03:49.520] knopje klukken goedkuren.
+[00:03:50.440 -> 00:03:51.080] Dat is helder.
+[00:03:52.400 -> 00:03:54.180] Zou ik met eindelijk op de knop kunnen bellen?
+[00:03:54.260 -> 00:03:56.580] Dat zij ook drie vakken hebben. Dus aangeleverd
+[00:03:56.580 -> 00:03:58.220] op z'n team is voor hun ruw.
+[00:03:58.300 -> 00:04:00.440] Dat zij kunnen zeggen gebeld, dat zij kunnen zeggen
+[00:04:00.440 -> 00:04:02.060] hebben gemaild, dan schuift hij ook een vak door.
+[00:04:02.860 -> 00:04:04.440] Zij moeten daar wel in kunnen werken.
+[00:04:04.600 -> 00:04:05.780] Anders is het alleen goedkuren.
+[00:04:07.460 -> 00:04:08.340] En het maakt niet uit
+[00:04:08.340 -> 00:04:10.420] dat het dan meer werkt is Jeroen. Dan maar in één keer
+[00:04:10.420 -> 00:04:12.280] goed. Want het hoeft toch nog niet nu gemaakt te worden.
+[00:04:12.600 -> 00:04:13.540] Als de site af is, dan
+[00:04:13.540 -> 00:04:16.520] of als het ontwerp klaar is met hey, die kan het gebouwd worden.
+[00:04:16.540 -> 00:04:22.540] Ja, top. We moeten juist wat meer specificeren, maar dan moeten we daar ook diep op in duiken.
+[00:04:22.540 -> 00:04:27.540] Heb je nog meer dingen? Want ik heb wat schermen laten maken.
+[00:04:27.540 -> 00:04:36.540] Nee, dat is het enige. Stel dat wij het aan een DHL verkopen, dan kan het zijn dat er 12 recruiters toegang hebben tot een eigen afdeling en locatie.
+[00:04:36.540 -> 00:04:43.540] Dan zou het wel fijn zijn als wij in een voortgangsvergadering al hun werk gewoon bij elkaar kunnen schapen.
+[00:04:43.540 -> 00:04:44.960] Hier in Groot, daar heeft niet gebeld.
+[00:04:45.060 -> 00:04:46.460] Bij daar zitten er drie in de pijplijn.
+[00:04:46.560 -> 00:04:48.660] Hoe kan het bij jou dat ze nog allemaal in de ruwe staan?
+[00:04:49.540 -> 00:04:50.060] Ja, zeker.
+[00:04:51.000 -> 00:04:53.200] Oké, dus wat heb ik gedaan?
+[00:04:53.360 -> 00:04:55.780] Ik heb even om dit te visualiseren.
+[00:04:56.240 -> 00:04:58.620] Dat ATS, daar moet ik dan ook nog een ronde over doen.
+[00:04:58.800 -> 00:05:00.140] Want het zou precies inzitten.
+[00:05:00.680 -> 00:05:06.240] Met AI heb ik mijn initiële specificaties gewoon in design voor laten maken.
+[00:05:08.400 -> 00:05:10.340] AI doet er natuurlijk wel al zonder dingen bij.
+[00:05:10.660 -> 00:05:13.220] Dus ik kan niet alles verantwoorden van wat erin staat.
+[00:05:13.220 -> 00:05:17.940] Maar ik denk dat het ons wel gaat helpen om het gesprek te voeren over wat we daar goed aan vinden en wat niet.
+[00:05:19.120 -> 00:05:21.080] Dus die ga ik ook even delen.
+[00:05:22.160 -> 00:05:23.300] En dat ziet er zo uit.
+[00:05:23.500 -> 00:05:24.880] U mag hier cardio aan doen.
+[00:05:26.840 -> 00:05:27.540] Gaat cardio.
+[00:05:28.180 -> 00:05:29.560] Ik loop wat uitgaan.
+[00:05:30.320 -> 00:05:31.920] Is mijn scherm nu?
+[00:05:32.400 -> 00:05:32.580] Ja.
+[00:05:33.420 -> 00:05:34.280] Ik zie inzoomen nog.
+[00:05:35.900 -> 00:05:40.820] En dan vraag 1. Is dit een aparte website of staat er rechtsboven op onze site inloggen voor klanten?
+[00:05:40.820 -> 00:05:49.280] Er staat rechtsboven inloggen voor klanten en dan kom je op www.jobsweme.com.
+[00:05:49.280 -> 00:05:53.100] Maar we kunnen het bijvoorbeeld ook op portal.jobsweme.com.
+[00:05:53.920 -> 00:05:55.600] Ja, misschien hadden we hem dubbel kunnen koppelen.
+[00:05:56.820 -> 00:06:03.600] Maar het is niet zo'n circle ofzo, het is wel echt van jullie.
+[00:06:04.260 -> 00:06:07.940] Hij is wel goed beveiligd toch? Twee stadsverificaties enzo.
+[00:06:07.940 -> 00:06:14.940] Dat is een detail.
+[00:06:14.940 -> 00:06:19.940] Ik wil het nu hebben over wat is het.
+[00:06:19.940 -> 00:06:24.940] Ik moet even kijken of dat kan.
+[00:06:24.940 -> 00:06:25.940] Het werkt met HubSpot.
+[00:06:25.940 -> 00:06:28.940] Mijn plan was om het niet los van platform te bouwen.
+[00:06:28.940 -> 00:06:31.940] We bouwen de schermen in HubSpot.
+[00:06:31.940 -> 00:06:40.820] We kunnen ook wel overwegen als we helemaal ATS gaan om wel een zelf platform te maken.
+[00:06:40.820 -> 00:06:44.900] Omdat we dan misschien niet te afhankelijk zijn van HubSpot.
+[00:06:44.900 -> 00:06:47.940] We moeten even met Sandy overwegen dan.
+[00:06:47.940 -> 00:06:50.180] Misschien is dat wel, want we kunnen nu een keer alles doen.
+[00:06:50.180 -> 00:06:51.780] De financiering is deze week rond.
+[00:06:51.780 -> 00:06:55.620] Dus dan denk ik, als het dan een keer 10.000 of 15.000, dan vind ik het ook prima.
+[00:06:55.620 -> 00:06:57.460] Schap hem dan nog maar helemaal in één keer eruit.
+[00:06:57.460 -> 00:07:05.460] Ja, ik denk wel dat als ik het goed kan specificeren en de schermen zijn duidelijk, dan kunnen we wel voor 15k iets maken.
+[00:07:05.460 -> 00:07:10.460] Maar op platformen ga je natuurlijk ook wel richting 50, 100k op een gegeven moment.
+[00:07:10.460 -> 00:07:17.460] Nee, maar als we vanuit HubSpot een goede start kunnen maken, dan zal een USB voor onze dienst ook.
+[00:07:17.460 -> 00:07:19.460] Dat moet zich ook terugverdienen.
+[00:07:19.460 -> 00:07:23.460] Kijk, alles werkt al in HubSpot. De database is altijd up en whatever.
+[00:07:23.460 -> 00:07:24.460] Ja, ja, ja.
+[00:07:24.460 -> 00:07:28.740] Dus zij hebben die architectuur al helemaal goed en dan moet je dat zelf doen.
+[00:07:28.740 -> 00:07:32.180] En we kunnen ook even kijken, want we zijn het platform aan het ontwikkelen voor Delta
+[00:07:32.180 -> 00:07:33.180] Links.
+[00:07:33.180 -> 00:07:39.140] Misschien kunnen we daar ook iets van hergebruiken of inspiratie opdoen.
+[00:07:39.140 -> 00:07:44.700] Oké, goedkeuren ziet er dan ongeveer zo uit.
+[00:07:44.700 -> 00:07:47.100] Dus je ziet wie het zijn.
+[00:07:47.100 -> 00:07:50.740] Ja, en dan klik je erop en dan kun je het goed.
+[00:07:50.740 -> 00:07:58.500] Ik denk dat de grootste vraag is, wat is hier al zichtbaar? E-mailadres, naam, cv al wel of niet?
+[00:07:58.500 -> 00:08:03.500] Waar komt die foto van aan bijvoorbeeld? Dat wordt denk ik gewoon een blank.
+[00:08:03.500 -> 00:08:05.500] We hebben nooit echt een foto van een kandidaat.
+[00:08:05.500 -> 00:08:11.900] Ik weet niet of dat verdeeld mag worden, want als een klant een onbeperkte stroom koopt,
+[00:08:11.900 -> 00:08:14.540] hoeft die niks goed te keren. Dan mogen ze er gelijk in worden geklapt.
+[00:08:14.540 -> 00:08:17.980] Alleen je wilt wel volgen wat ze doen.
+[00:08:17.980 -> 00:08:22.420] Nee, ik geloof dat als de volgende maart gaat erom dat als een klant inna per kandidaat betaalt,
+[00:08:22.420 -> 00:08:26.300] daar zullen we nog over moeten nadenken wat er dan in moet komen te staan.
+[00:08:26.300 -> 00:08:31.640] Ja, dus het is bijvoorbeeld, je kan natuurlijk ook zeggen van je maakt alles zichtbaar en
+[00:08:31.640 -> 00:08:36.740] de naam en de mailadres is een soort van geblurred en dan moet je betalen als je die wilt zien.
+[00:08:36.740 -> 00:08:39.300] Dat is misschien de aller makkelijkste en beste optie.
+[00:08:39.300 -> 00:08:43.020] Geen CV, maar dan niet de woordplaats, niet het nummer.
+[00:08:43.020 -> 00:08:44.660] Alleen de voornaam ofzo.
+[00:08:44.660 -> 00:08:49.340] En dat is dan alleen maar voor per kandidaat diensten, toch?
+[00:08:49.340 -> 00:08:49.840] Ja.
+[00:08:49.840 -> 00:08:50.840] Ja.
+[00:08:50.840 -> 00:08:51.840] Zeker.
+[00:08:51.840 -> 00:08:58.040] En daarin was het ook belangrijk, toch, van is het bijvangs of doet die aan de criteria,
+[00:08:58.040 -> 00:08:59.040] zeg maar.
+[00:08:59.040 -> 00:09:00.280] Dat was ook nog wel een dingetje.
+[00:09:00.280 -> 00:09:01.280] Klopt.
+[00:09:01.280 -> 00:09:04.280] Maar dat kan misschien met een vinkje of zo, wat het dan is.
+[00:09:04.280 -> 00:09:09.020] Want bijvangs is gratis, want als je per kandidaat werkt, is ook bijvangs gratis, toch?
+[00:09:09.020 -> 00:09:10.020] Klopt.
+[00:09:10.020 -> 00:09:11.020] Hoe koper toch, willen we?
+[00:09:11.020 -> 00:09:13.760] Naja, ik denk dat je gewoon even moet starten met gratis.
+[00:09:14.660 -> 00:09:16.660] Ja, dat is wel een beetje.
+[00:09:16.660 -> 00:09:22.760] Dus dat soort dingen, en daarvoor dacht ik van dit is dan handig, want dan heb je die
+[00:09:22.760 -> 00:09:26.660] approval, is eigenlijk voor die functie van oké, waar ga je voor betalen?
+[00:09:26.660 -> 00:09:30.820] Want je geeft een heel duidelijk akkoord op wie je wilt benaderen.
+[00:09:30.820 -> 00:09:31.820] Nee zeker.
+[00:09:31.820 -> 00:09:34.300] Ja, dat was eigenlijk een beetje het doel hiervan.
+[00:09:34.300 -> 00:09:36.820] Dat is nu één op de tien klanten die per kandidaat hebben.
+[00:09:36.820 -> 00:09:38.820] We hebben het eigenlijk de afgelopen drie maanden niet verkocht.
+[00:09:38.820 -> 00:09:41.220] Nee, ze vinden allemaal eigenlijk volledig stroom.
+[00:09:41.220 -> 00:09:43.220] Iedereen doet gewoon een onbeperkt stroom.
+[00:09:43.220 -> 00:09:47.420] Maar het moet er wel in, want het wordt wel verkocht.
+[00:09:47.420 -> 00:09:49.040] Dus als je het niet hebt, dan ben je ook het haast in.
+[00:09:49.040 -> 00:09:51.040] Eerder kleinere bedrijf zouden dat denk ik doen.
+[00:09:51.040 -> 00:09:55.720] Ja, maar dan zijn eigenlijk die andere belangrijker, die 9 van de 10 klanten.
+[00:09:55.720 -> 00:09:58.980] Zeker, want die koopt gewoon een onbeperkt stroom.
+[00:09:58.980 -> 00:10:03.080] Kijk, en als een klant echt 10 vacatures draait en er staan 30 kandidaten in, dan wil
+[00:10:03.080 -> 00:10:07.820] ik gewoon echt precies van elk kandidaat zien, hebben ze de nummers, hebben ze gebeld, die
+[00:10:07.820 -> 00:10:08.820] is uitgemaakt.
+[00:10:08.820 -> 00:10:11.780] Want wij moeten daarvoor bellen, maar dat is heel erg tijdsrovend.
+[00:10:11.780 -> 00:10:14.320] Ik heb bijvoorbeeld, ik kan het misschien zo naar je sturen.
+[00:10:14.420 -> 00:10:16.580] Met Thyssen Krupp heb ik een bestand.
+[00:10:16.700 -> 00:10:18.020] Daar werken we eigenlijk allebei in.
+[00:10:18.120 -> 00:10:20.240] En ik zit daar alleen een gekwalificeerde kandidaat in.
+[00:10:20.800 -> 00:10:24.880] En ik zet een stukje van, oké, zij moeten updates erin geven.
+[00:10:24.980 -> 00:10:25.740] Wat hebben ze gedaan?
+[00:10:25.980 -> 00:10:27.440] Wanneer hebben ze afspraken ingepland?
+[00:10:29.180 -> 00:10:30.840] Zijn in afwachting op documenten?
+[00:10:30.900 -> 00:10:32.980] Dat wil ik eigenlijk allemaal hierin zien.
+[00:10:32.980 -> 00:10:33.680] Ja, precies.
+[00:10:33.760 -> 00:10:38.500] En wat Flip zegt, dan gaat die in stadium A voorgesteld door ons.
+[00:10:38.500 -> 00:10:51.220] Dus daarna wordt het opgebeld, geen gehoor of daarna een intake ingepland, gemailed, contract voorgelegd, aanbod gedaan en uiteindelijk de laatste stap is afgewezen of getekend.
+[00:10:51.220 -> 00:10:57.740] Ja, dus die fases gewoon hier laten zien, dat is heel eenvoudig.
+[00:10:58.000 -> 00:11:01.600] En dat zij die ook kunnen aanpassen, hun gekocht, dus dat kan ook.
+[00:11:02.100 -> 00:11:02.300] Top.
+[00:11:02.300 -> 00:11:07.980] Wat moeilijker wordt is wat Hupselt heeft.
+[00:11:07.980 -> 00:11:13.740] Dat je zo fancy die fase ook ziet en dat je kan slepen.
+[00:11:13.740 -> 00:11:18.460] Dat is wel een extra functionaliteit.
+[00:11:18.460 -> 00:11:20.460] Snap je wat ik bedoel?
+[00:11:20.460 -> 00:11:22.020] Klepen of klik bedoel je?
+[00:11:22.020 -> 00:11:24.460] Want als je klikt ziet het toch vanzelf door naar de volgende fase?
+[00:11:24.460 -> 00:11:26.460] Ja, precies.
+[00:11:26.460 -> 00:11:29.980] Dan begin je met klikken en dan kan je altijd nog slepen.
+[00:11:29.980 -> 00:11:33.280] En ze zagen zoiets willen wat wij nu ook hebben, open kandidaten.
+[00:11:33.280 -> 00:11:35.600] Dat ze een ogen op slag kunnen zien.
+[00:11:35.600 -> 00:11:36.600] Dit staat er ook.
+[00:11:36.600 -> 00:11:40.740] Wat Lisa en Bill zien is dan wat moeilijker, maar dat een beetje vereenvoudigen.
+[00:11:40.740 -> 00:11:43.440] En dat eigenlijk gewoon de recruiter samen met onze recruiter.
+[00:11:43.440 -> 00:11:45.600] De ene doet de ene helft en de andere doet de andere helft.
+[00:11:45.600 -> 00:11:47.600] Zijn jullie daarover?
+[00:11:47.600 -> 00:11:53.220] Ik denk dat het ook een mooie kans is om het gewoon nog beter te doen hoe wij het zien.
+[00:11:53.220 -> 00:11:56.780] Want misschien kunnen we het best een op een kopiëren.
+[00:11:56.780 -> 00:11:58.480] Want dan is het voor jullie ook duidelijk.
+[00:11:58.480 -> 00:12:01.980] Dat is toch heel makkelijk?
+[00:12:01.980 -> 00:12:06.480] En dan halen we alle beperkingen weg die HubSpot heeft.
+[00:12:06.480 -> 00:12:15.480] Kan je bijvoorbeeld ook als er staat, zij gaan faas in, stuurt documenten of gemaild,
+[00:12:15.480 -> 00:12:21.480] dat we ook na een paar dagen kunnen zeggen, hé let op, zoveel dagen geleden heb je gemaild,
+[00:12:21.480 -> 00:12:25.480] heb je al een reactie ontvangen, of dat je soms wel een reminder kan geven.
+[00:12:25.480 -> 00:12:28.400] Dus het mailen is lastiger.
+[00:12:28.580 -> 00:12:29.480] Omdat wat Hupsel doet.
+[00:12:29.560 -> 00:12:31.000] Die koppelt echt aan je inbox.
+[00:12:31.360 -> 00:12:33.800] En daarom zie ik dat je mailt.
+[00:12:34.340 -> 00:12:35.940] Maar wij gaan dat niet hebben.
+[00:12:37.140 -> 00:12:38.900] Het is wel een persoonlijk blijven.
+[00:12:39.060 -> 00:12:41.140] Dat als ik zie dat er drie kandidaten.
+[00:12:41.320 -> 00:12:42.200] Nog iets aan het wachten zijn.
+[00:12:42.300 -> 00:12:42.800] Dat ik ze bijvoorbeeld.
+[00:12:43.720 -> 00:12:45.800] Ik zie dat is misschien ook wel goed.
+[00:12:45.860 -> 00:12:46.520] Vanuit onszelf.
+[00:12:47.360 -> 00:12:48.760] Dus het is meer van.
+[00:12:49.400 -> 00:12:51.080] Je moet ze iets vragen.
+[00:12:51.180 -> 00:12:52.060] Heb je ze gemaild?
+[00:12:52.240 -> 00:12:53.280] Of wanneer heb je ze gemaild?
+[00:12:53.280 -> 00:12:55.720] Maar dat we het echt kunnen loggen voor ze.
+[00:12:55.720 -> 00:13:02.280] Ja, misschien is het dan mogelijk dat we zeggen van oké, klik op de persoon en dan opent die een mailbox.
+[00:13:02.280 -> 00:13:06.040] En dan zit in de CC iets dat we op die manier iets kunnen tracken ofzo.
+[00:13:06.040 -> 00:13:09.620] Dat is eigenlijk wel echt een must van mij.
+[00:13:09.620 -> 00:13:12.280] Want commercieel gezien moeten we gewoon...
+[00:13:12.280 -> 00:13:23.440] We hebben ook kunnen verklaren aan een eigenaar Ik heb tien recruiters aan het werk gezet Hoezo heb ik geen haaiers Dan kunnen wij gewoon letterlijk gewoon jij zou dat bij wijze van spreken altijd kunnen doen dat je het inzichtelijk maakt
+[00:13:23.480 -> 00:13:26.200] dat je naar zo'n CEO gaat en gewoon zegt van joh, luister eens,
+[00:13:27.440 -> 00:13:30.600] jij is gewoon niet gebeld. De kandidaten zijn gewoon niet opgevoegd.
+[00:13:32.600 -> 00:13:36.780] Wij helpen eigenlijk, want je voelt eigenlijk een recruiter op dat hij het moet opgevoegd.
+[00:13:36.780 -> 00:13:41.720] Ja, wat we kunnen doen is, wat zou voldoende zijn?
+[00:13:41.720 -> 00:13:48.040] We kunnen ook een functie toevoegen dat je het zelf moet loggen.
+[00:13:48.040 -> 00:13:52.400] En dan zeggen we wel, jouw personeel heeft niet gelogd dat er gebeld is.
+[00:13:52.400 -> 00:13:56.480] En dan moeten zij bewijs leveren dat er wel gebeld is.
+[00:13:56.480 -> 00:13:59.680] Misschien de verplichte actie nadat je op een kandidaat klikt.
+[00:13:59.680 -> 00:14:02.720] Dat je altijd als je op een kruisje wilt klikken een notitie moet opgeven.
+[00:14:02.720 -> 00:14:03.720] Dat het wel verplicht is.
+[00:14:03.720 -> 00:14:05.720] Dat je gewoon altijd na een fase moet doen.
+[00:14:05.720 -> 00:14:06.720] Dus ik klik een kandidaat aan.
+[00:14:06.720 -> 00:14:09.720] Dan zie ik alle gegevens en dan klik ik op kruisje kandidaat weg.
+[00:14:09.720 -> 00:14:12.120] En dat er dan staat, geef opmerking wat er is gebeurd.
+[00:14:12.660 -> 00:14:14.680] Dan kan je gewoon heel iets typen dan de telefoon hierop.
+[00:14:14.780 -> 00:14:18.220] Maar dan verplichten wij hun constant om even heel kort te typen wat er is gebeurd.
+[00:14:19.300 -> 00:14:21.180] Even wat wij nu ook bij het bellen doen.
+[00:14:22.660 -> 00:14:26.100] Als wij nu bellen, moeten we verplicht ook een notitie achterlaten.
+[00:14:26.240 -> 00:14:30.040] Terwijl ik soms ook wel eens denk, ja, dit was een intake.
+[00:14:30.220 -> 00:14:32.660] En soms denk ik, schrijf ik iets heel kort, kennismaking.
+[00:14:33.340 -> 00:14:35.580] Maar dan weet je wel, je laat wel iets achter.
+[00:14:35.680 -> 00:14:37.320] En dat zie je in HubSpot ook terugkomen.
+[00:14:37.320 -> 00:14:41.160] Dat kunnen we allemaal terughalen.
+[00:14:41.160 -> 00:14:49.620] En we kunnen ook zeggen, je moet verplicht het doen, want wij willen volgens AVG kunnen
+[00:14:49.620 -> 00:14:52.000] verantwoorden wat er wordt gedaan met die kandidaten.
+[00:14:52.000 -> 00:14:53.640] Dus we willen ook dat jullie dat gewoon loggen.
+[00:14:53.640 -> 00:14:56.920] Dat is op zich ook leuk, want waarom willen ze op die naam klikken?
+[00:14:56.920 -> 00:15:01.320] Ja, we willen jou in het plaatje kijken.
+[00:15:01.320 -> 00:15:04.200] Het moet stil zijn, wij zijn gewoon JobStream, wij helpen jullie perfect.
+[00:15:04.200 -> 00:15:07.080] Het is een betaalbare dienst, maar er moet wel gewoon zelfwerking worden gestopt.
+[00:15:07.080 -> 00:15:08.280] Dat is al je verkoopgesprek.
+[00:15:08.820 -> 00:15:10.680] Dus we moeten dat wel gaan uitleggen.
+[00:15:10.760 -> 00:15:12.260] Maar dan zeg je, joh, het is een inlogportaal.
+[00:15:12.940 -> 00:15:15.500] Je krijgt ook steeds een notitie als je een kandidaat aanklikt.
+[00:15:15.600 -> 00:15:17.980] Om gewoon met z'n tweeën ook naar de maand draaien.
+[00:15:18.040 -> 00:15:19.220] Dat we kunnen kijken wat er is gebeurd.
+[00:15:19.380 -> 00:15:20.920] En het zou zelfs voor trainingsdoelen.
+[00:15:21.280 -> 00:15:22.800] Wij zitten er altijd achter.
+[00:15:22.940 -> 00:15:25.240] Als we dan merken dat er iets ontbreekt.
+[00:15:25.420 -> 00:15:26.840] Dan kunnen we het overigens wel laten weten.
+[00:15:27.220 -> 00:15:27.840] Nee, dat komt wel goed.
+[00:15:28.080 -> 00:15:29.700] Dat is meer verkoopkant.
+[00:15:30.660 -> 00:15:31.740] Ik vind het wel leuk.
+[00:15:31.980 -> 00:15:32.760] Ik vind het wel leuk.
+[00:15:32.760 -> 00:15:33.740] Want je gaat wel iets krijgen.
+[00:15:33.880 -> 00:15:35.760] Dat je zegt van...
+[00:15:35.760 -> 00:15:43.760] van kandidaten, jullie performen veel slechter dan onze wervers.
+[00:15:43.760 -> 00:15:47.760] Ja, of vergeleken met andere klanten.
+[00:15:47.760 -> 00:15:53.760] Wij kunnen gewoon in onze verkoopgesprekken ook alle percentages meenemen.
+[00:15:53.760 -> 00:15:58.760] Er wordt gemiddeld zo snel gebeld, zoveel procent van de klanten die aanklikt neemt zoveel procent aan.
+[00:15:58.760 -> 00:16:00.760] Daar komt natuurlijk allemaal data uit.
+[00:16:00.760 -> 00:16:09.480] Je kan ook zeggen, als wij het doen, dit is onze performance.
+[00:16:09.740 -> 00:16:11.340] Dit is jouw performance en dit is onze performance.
+[00:16:12.560 -> 00:16:20.080] Of als jij gemiddeld binnen drie uur een kandidaat nabelt, dan neemt 33% van de klant binnen een maand iemand aan.
+[00:16:21.260 -> 00:16:22.740] Dat kunnen wij straks gewoon zien.
+[00:16:23.500 -> 00:16:25.520] Dus dat is misschien voor jou ook handig.
+[00:16:26.080 -> 00:16:30.200] Hoe meer data jij kan inzien, hoe meer we dat natuurlijk op grote schaal kunnen gaan vergelijken met elkaar.
+[00:16:30.200 -> 00:16:32.200] Daar komen we gewoon conclusies mee.
+[00:16:32.200 -> 00:16:36.200] Je kan ook pop-ups gaan geven.
+[00:16:36.200 -> 00:16:40.200] Als jij binnen drie uur je kandidaat belt, is de kans 30% groter dat je iemand aanneemt.
+[00:16:40.200 -> 00:16:43.200] Ja, we moeten uitkijken dat we het niet te complex maken.
+[00:16:43.200 -> 00:16:45.200] Dus ik probeer dat zo simpel mogelijk te houden.
+[00:16:45.200 -> 00:16:48.200] En het wordt vanzelf wel complex natuurlijk.
+[00:16:48.200 -> 00:16:51.200] Dus je moet even denken, wat zijn de dingen die we willen meten?
+[00:16:51.200 -> 00:16:53.200] Ja, maar ik bedoel, in het boek komt.
+[00:16:53.200 -> 00:16:55.200] Kalt, kalt, kalt.
+[00:16:55.200 -> 00:16:59.200] En welke KPI wil je dan echt weten?
+[00:16:59.200 -> 00:17:05.200] snelheid van bellen, conversie, oké.
+[00:17:05.200 -> 00:17:08.200] Gewoon of ze überhaupt worden opgepakt.
+[00:17:08.200 -> 00:17:10.200] Dat is gewoon echt een groot vraagteken.
+[00:17:10.200 -> 00:17:13.200] Waar ze zijn en wat er mee is gedaan en of er wat mee wordt gedaan.
+[00:17:13.200 -> 00:17:16.200] Wat moeten wij gewoon vanaf de afspraak kunnen zien?
+[00:17:16.200 -> 00:17:18.200] Als zij elke keer zeggen, we hebben ze gemaild, we hebben ze gemaild,
+[00:17:18.200 -> 00:17:20.200] maar ze hebben uiteindelijk nooit gebeld.
+[00:17:20.200 -> 00:17:25.200] Dan kunnen we zeggen van, niet elke chauffeur leest zijn mail.
+[00:17:25.200 -> 00:17:26.200] Je moet ze altijd bellen.
+[00:17:26.200 -> 00:17:28.200] Dat moet je allemaal kunnen zien.
+[00:17:28.200 -> 00:17:34.920] Wou het in de toekomst mogelijk kunnen zijn dat hun nummer erbij staat dat je direct met
+[00:17:34.920 -> 00:17:37.200] ze kan whatsappen als je op een knop klikt?
+[00:17:37.200 -> 00:17:40.700] Wat schrijf je naar zo'n kandidaat nummer?
+[00:17:40.700 -> 00:17:41.700] Ja, moeilijk.
+[00:17:41.700 -> 00:17:42.700] Ja, wel moeilijk.
+[00:17:42.700 -> 00:17:44.700] Dat je denkt hun nummer koppelt ook helemaal.
+[00:17:44.700 -> 00:17:47.700] Ja, want dat is het hele riddertje van HubSpot.
+[00:17:47.700 -> 00:17:52.200] Je meta-account koppelen, templates inladen.
+[00:17:52.200 -> 00:17:55.200] Is dat makkelijker als je je eigen platform website krijgt?
+[00:17:55.200 -> 00:17:57.600] Nou, het is gewoon moeilijk.
+[00:17:57.600 -> 00:17:58.800] WhatsApp is moeilijk.
+[00:17:58.800 -> 00:18:00.800] Ook in je eigen platform.
+[00:18:00.800 -> 00:18:03.400] Ik bedoel met het nummer van het bedrijf, dat ze direct een app...
+[00:18:03.400 -> 00:18:05.800] Ik zie dat wel eens op de website, WhatsApp ons.
+[00:18:05.800 -> 00:18:08.800] Dan klik je zo en dan ga je gelijk door naar WhatsApp.
+[00:18:08.800 -> 00:18:12.800] Ja, je kan wel iemand openen in WhatsApp, alleen...
+[00:18:12.800 -> 00:18:17.400] Dat is misschien wel wat anders, maar dan misschien iets anders wat we met de apps er bezig zijn.
+[00:18:17.400 -> 00:18:18.800] We kunnen die AI bot gaan inbouwen.
+[00:18:18.800 -> 00:18:22.200] Kunnen we die AI bot wel in het systeem voor de klanten zetten?
+[00:18:22.200 -> 00:18:29.200] Je kan wel doen wat jij zegt, dat je WhatsApp opent met een bericht al voorgeschreven.
+[00:18:29.200 -> 00:18:30.200] Dat kan wel.
+[00:18:33.200 -> 00:18:34.200] Snap je wat ik bedoel?
+[00:18:34.200 -> 00:18:40.200] Dus je klikt op die link en open je WhatsApp en dan is er al iets voor je ingevuld van blablabla.
+[00:18:40.200 -> 00:18:41.200] Een opdracht.
+[00:18:41.200 -> 00:18:44.200] Van hey Sarah, ik zie dat je hebt...
+[00:18:44.200 -> 00:18:51.200] Ik snap het complexe voor jou, maar het gaat er om dat iedere begroel gewoon een kandidaat kan inplannen.
+[00:18:52.200 -> 00:18:54.200] Dat hij het ook daadwerkelijk doet.
+[00:18:54.200 -> 00:18:59.200] Het is soms echt alleen maar een kwestie van bellen, maar soms doen ze het gewoon niet.
+[00:18:59.200 -> 00:19:10.200] Je kan wel een linkje maken dat voor hun makkelijk is, maar om het te loggen en dat het via het systeem gaat, dat is wat moeilijk.
+[00:19:10.200 -> 00:19:16.200] Nee, dat doet het niet voor mij, maar dat ze gewoon heel makkelijk shortcuts hebben voor de handeling.
+[00:19:16.200 -> 00:19:21.200] Oké, shortcut voor de handeling. Ik herhaal het ook omdat we dit opnemen.
+[00:19:21.200 -> 00:19:24.200] Ja, shortcut voor WhatsApp, shortcut voor mail.
+[00:19:24.200 -> 00:19:27.200] Dat hoeft niet eens template te zijn, maar dat je gewoon kan klikken, mail de kandidaat,
+[00:19:27.200 -> 00:19:31.200] en dan staat het e-mailadres er al in. Dan opent die gewoon automatisch mail, weet je wel,
+[00:19:31.200 -> 00:19:36.200] of automatisch WhatsApp. Dat vind ik zelf ook fijn, als ik ergens op klik en ik ga daar gelijk heen.
+[00:19:36.200 -> 00:19:42.200] Ja, en we kunnen in onze eigen log gaan bepalen van, oké, deze gebruiker log nu in,
+[00:19:42.200 -> 00:19:47.960] Deze gebruiker heeft nu op de mailknop geklikt.
+[00:19:47.960 -> 00:19:53.280] Dat zien we wel.
+[00:19:53.280 -> 00:19:56.840] Als we iemand een inlog geven, kunnen we toch zien, je hebt maar twee keer ingelogd in twee maanden tijd.
+[00:19:56.840 -> 00:19:59.440] Ja, dat moeten we dan loggen en dan gaan we dat zien.
+[00:19:59.440 -> 00:20:00.840] Dat gaat niet vanzelf.
+[00:20:00.840 -> 00:20:04.960] Nee, maar dat zijn allemaal dingen die gewoon, dat is echt de lust.
+[00:20:04.960 -> 00:20:09.640] Oké, maar dan hebben we wel, dat is prima.
+[00:20:09.640 -> 00:20:13.080] Ik leg het gewoon bij het team neer, maar daar hebben we wel een eigen...
+[00:20:13.080 -> 00:20:17.120] Ja, ik denk dat we dan wel een eigen database nodig hebben, maar dat is prima.
+[00:20:17.440 -> 00:20:18.440] Ik denk dat het wel goed te doen is.
+[00:20:19.040 -> 00:20:19.960] Ja, dat hebben we sowieso nodig.
+[00:20:24.320 -> 00:20:24.760] Oké.
+[00:20:24.760 -> 00:20:29.100] Dit gaat ons echt ook vooruitzetten op de concurrentie als wij dit hebben.
+[00:20:29.360 -> 00:20:29.840] Dit heeft niemand.
+[00:20:32.500 -> 00:20:34.900] Ja, die ene hadden dat een beetje, toch?
+[00:20:34.980 -> 00:20:36.880] Maar dat zag er niet heel goed uit.
+[00:20:36.880 -> 00:20:42.120] We noemen ze een paar concurrenten.
+[00:20:42.120 -> 00:20:44.120] Maximized?
+[00:20:44.120 -> 00:20:46.120] Nee, andere.
+[00:20:46.120 -> 00:20:49.120] Social vacature?
+[00:20:49.120 -> 00:20:52.120] Nee, nog een andere.
+[00:20:52.120 -> 00:20:55.120] Merk, talent enzo, dat zijn allemaal geen concurrent.
+[00:20:55.120 -> 00:20:58.120] Nee, die is hier in de chat.
+[00:20:58.120 -> 00:21:01.120] Convertio?
+[00:21:01.120 -> 00:21:06.120] Nee, ook niet.
+[00:21:06.880 -> 00:21:11.720] Nee, maar dat was volgens mij gewoon een concurrent van een AI systeem, van een ATS systeem.
+[00:21:11.720 -> 00:21:14.160] Dat had niet per se iets met één kandidaten en ATS te maken.
+[00:21:14.160 -> 00:21:16.700] Dat was volgens mij een op zichzelf staande ATS systeem.
+[00:21:16.700 -> 00:21:18.060] Ja, ja, klopt.
+[00:21:18.060 -> 00:21:19.060] Klopt, die bedoel ik.
+[00:21:19.060 -> 00:21:21.640] Ja, je hebt er zoveel, ik weet het niet eens.
+[00:21:21.640 -> 00:21:27.320] Alleen die hadden echt, dat was, ja die hele website was met AI gemaakt en dat ATS ook.
+[00:21:27.320 -> 00:21:31.120] Dat was te bledend AI gemaakt, zeg maar.
+[00:21:31.120 -> 00:21:34.000] Dat is net als je een marketing deck ziet en je ziet allemaal streepjes.
+[00:21:34.000 -> 00:21:35.000] Ja, precies.
+[00:21:35.000 -> 00:21:36.400] Maar daarom is het...
+[00:21:36.880 -> 00:21:41.440] Terugkomend hier, omdat we natuurlijk ook die AI bot van IPster hebben ontwikkeld.
+[00:21:41.440 -> 00:21:42.440] Ja.
+[00:21:42.440 -> 00:21:45.000] Die er wel makkelijk in worden gezet in dat scherm.
+[00:21:45.000 -> 00:21:46.320] Dat je ook nog met AI kan praten.
+[00:21:46.320 -> 00:21:51.340] Ik weet niet wat dat moet kunnen.
+[00:21:51.340 -> 00:21:53.780] Wat ga je dan zeggen tegen AI?
+[00:21:53.780 -> 00:21:58.880] We gaan straks die AI bot van IPster gewoon überhaupt op onze database neerzetten.
+[00:21:58.880 -> 00:22:05.060] Dat je gewoon, we zullen daar zelf antwoorden voor moeten bedenken met alle recruiters.
+[00:22:05.060 -> 00:22:07.060] Gewoon simpele vragen.
+[00:22:07.060 -> 00:22:12.060] Kandidaat neemt niet op, wat moet ik doen? Wij adviseren om te whatsappen of een mailtje te sturen.
+[00:22:12.060 -> 00:22:14.060] En morgen weer opnieuw op te bellen.
+[00:22:14.060 -> 00:22:16.060] En wat we best wel vaak krijgen.
+[00:22:16.060 -> 00:22:22.060] We hebben zo vaak de dienst uitgelegd, dan maken we een groepchat aan.
+[00:22:22.060 -> 00:22:26.060] Alle kandidaat die je voorstellen, die weten dat jij ze kan opvolgen.
+[00:22:26.060 -> 00:22:29.060] Dan krijg je nog steeds appjes, mag ik hem bellen.
+[00:22:29.060 -> 00:22:32.060] En dan denk ik van, ja dat is het hele ding van die groepchat.
+[00:22:32.060 -> 00:22:37.320] Je zou eigenlijk even met Dylan en Lisa een keer zo'n meeting daarover inpennen.
+[00:22:37.740 -> 00:22:39.380] Wat jij altijd hebt gezegd.
+[00:22:39.480 -> 00:22:42.700] Als je dingen automatiseert, dan moet de tijd in de handen nemen.
+[00:22:42.840 -> 00:22:45.580] En het zijn allemaal van die vragen van klanten dat je denkt, je werft al drie maanden.
+[00:22:45.700 -> 00:22:47.280] En je vraagt nog steeds of je een kandidaat mag bellen.
+[00:22:47.660 -> 00:22:48.840] Je moet er gewoon een pop-up hebben.
+[00:22:48.940 -> 00:22:51.140] Je moet nu deze kandidaat gaan bellen, want hij wacht op je.
+[00:22:52.000 -> 00:22:53.420] Deze kandidaat is gisteren gesproken.
+[00:22:53.760 -> 00:22:54.700] Hij wacht op je belletje.
+[00:22:55.500 -> 00:22:59.240] Dus er moet een soort van chatfunctie zijn voor vragen.
+[00:22:59.240 -> 00:23:00.880] Zodat jullie niet overgespoeld worden eigenlijk.
+[00:23:00.880 -> 00:23:04.880] Dat zijn iedere keer dezelfde antwoorden.
+[00:23:04.880 -> 00:23:07.880] Of dat ze een kopje krijgen als ze een kandidaat aanklikken.
+[00:23:07.880 -> 00:23:10.880] Wat moet ik nu doen?
+[00:23:10.880 -> 00:23:14.880] Kan IPS dat maken of stel ik dat ook bij Instagram?
+[00:23:14.880 -> 00:23:18.880] Ik heb het al afgenomen, dus in principe is het al betaald.
+[00:23:18.880 -> 00:23:22.880] Wat heb je er precies met hen afgesproken?
+[00:23:22.880 -> 00:23:25.880] Nog niks, zal ik even dat nummer naar jou toe sturen?
+[00:23:27.880 -> 00:23:29.880] Vraag maar.
+[00:23:30.880 -> 00:23:32.880] Zij zouden bellen toch?
+[00:23:32.880 -> 00:23:34.880] Nee, we zouden hun mailen.
+[00:23:34.880 -> 00:23:36.880] Maar ik bel maar van die Pim.
+[00:23:36.880 -> 00:23:40.880] Nee, ik bedoel, zij zouden AI bellen doen toch?
+[00:23:40.880 -> 00:23:42.880] Ja, maar hij zei, we kunnen veel meer dan bellen.
+[00:23:42.880 -> 00:23:43.880] We hebben het al gekocht.
+[00:23:43.880 -> 00:23:46.880] Hij zegt, hij kan ook chatten en eenmaal geïntegreerd worden op je HubSpot.
+[00:23:46.880 -> 00:23:48.880] Dus ja, hij zegt hij kan alles.
+[00:23:48.880 -> 00:23:50.880] Hij kan WhatsApp, hij kan chatten, hij kan bellen.
+[00:23:50.880 -> 00:23:54.880] Maar je betalt gewoon een maandadument voor hun ding?
+[00:23:54.880 -> 00:23:57.880] Ja, en we hebben letterlijk de software al gekocht.
+[00:23:57.880 -> 00:23:59.880] Het is al gebouwd voor ons.
+[00:24:00.880 -> 00:24:06.680] Ik ga even aan het nadenken.
+[00:24:07.880 -> 00:24:12.440] Want als zij iets van documentatie hebben, dat wij er gewoon mee kunnen werken, dan...
+[00:24:12.440 -> 00:24:13.560] Dat had je ook zelfs kunnen vragen.
+[00:24:14.080 -> 00:24:15.720] Dus dan moet je maar even vragen aan Pim.
+[00:24:16.400 -> 00:24:18.940] Of dat zij zelf alles willen implementeren, zeg maar.
+[00:24:19.000 -> 00:24:20.060] Dat is een beetje de vraag.
+[00:24:21.000 -> 00:24:23.700] Ik heb het in het midden gelaten, omdat zij er gewoon verstand van hebben.
+[00:24:23.820 -> 00:24:25.320] En jij dus, wat jij het fijnste vindt.
+[00:24:25.340 -> 00:24:27.240] Als zij het voor jou kunnen doen, groot prima.
+[00:24:27.240 -> 00:24:32.160] Ik wil een beetje voorkomen dat we dubbele dingen gaan doen.
+[00:24:32.160 -> 00:24:34.160] Ja ja.
+[00:24:34.160 -> 00:24:36.160] Even kijken, oké.
+[00:24:36.160 -> 00:24:42.700] Maar dat is wel belangrijk, chat, functie voor klant service, gewoon een snelle respons.
+[00:24:42.700 -> 00:24:43.700] Voor simpele vragen.
+[00:24:43.700 -> 00:24:49.300] En dus eventueel dat ik daarvoor al iets van, want in de HubSpot zie je toch ook wat je
+[00:24:49.300 -> 00:24:52.120] moet doen, toch wel een soort pop-up in dat ATS systeem.
+[00:24:52.120 -> 00:24:55.480] Van ik heb een ruwe kandidaat, wat de bedoeling is.
+[00:24:55.480 -> 00:24:59.720] Let op, deze kandidaat staat al drie dagen open.
+[00:24:59.720 -> 00:25:00.720] Precies.
+[00:25:00.720 -> 00:25:03.720] Er staat er nog niks mee eens gedaan, dat ze wel even gewaarschuwd worden.
+[00:25:03.720 -> 00:25:07.360] Ja, dus het moet een soort introductie.
+[00:25:07.360 -> 00:25:10.900] Wat Hupsel altijd heeft, is een soort van je komt de eerste keer op het scherm en je krijgt
+[00:25:10.900 -> 00:25:11.900] een soort van uitleg.
+[00:25:11.900 -> 00:25:14.900] Ja, dat zou al genoeg zijn.
+[00:25:14.900 -> 00:25:16.900] Je ziet hier dit en hier dit.
+[00:25:16.900 -> 00:25:20.240] En misschien een timer, hoe lang die al staat.
+[00:25:20.240 -> 00:25:23.240] Timer, hoe lang die staat.
+[00:25:23.240 -> 00:25:24.240] Dat is helemaal goed hoor.
+[00:25:24.240 -> 00:25:26.240] Maar daar worden we echt met geconfronteerd.
+[00:25:26.280 -> 00:25:27.360] Hoe langer dan niks mee hebben gedaan.
+[00:25:28.220 -> 00:25:29.780] En wat bedoel je met pop-up?
+[00:25:31.440 -> 00:25:32.000] Ja, kijk.
+[00:25:32.040 -> 00:25:32.420] Wat ik zeg.
+[00:25:32.540 -> 00:25:34.060] Dat krijgen we nu net ook.
+[00:25:34.140 -> 00:25:35.040] We werken al drie.
+[00:25:35.300 -> 00:25:37.480] We werken al een half jaar met de ECV samen.
+[00:25:37.540 -> 00:25:38.560] Dat is echt een groot bedrijf.
+[00:25:39.060 -> 00:25:40.760] Er worden door drie kandidaten geïntroduceerd.
+[00:25:40.820 -> 00:25:42.220] En je hoort er verder niks van.
+[00:25:42.780 -> 00:25:44.880] Dus normaal gesproken moeten ze in dit systeem komen.
+[00:25:45.660 -> 00:25:46.980] En dan is het nu vandaag.
+[00:25:47.500 -> 00:25:47.820] Goedemorgen.
+[00:25:47.900 -> 00:25:49.380] We willen graag Erik spreken.
+[00:25:49.480 -> 00:25:49.780] Dat was gisteren.
+[00:25:50.600 -> 00:25:52.800] Jullie kunnen Erik bellen om een kennismakersprek in te plannen.
+[00:25:52.800 -> 00:25:56.000] En dan hebben jullie Sandro zijn aanmelding ook al kunnen bespreken, reageren ze niet.
+[00:25:56.740 -> 00:25:58.880] En dan vandaag zeggen ze, dank je wel, ik ga Erik bellen.
+[00:25:59.680 -> 00:26:05.200] Dat vroeg ook al die Tanique, van Maxime, die vriendin, die moeder of die tante.
+[00:26:06.300 -> 00:26:08.840] Van ja, kunnen we hem bellen? Terwijl al tien kandidaten bevormig staat.
+[00:26:08.920 -> 00:26:11.000] Dan denk ik echt, waar gaat dat dan eigenlijk precies mis?
+[00:26:11.880 -> 00:26:12.040] Ja.
+[00:26:12.460 -> 00:26:13.260] Mogen we hem bellen?
+[00:26:14.540 -> 00:26:15.180] En van de IJK-groep...
+[00:26:15.180 -> 00:26:17.560] Het komt ook over dat ze met andere kandidaten nooit als het heeft gedaan.
+[00:26:17.560 -> 00:26:26.560] Van de EIC-groep werd er toen ook gezegd dat de kandidaat van Jobstream zijn niet gemotiveerd.
+[00:26:26.560 -> 00:26:40.900] Maar als jij een kandidaat nu belt en je belt er pas over vier weken terug in dan kun je niet meer gemotiveerd Dan is het ons schuld Dan hebben wij niet geleverd Een kandidaat moet gewoon binnen 24 uur of 48 uur contact op worden genomen als wij
+[00:26:40.900 -> 00:26:41.900] moeten gesproken.
+[00:26:41.900 -> 00:26:47.020] Maar dit kan ook nu, kunnen we dit misschien ook al verbeteren met gewoon e-mail notificaties
+[00:26:47.020 -> 00:26:48.020] hè?
+[00:26:48.020 -> 00:26:50.520] Ja, alleen we mailen niet alles naar de klant.
+[00:26:50.520 -> 00:26:51.520] We appen.
+[00:26:51.520 -> 00:26:52.520] Dat zijn vaak groepsappen.
+[00:26:52.520 -> 00:26:56.520] Maar het is nu gewoon een handeling vanuit de mensen. Nu doen Dale en Lisa dat gewoon
+[00:26:56.520 -> 00:27:00.320] zelf. Maar het is wel lekker als het geautomatiseerd is. Dan scheelt het gewoon ook als we straks
+[00:27:00.320 -> 00:27:03.920] 100 klanten tegelijk helpen, kan je niet alle 100 gaan bellen, hoe gaat dat met je kandidaten?
+[00:27:03.920 -> 00:27:07.640] Nee, elke dag is gewoon belangrijk voor een kandidaat.
+[00:27:07.640 -> 00:27:09.440] En er wordt gewoon echt over gelogen.
+[00:27:09.440 -> 00:27:10.720] Ja, ik ga hem bellen.
+[00:27:10.720 -> 00:27:14.200] Niet eens gelogen, dan zeggen ze ik ga hem bellen en dan hebben ze hem een week later nog steeds niet gebeld.
+[00:27:14.200 -> 00:27:15.520] Ja, dan ben je hem gewoon kwijt.
+[00:27:15.520 -> 00:27:16.520] Ja.
+[00:27:16.520 -> 00:27:18.320] Ja, oké.
+[00:27:18.320 -> 00:27:21.880] Maar ja, dat doe je ook met e-mailnotificatie denk ik.
+[00:27:21.880 -> 00:27:25.920] Gewoon van, hé, er staan drie kandidaten open vandaag, ga je eens nog bellen.
+[00:27:25.920 -> 00:27:27.280] Ook helemaal prima.
+[00:27:27.280 -> 00:27:28.400] Hoort je dat soort dingen?
+[00:27:28.400 -> 00:27:32.400] Alleen wel even uitkijken vanaf wanneer je dat stuurt.
+[00:27:32.400 -> 00:27:38.400] Want ze willen ook niet dat ze elke dag een kandidaat krijgen en dat ze elke dag ook weer een reminder krijgen van die andere.
+[00:27:38.400 -> 00:27:44.400] Ja, ja. Meestal is dat instelbaar. Dus je kunt het even aanzetten.
+[00:27:44.400 -> 00:27:48.400] Want als we natuurlijk een WhatsAppje maken met een kandidatenlink,
+[00:27:48.400 -> 00:27:51.400] van hey, er is een kandidaat binnengekomen, dan kan je natuurlijk ook gewoon een soort,
+[00:27:51.400 -> 00:27:57.400] als grapje, als template van neem binnen 24 uur contact op, anders ben je hem kwijt met een knipo.
+[00:27:57.400 -> 00:28:03.400] Dat het wel een beetje leuk is, het moet wel speels zijn, maar het gaat vaak gewoon als
+[00:28:03.400 -> 00:28:05.400] op een gezeik hebben met zo'n klant.
+[00:28:05.400 -> 00:28:09.400] Dan zeggen ze er staat 20.000 euro facturen open, maar we hebben niemand aangenomen.
+[00:28:09.400 -> 00:28:12.400] Dan moet ik wel naar zo'n eigenaar te kunnen zeggen van joh, luister dit.
+[00:28:12.400 -> 00:28:18.400] Wat voor jullie interessant is misschien nog wel om te melden, is wij hebben met een soort
+[00:28:18.400 -> 00:28:23.400] softwarebedrijf gesprek gehad, nee met een lead generator bedrijf gesprek gehad.
+[00:28:23.400 -> 00:28:26.900] En die zeiden dat als jullie met ons samenwerken, dan krijgen jullie een script.
+[00:28:28.900 -> 00:28:31.300] Jullie krijgen een training en die moet je verplicht volgen.
+[00:28:31.640 -> 00:28:35.500] Dus in die samenwerking moet je verplicht twee trainingen of zo volgen.
+[00:28:35.640 -> 00:28:36.720] En krijg je een script van ze.
+[00:28:36.800 -> 00:28:39.960] En ze zeggen als je dat script niet volgt, dan...
+[00:28:39.960 -> 00:28:40.120] Ja.
+[00:28:41.740 -> 00:28:43.360] Nou ja, ik wil daar zeker heen bouwen.
+[00:28:43.540 -> 00:28:44.160] Dat is het gewoon...
+[00:28:44.160 -> 00:28:46.580] Dat is het ook met jullie van ze.
+[00:28:46.620 -> 00:28:48.320] Dat jullie gewoon een soort van training hebben.
+[00:28:48.920 -> 00:28:50.040] Maar dat hoeft nu nog niet.
+[00:28:50.100 -> 00:28:51.840] Omdat het nog niet zulk grote opdrachten zijn.
+[00:28:51.840 -> 00:28:54.840] Nee, ik neem wel altijd telefonisch een intake door.
+[00:28:54.840 -> 00:29:01.840] Dus dan zou een telefonische intake zou bijvoorbeeld open nu de inlogportaal en ik loop hem even met je door.
+[00:29:01.840 -> 00:29:06.840] Maar wat ik wil, dat ga ik met Diederik regelen Jeroen, van die geanimeerde video's.
+[00:29:06.840 -> 00:29:10.840] Dus als je nieuw kan, dan zie je zo'n video op een soort van een minuut.
+[00:29:10.840 -> 00:29:14.840] Ja, maar ik denk aan, zie je een slide voor je?
+[00:29:14.840 -> 00:29:21.280] En in de slide staat links de response rate als je reageert binnen 24 uur.
+[00:29:21.280 -> 00:29:23.840] Rechts de response rate als je reageert binnen 24 uur.
+[00:29:23.840 -> 00:29:28.180] Dat je altijd heel duidelijk maakt in een korte toelichting, wat Dylan ook zegt.
+[00:29:28.180 -> 00:29:31.000] In een belletje of een korte training, gewoon een sessie.
+[00:29:31.000 -> 00:29:36.440] Want luister, als je niet binnen 24 uur reageert, werkt het sowieso niet.
+[00:29:36.440 -> 00:29:43.180] En misschien is het heel leuk als je een poppetje in beeld hebt met een poppetje die blij is.
+[00:29:43.180 -> 00:29:46.240] Dat is op het moment dat hij gewoon goed alles opvolgt.
+[00:29:46.780 -> 00:29:52.160] Minder blij als hij een paar facetten mist en helemaal niet blij.
+[00:29:52.240 -> 00:29:53.020] Dat is een boos poppetje.
+[00:29:53.120 -> 00:29:55.400] Dat is een soort van, ook daarmee confronteer.
+[00:29:55.540 -> 00:29:57.980] Van hé, zie je dan een poppetje dat je het helemaal niet goed doet.
+[00:29:58.880 -> 00:29:59.420] Ja, ja.
+[00:30:00.480 -> 00:30:01.520] Tof is dat wat ik bedoel.
+[00:30:03.760 -> 00:30:08.540] Ik vind het wel nice eigenlijk als dat werkt.
+[00:30:08.900 -> 00:30:11.060] Als we dan daarmee ervoor kunnen zorgen dat wij.
+[00:30:11.060 -> 00:30:13.820] want geen één ATS systeem heeft dit.
+[00:30:14.380 -> 00:30:15.460] Het is altijd een beetje droog.
+[00:30:16.300 -> 00:30:17.460] Dat wil je juist niet.
+[00:30:17.660 -> 00:30:19.040] Het moet gewoon interactief zijn.
+[00:30:19.220 -> 00:30:21.880] En we moeten gewoon een junior recruiter kunnen aannemen van 19.
+[00:30:22.480 -> 00:30:26.500] Wij moeten gewoon iets verkopen wat voor zo'n klant ook heel gebruiksvriendelijk is.
+[00:30:26.940 -> 00:30:28.280] Dat is hoe Apple het heeft gedaan.
+[00:30:28.400 -> 00:30:29.280] Wij doen het voor jou.
+[00:30:30.400 -> 00:30:31.360] Ja, en het is heel gericht.
+[00:30:31.480 -> 00:30:33.280] Jullie kunnen het heel gericht doen op jullie proces.
+[00:30:33.800 -> 00:30:36.200] Dus hoe we ze niks in te laten richten.
+[00:30:36.500 -> 00:30:38.160] Maar we moeten gewoon zeggen, dit is gewoon het proces.
+[00:30:38.480 -> 00:30:40.520] En deze mensen zijn niet blij en deze mensen zijn heel blij.
+[00:30:41.060 -> 00:30:42.820] Wij die voor je...
+[00:30:42.820 -> 00:30:43.880] Maar dat zeggen we ook altijd.
+[00:30:44.160 -> 00:30:46.740] En elk verkoopgesprek, jij moet alleen nog het laatste sessie geven.
+[00:30:46.820 -> 00:30:48.400] En dan zegt iedereen, ja, dat ga ik wel doen.
+[00:30:49.120 -> 00:30:50.200] Maar daarvoor...
+[00:30:50.200 -> 00:30:51.080] ...nog een klant.
+[00:30:51.860 -> 00:30:53.640] Het is echt gewoon back ontschappen.
+[00:30:53.640 -> 00:30:55.160] Back end.
+[00:30:57.100 -> 00:30:57.460] Ja.
+[00:30:57.800 -> 00:31:01.100] En je wil ook kunnen zeggen, als mensen zeggen, ik wil een veldje erbij of eraf.
+[00:31:01.180 -> 00:31:03.040] Of ik wil dit kunnen in het ATS-systeem.
+[00:31:03.100 -> 00:31:04.020] Dan zeg je, nee, dat kan niet.
+[00:31:04.080 -> 00:31:05.300] Want dit is ons proces.
+[00:31:05.500 -> 00:31:06.240] Dit is hoe je het moet doen.
+[00:31:07.220 -> 00:31:07.540] Zeker.
+[00:31:07.740 -> 00:31:09.940] Je zegt een beetje een standaard, zeg maar.
+[00:31:09.940 -> 00:31:10.360] voor.
+[00:31:12.340 -> 00:31:12.780] Oké.
+[00:31:13.840 -> 00:31:15.740] Hoe makkelijk is het dan voor hun om
+[00:31:15.740 -> 00:31:17.920] hun externe kandidaten ook in te laden?
+[00:31:24.320 -> 00:31:25.180] Is dat nodig?
+[00:31:25.440 -> 00:31:26.520] Dat is even de eerste vraag.
+[00:31:27.420 -> 00:31:28.880] Ja, dat wordt een nieuwe dienst.
+[00:31:32.060 -> 00:31:33.840] Onze USP in de markt is dat wij
+[00:31:33.840 -> 00:31:35.900] kandidaten opvolgen, want dat is dus waar ze
+[00:31:35.900 -> 00:31:37.920] geen tijd voor hebben. Ik was bijvoorbeeld bij
+[00:31:37.920 -> 00:31:39.680] Voslogist, die zeiden, ik heb nog 600
+[00:31:39.680 -> 00:31:40.760] kandidaten openstaan.
+[00:31:41.880 -> 00:31:43.940] Ik zou wel kunnen zeggen, joh, voor 5000 euro per maand
+[00:31:43.940 -> 00:31:45.320] nemen wij ook nog al jouw kandidaten mee.
+[00:31:46.120 -> 00:31:47.680] Ja, ik denk dat dit is
+[00:31:47.680 -> 00:31:49.920] een...
+[00:31:49.920 -> 00:31:51.820] Dit hangt er vanaf. Dit is echt een hangt
+[00:31:51.820 -> 00:31:52.600] er vanaf antwoord.
+[00:31:53.120 -> 00:31:54.880] Wat heb je wel voorzichtig?
+[00:31:56.500 -> 00:31:57.780] Nou, weet je wat zij gaan zeggen?
+[00:31:57.940 -> 00:31:59.900] Ik heb al een ATS systeem. Moet ik ook nog gebruik maken
+[00:31:59.900 -> 00:32:02.100] van jullie ATS systeem? Het staat op twee plekken.
+[00:32:02.200 -> 00:32:02.940] Dat is wat ze gaan zeggen.
+[00:32:03.540 -> 00:32:06.300] Dan heb ik één kandidaat in mijn eigen systeem, één kandidaat in jullie systeem.
+[00:32:07.200 -> 00:32:08.940] Dat is wel een probleem.
+[00:32:09.680 -> 00:32:15.400] Eerst is dat niet erg, maar dat gaat wel, dat gaat op een gegeven moment na een half jaar wel, dat heel veel klanten zeggen van ja, ik heb al zelf een ATS systeem.
+[00:32:16.080 -> 00:32:19.260] Als je dan kan zeggen, joh, daar kunnen we gewoon geld voor vragen, Jeroen.
+[00:32:19.600 -> 00:32:24.300] Ja, dat zou ik per examenkandidaten die opvolgt, moet je gewoon geld opvragen.
+[00:32:24.420 -> 00:32:26.180] Maar überhaupt, moet je daar gewoon voor betalen.
+[00:32:26.840 -> 00:32:29.700] Moet jij maar nadenken, dat je ervoor hebt, gewoon wat wij ervoor willen hebben.
+[00:32:29.700 -> 00:32:35.960] Al zeg jij van, joh, dat kan ik wel regelen, dat kost 5000 euro maken, maar dan zeggen wij toch gewoon tegen een klant, kost 1000 euro.
+[00:32:35.960 -> 00:32:38.960] Nou ja, ik denk dat dat een beetje...
+[00:32:38.960 -> 00:32:41.960] Je mag gewoon zelf voor worden gevraagd hè?
+[00:32:41.960 -> 00:32:48.960] Ja, klopt. Maar ik kan het nu dus niet beantwoorden, want ik moet meer weten van welk ATS systeem hebben we.
+[00:32:48.960 -> 00:32:52.960] Willen zij het, dan willen we het in jullie systeem, zeg maar.
+[00:32:52.960 -> 00:32:55.960] Dus dat hun kandidaten hierbij komen, of het andersom.
+[00:32:55.960 -> 00:32:58.960] Nee, hun kandidaten in ons systeem.
+[00:32:58.960 -> 00:33:01.960] Wij trekken hun data naar ons toe.
+[00:33:01.960 -> 00:33:02.960] Ja.
+[00:33:02.960 -> 00:33:08.960] Want als dat systeem van ons zo goed werkt, dan gaan ze ook niet meer weg.
+[00:33:08.960 -> 00:33:11.960] Zeg zo, zo fijn hebben ze op stream, onze kandidaten.
+[00:33:11.960 -> 00:33:15.960] En wij willen gewoon data hebben.
+[00:33:15.960 -> 00:33:18.960] Ja.
+[00:33:18.960 -> 00:33:24.960] Bijvoorbeeld DHL heeft voor een paar tonnen een ATS systeem gekocht en dat werkt niet.
+[00:33:24.960 -> 00:33:27.960] Heeft u letterlijk gezegd.
+[00:33:27.960 -> 00:33:30.960] Heel DHL Nederland heeft gewoon een probleem met een ATS systeem.
+[00:33:30.960 -> 00:33:36.960] Dat zou lekker zijn als we even ontwoorden bij ons, dan hebben wij gewoon net een DIO in handen als Jobsteam.
+[00:33:36.960 -> 00:33:39.960] Het is een bekend probleem, al die dingen zijn veel te technisch.
+[00:33:39.960 -> 00:33:44.960] En dat is toch hetzelfde met het portaal van Oran eventueel en DeltaLinks,
+[00:33:44.960 -> 00:33:48.960] als wij dat op een gegeven moment ook daar aan kunnen koppelen, dan trek je gewoon al die data naar je toe.
+[00:33:48.960 -> 00:33:53.960] Want dat is het allergroeste probleem, de opvolging en de moeilijkheid.
+[00:33:53.960 -> 00:33:56.960] Sommige bedrijven hebben niet eens een ATS systeem.
+[00:33:56.960 -> 00:33:57.960] Ja.
+[00:33:57.960 -> 00:34:03.960] We moeten het bekijken.
+[00:34:03.960 -> 00:34:06.960] Ik ben even aan het nadenken.
+[00:34:06.960 -> 00:34:09.960] Moeten we het dan meteen helemaal zelf maken?
+[00:34:09.960 -> 00:34:11.960] Hoe doe je dat nou met HubSpot?
+[00:34:11.960 -> 00:34:14.960] Ik denk dat doe ik gewoon met HubSpot.
+[00:34:14.960 -> 00:34:17.960] Want je kan zelfs als hout geld kosten.
+[00:34:17.960 -> 00:34:19.960] Dat kunnen wij gewoon vragen aan die klanten.
+[00:34:19.960 -> 00:34:20.960] Ja.
+[00:34:20.960 -> 00:34:21.960] Pak je nog Marjo ook.
+[00:34:21.960 -> 00:34:24.960] Zegt hij, het kost 50 euro per werknemer per maand.
+[00:34:24.960 -> 00:34:25.960] Dat doen ze gewoon hoor.
+[00:34:25.960 -> 00:34:27.960] Dat klapt er ook nog maar bij.
+[00:34:27.960 -> 00:34:29.960] Het mag ook niet.
+[00:34:29.960 -> 00:34:31.960] Het hoeft niet.
+[00:34:31.960 -> 00:34:33.960] Maar alles kan.
+[00:34:33.960 -> 00:34:39.960] Ja klopt, alleen we gaan sowieso een eigen database nodig hebben met een aantal dingen.
+[00:34:39.960 -> 00:34:41.960] Nee klopt, maar het moet wel per klant gesplitst zijn.
+[00:34:41.960 -> 00:34:45.960] Want wij gaan natuurlijk niet de kandidaten van DHL helemaal intern opnemen.
+[00:34:45.960 -> 00:34:47.960] Dat is gewoon binnen hun eigen portaal.
+[00:34:47.960 -> 00:34:49.960] Ja, dat is daarom.
+[00:34:49.960 -> 00:34:53.960] Ga je dan hun kandidaten in jouw hubset zetten?
+[00:34:53.960 -> 00:34:56.960] Ik denk het wel.
+[00:34:58.220 -> 00:35:00.280] Maar we gaan niet dat andere klanten erbij kunnen.
+[00:35:01.300 -> 00:35:01.460] Ja.
+[00:35:03.460 -> 00:35:03.900] Ja.
+[00:35:04.680 -> 00:35:07.460] Nee, dat gaan we niet meer Hupst kunnen doen.
+[00:35:08.860 -> 00:35:11.080] Want dan krijg je een soort van problemen.
+[00:35:14.140 -> 00:35:15.100] Ja, dat kan niet.
+[00:35:15.800 -> 00:35:16.200] Oké.
+[00:35:16.780 -> 00:35:19.040] Maar dit kan ook een plan zijn voor over een jaar.
+[00:35:19.560 -> 00:35:22.680] Want kijk, Hupstot die zegt van oké, we hebben Pietje.
+[00:35:22.680 -> 00:35:24.360] en we peachen niet twee keer, we hebben gewoon
+[00:35:24.360 -> 00:35:25.020] pietje is pietje.
+[00:35:25.940 -> 00:35:26.580] Alleen als je
+[00:35:26.580 -> 00:35:30.560] het aanlaat pietje in
+[00:35:30.560 -> 00:35:32.220] en het aanlaat pietje in, maar dat is
+[00:35:32.220 -> 00:35:34.340] twee keer pietje, maar dat is prima, want
+[00:35:34.340 -> 00:35:36.440] dat is van hun zelf. Maar dan is het een
+[00:35:36.440 -> 00:35:38.300] vervolgplan, maar ik weet wel dat er
+[00:35:38.300 -> 00:35:40.400] in de verkoopgesprekken vragen gaan komen van
+[00:35:40.400 -> 00:35:42.360] ik heb nu twee ATS systeem, dat vind ik ook niet
+[00:35:42.360 -> 00:35:44.360] anders. Ja, je moet gewoon zeggen dat het
+[00:35:44.360 -> 00:35:44.640] kan,
+[00:35:46.420 -> 00:35:47.780] en dat het
+[00:35:47.780 -> 00:35:49.300] een soort maatwerk is.
+[00:35:49.760 -> 00:35:52.340] En je kan het wel gewoon zo framen van
+[00:35:52.340 -> 00:35:54.820] kijk, voor ons is het niet ons verdienmodel
+[00:35:54.820 -> 00:35:56.280] om je aansluiting te maken.
+[00:35:56.500 -> 00:35:58.520] Dus het is een goede prijs.
+[00:36:00.320 -> 00:36:00.720] Zoiets.
+[00:36:00.940 -> 00:36:02.640] Maar dan moet je maar zelf weten wat je er mee doet.
+[00:36:02.720 -> 00:36:03.860] Wat zou ons dat kosten dan?
+[00:36:04.580 -> 00:36:06.580] Ja, ik heb geen idee. Ik durf het nu
+[00:36:06.580 -> 00:36:07.840] geen cijfer te noemen.
+[00:36:08.660 -> 00:36:10.480] Nou, dat komt dan nog wel, maar geef maar door.
+[00:36:10.780 -> 00:36:12.360] Wij verkopen het wel. Ik verkopen het wel voor de dubbelen.
+[00:36:13.280 -> 00:36:14.240] Ik verwacht dat het
+[00:36:14.240 -> 00:36:16.260] misschien upfront kost het meer.
+[00:36:17.480 -> 00:36:18.560] Dus de eerste
+[00:36:18.560 -> 00:36:19.660] kost veel meer dan de tweede.
+[00:36:19.660 -> 00:36:24.660] We kunnen er nog een stukje inleggen toch?
+[00:36:24.660 -> 00:36:29.340] Ja, ik kan wel kijken hoeveel het gaat kosten en dan kunnen we een idee van maken hoeveel
+[00:36:29.340 -> 00:36:30.340] klanten je dan nodig hebt.
+[00:36:30.340 -> 00:36:35.340] Dat het beter die investering beantwoordt.
+[00:36:35.340 -> 00:36:38.340] Als je even DHL zegt, het kost 5000 euro.
+[00:36:38.340 -> 00:36:39.340] Dat ze gewoon zeggen, doe maar.
+[00:36:39.340 -> 00:36:43.460] Maar het is een back-end product, dat zeg je pas na drie maanden of na een half jaar werven.
+[00:36:43.460 -> 00:36:52.460] Ja, voor de eerste is dat weinig en voor de tweede is dat heel veel.
+[00:36:52.460 -> 00:36:55.460] Dus ja, dat is een beetje van...
+[00:36:55.460 -> 00:36:58.460] Als je er constant vijfduizend voor vraagt, is dat toch mooi meegenomen?
+[00:36:58.460 -> 00:37:00.460] Op een gegeven moment is het natuurlijk gewoon van,
+[00:37:00.460 -> 00:37:04.460] oh, maar je hebt dan een keer eerder gedaan, exact hetzelfde en copy-based en het is weer helemaal.
+[00:37:04.460 -> 00:37:06.460] Nee, dat snap ik maar. Je kan ook zelfs zeggen van,
+[00:37:06.460 -> 00:37:08.460] joh, als jij voor een ton per jaar afdijpt, dan krijg je dat van ons,
+[00:37:08.460 -> 00:37:10.460] dan kan je dat weer van nolver te afhalen.
+[00:37:10.460 -> 00:37:12.460] Dat zijn allemaal afwettingen.
+[00:37:12.460 -> 00:37:22.460] Ja, klopt. Oké, goed. Goed om het te weten. Ik zit even te kijken of ik nog meer interessante dingen hier heb.
+[00:37:22.460 -> 00:37:27.460] Niet dat we nog niet besproken hebben.
+[00:37:27.460 -> 00:37:36.460] Ja, wat is het?
+[00:37:36.460 -> 00:37:38.460] Nu is het taal heel makkelijk switchen.
+[00:37:38.460 -> 00:37:42.460] Dus nu staat het soms in het Engels en we hebben soms namelijk recruiters die zijn Engels en soms in de
+[00:37:42.460 -> 00:37:44.460] recruiters die Nederlands zijn.
+[00:37:44.460 -> 00:37:45.460] Oh ja.
+[00:37:45.460 -> 00:37:47.460] Daar heb ik wel je opmerking aan.
+[00:37:47.460 -> 00:37:50.460] Nederlands, Engels.
+[00:37:50.460 -> 00:37:53.460] Een Engels knop.
+[00:37:53.460 -> 00:38:02.460] Ja, dat moet ik dan toevoegen. Het is niet altijd even makkelijk, want soms is de informatie in het Nederlands ingevoerd.
+[00:38:02.460 -> 00:38:07.460] Ja, maar al zie je...
+[00:38:07.460 -> 00:38:14.460] Wat zei je Flip? Je liep voor mij vast.
+[00:38:14.460 -> 00:38:20.460] Al is alles al in het Engels, de pop-up melding en zo.
+[00:38:20.460 -> 00:38:22.460] Ja, ja, ja, ja.
+[00:38:22.460 -> 00:38:24.460] Ja, dat kan natuurlijk wel.
+[00:38:24.460 -> 00:38:28.460] Als iemand een CV in Nederlandse hebt loopt, dan is het gewoon wel Nederlands.
+[00:38:28.460 -> 00:38:30.460] Ja, dat snap ik.
+[00:38:30.460 -> 00:38:34.460] Ja, dat is prima, maar als je hier is inderdaad work history in plaats van work history.
+[00:38:34.460 -> 00:38:38.460] Ja, en dit staat hier wel in, maar dit kan niet zomaar hier in.
+[00:38:38.460 -> 00:38:43.460] Want dit kan hier alleen maar in als we iemand losvragen van wat is dit.
+[00:38:43.460 -> 00:38:48.460] Of als we een CV's medaille uitlezen en het om laten zetten naar zo'n vorm.
+[00:38:48.460 -> 00:38:50.460] Want dit heb je niet in deze vorm.
+[00:38:50.460 -> 00:38:53.460] Dat kon jij trouwens ook nog meenemen toch Jeroen?
+[00:38:53.460 -> 00:38:58.460] Dat er vanuit die linkknop dat AI een cv kan maken.
+[00:38:58.460 -> 00:39:03.460] Ja, dat kan ook zo eruit zien misschien.
+[00:39:03.460 -> 00:39:06.460] Dat we niet echt een pdf maken die hier zichtbaar is.
+[00:39:06.460 -> 00:39:10.460] Neem dat ook wat mee hoor, dat het gebouwd kan worden.
+[00:39:10.460 -> 00:39:12.460] Ja.
+[00:39:12.460 -> 00:39:14.460] Bouw maar gelijk alles.
+[00:39:14.460 -> 00:39:17.860] Ik kreeg laatst bijvoorbeeld ook een vraag, kan je een foto uploaden?
+[00:39:17.940 -> 00:39:19.180] Ja, iemand had het wel gewoon gedaan.
+[00:39:19.440 -> 00:39:20.340] Dus misschien gewoon dat.
+[00:39:20.580 -> 00:39:23.260] En dan kan die wel misschien daar linksboven, wat je nu ook hebt staan,
+[00:39:23.360 -> 00:39:24.720] dat iemand zijn foto zichtbaar wordt.
+[00:39:25.900 -> 00:39:26.080] Ja.
+[00:39:26.480 -> 00:39:27.800] Als iemand hem uploadt eigenlijk.
+[00:39:31.880 -> 00:39:33.940] Ja, we moeten het design hebben hiervan.
+[00:39:34.040 -> 00:39:35.080] En dan moet je het even bespreken.
+[00:39:36.000 -> 00:39:39.320] Ik denk dat je misschien wel bij iedere kandidaat, wat de dienst ook is,
+[00:39:40.320 -> 00:39:43.540] de foto en de NAW-gegevers gewoon moet blurren.
+[00:39:44.460 -> 00:40:02.280] Want dan moeten ze in ieder geval al actie ondernemen om het in te kunnen zien Want dan zien we in ieder geval dat ze op hebben geklikt Dus blur dat maar standaard bij iedereen Ja dus dan heb je hier waar je rechtsboven ziet nu Approve Candidate zeg maar
+[00:40:02.280 -> 00:40:04.280] Nou, of Tongegevens ofzo.
+[00:40:04.280 -> 00:40:08.280] Ik zou het niet zo zwaar maken commercieel.
+[00:40:08.280 -> 00:40:11.280] Ik zou zeggen, Tongegevens.
+[00:40:11.280 -> 00:40:15.280] Tongegevens, en dat log je dan ook, zeg maar.
+[00:40:15.280 -> 00:40:17.280] Ja, dat log je dan.
+[00:40:17.280 -> 00:40:19.280] Ja.
+[00:40:19.280 -> 00:40:24.160] Want dat is ook lekker, ja met alle respect, maar dat zei het Delta Links ook al, we krijgen
+[00:40:24.160 -> 00:40:25.660] natuurlijk steeds meer migratie.
+[00:40:25.660 -> 00:40:29.000] Je wil ook voorkomen dat iemand denkt, oh nee, Ahmed ga ik niet aanklikken.
+[00:40:29.000 -> 00:40:31.280] Als het CV er goed uitziet, ziet hij niet dat hij Ahmed heet.
+[00:40:31.280 -> 00:40:36.600] Maar misschien is het dan niet een idee dat je bij het begin, als het nog ongeopend is,
+[00:40:36.600 -> 00:40:40.920] dat hij dan één keer moet klikken en daarna wel weer aan klikken.
+[00:40:40.920 -> 00:40:42.920] Ja, tuurlijk, eenmalig.
+[00:40:42.920 -> 00:40:46.920] Want anders moeten ze elk jaar ze wel een gevolg willen.
+[00:40:46.920 -> 00:40:50.920] Het wordt eigenlijk dezelfde pijpijn als jullie hebben.
+[00:40:50.920 -> 00:40:53.920] Alleen hebben wij al 100 kandidaten gehad en zij zien er maar 10.
+[00:40:53.920 -> 00:40:56.920] Dus het proces begint eigenlijk helemaal opnieuw.
+[00:40:58.920 -> 00:41:02.920] En als wij werverscampagnes aanbieden, kunnen we zelfs alle ruwe kandidaten erin zetten voor ze.
+[00:41:02.920 -> 00:41:07.920] Dan kan je zeggen, voor 2000 euro kan je ook gebruik maken van het portaal in plaats van 1750.
+[00:41:07.920 -> 00:41:09.920] Ja.
+[00:41:09.920 -> 00:41:12.920] Want dan kunnen alle ruwe kandidaten in één keer door worden gepushed.
+[00:41:12.920 -> 00:41:13.920] Dat vind ik ook prima.
+[00:41:13.920 -> 00:41:14.920] Dat is alsnog een inlogportaal.
+[00:41:14.920 -> 00:41:16.920] Ik bedoel, dat is toch iedere keer weer 250 euro erbij.
+[00:41:16.920 -> 00:41:19.920] Dan betaalden ze gewoon voor werking plus ATS.
+[00:41:19.920 -> 00:41:20.920] Ja.
+[00:41:20.920 -> 00:41:25.920] Ja, en dan is misschien ATS duurder.
+[00:41:25.920 -> 00:41:28.920] Ja, jij stapt ook Jeroen.
+[00:41:28.920 -> 00:41:29.920] Dat wil je toch gewoon.
+[00:41:29.920 -> 00:41:31.920] Wij gaan verkoopgesprekken voeren en dan zeg je joh,
+[00:41:31.920 -> 00:41:34.920] je kan ook 250 euro gebruik maken van het inlogportaal.
+[00:41:34.920 -> 00:41:39.920] Dan zegt iemand ofwel of niet. Niet wordt het gemaild, wel krijg je het wel.
+[00:41:39.920 -> 00:41:40.920] Ja.
+[00:41:40.920 -> 00:41:46.920] Ik zou inderdaad beginnen met gratis.
+[00:41:46.920 -> 00:41:50.920] Dat weet ik niet hoor. Hoezo?
+[00:41:50.920 -> 00:41:55.920] Ja, omdat je dan een soort van free trial idee hebt.
+[00:41:55.920 -> 00:42:01.920] Voor de eerste klanten wordt het gratis, maar als het eenmaal werkt na drie maanden, dan gaat het gewoon betaald worden.
+[00:42:01.920 -> 00:42:06.480] Nee, of het duurt de eerste maand gratis, dus we zullen een beetje een lock in.
+[00:42:06.480 -> 00:42:08.240] Nou, het ligt ook aan de klanten.
+[00:42:08.240 -> 00:42:11.240] Kijk, als iemand moeilijk doet en die komt enkel binnen, zeg ik gewoon direct 250.
+[00:42:11.240 -> 00:42:12.380] Want ik factureer toch wel.
+[00:42:12.380 -> 00:42:15.160] Maar als ik denk, joh, ik gun het zo of het is een oude klant.
+[00:42:15.160 -> 00:42:18.480] Dan ga ik het in de offerte zetten gratis aangeboden.
+[00:42:18.480 -> 00:42:21.920] Daar gaan mensen gewoon het lekkerste.
+[00:42:21.920 -> 00:42:24.920] Dat het 4000 kost en dat je het voor 2500 krijgt.
+[00:42:24.920 -> 00:42:28.420] Maar dat moet wel een facturatie helemaal.
+[00:42:28.420 -> 00:42:30.920] Als we straks in de pijplijn als Dylan offertes kan aanmaken.
+[00:42:30.920 -> 00:42:34.540] Dan kunnen werknemers zelfstandig kiezen wat ze gratis aanbieden.
+[00:42:35.060 -> 00:42:36.260] Om die klant binnen te halen.
+[00:42:39.380 -> 00:42:41.420] Want je hebt ook nog met concurrentie te maken.
+[00:42:41.700 -> 00:42:43.820] Dus als iemand zegt, ja ik kan het voor 1500 ergens anders doen.
+[00:42:43.920 -> 00:42:45.460] Dan zeg je, dan krijg je het gewoon voor 1750.
+[00:42:46.180 -> 00:42:48.140] En dan krijg je die 250 ATS van ons voorbij.
+[00:42:48.400 -> 00:42:49.700] Dan zegt iemand ook, oké doe dat maar.
+[00:42:50.220 -> 00:42:50.860] Dan krijg je korting.
+[00:42:53.080 -> 00:42:56.400] Ik denk dat we dit wel voor een goede prijs kunnen gaan aanbieden.
+[00:42:56.400 -> 00:42:58.720] Ik moet wel een beetje voorzichtig zijn ermee.
+[00:42:58.720 -> 00:43:01.720] maar ik denk dat we dit wel kunnen.
+[00:43:01.720 -> 00:43:05.720] En jij hebt maar soms niet op de schil zitten, Sander.
+[00:43:05.720 -> 00:43:09.720] Dus ja, ik bedoel, als we er 500 voor kunnen vragen, dan doe ik het ook als het lukt.
+[00:43:09.720 -> 00:43:12.720] Wat het is met software,
+[00:43:12.720 -> 00:43:15.720] in Nederland heb je twee keuzes.
+[00:43:15.720 -> 00:43:20.720] Of je betaalt voor een AI-partij, die je gewoon met AI-software gaat maken.
+[00:43:20.720 -> 00:43:23.720] En dat ziet er allemaal mooi uit, maar ik werk er eigenlijk voor geen meter.
+[00:43:23.720 -> 00:43:31.960] Of je gaat iemand voor 150 euro per uur, die net een master heeft afgestudeerd op software development.
+[00:43:31.960 -> 00:43:36.680] Het werkt eigenlijk ook niet echt.
+[00:43:36.680 -> 00:43:38.680] En Vietnam?
+[00:43:38.680 -> 00:43:42.680] Vietnam zijn gewoon redelijk goedkoop, maar die kunnen het wel gewoon.
+[00:43:42.680 -> 00:43:47.640] Maar het is toch top als wij het kunnen maken en kunnen financieren, dan wordt het langzaam terugverdiend.
+[00:43:47.640 -> 00:43:54.060] Waar het altijd fout gaat bij software, en zeker met Vietnam, is gewoon dat wat we hier zien,
+[00:43:54.060 -> 00:43:58.400] als ik dit ben struktuur, dan maken ze dit.
+[00:43:58.400 -> 00:44:03.800] En als wij dan zeggen, oh ja, maar dit had er ook bij moeten zijn, dan zeggen ze dat er niet bij stond.
+[00:44:03.800 -> 00:44:05.220] Dus daar gaat ook altijd fout.
+[00:44:05.220 -> 00:44:08.060] Dus als we dat gewoon goed doen, dan gaat het helemaal goed komen.
+[00:44:08.060 -> 00:44:10.060] Flip is er ineens uit.
+[00:44:10.060 -> 00:44:11.520] Ja, no problem.
+[00:44:11.520 -> 00:44:16.440] Maar ik denk dat we er wel een beetje, dat we er wel een beetje hebben.
+[00:44:16.440 -> 00:44:17.760] Ja, het ziet er heel goed uit.
+[00:44:18.860 -> 00:44:21.740] Ik denk vanuit mijn kant weet je ook precies waar ik tegenaan loop.
+[00:44:22.740 -> 00:44:30.060] Ja, dus dat...
+[00:44:30.060 -> 00:44:34.420] Vanuit onze kant weet je nu precies wat we nodig hebben, denk ik.
+[00:44:35.240 -> 00:44:36.900] Wat jij zegt is inderdaad een goede tip.
+[00:44:37.020 -> 00:44:39.440] Natuurlijk bied je het eerst schade aan, dan moet er een demo zijn.
+[00:44:40.380 -> 00:44:42.160] Maar ik bedoel zo'n Sony en ik zit op de sales.
+[00:44:42.420 -> 00:44:46.260] Als ik bij een grote klant zit en ik zeg, doe maar 3000 euro extra voor al je werknemers.
+[00:44:46.260 -> 00:44:47.300] en iemand zegt gewoon is goed
+[00:44:47.300 -> 00:44:49.780] dan is het gewoon goed
+[00:44:49.780 -> 00:44:51.540] een buurt 3000 euro extra omzet
+[00:44:51.540 -> 00:44:53.800] wat je ook kan doen, dat heeft een vriend
+[00:44:53.800 -> 00:44:54.560] van mij nu met
+[00:44:54.560 -> 00:44:57.500] die heeft gedaan
+[00:44:57.500 -> 00:44:59.460] 50 euro per unit
+[00:44:59.460 -> 00:45:01.500] hij verkoopt van die apparaties met software
+[00:45:01.500 -> 00:45:03.760] en ook gewoon uurloon
+[00:45:03.760 -> 00:45:05.860] voor maatwerk implementatie werk
+[00:45:05.860 -> 00:45:07.400] dus dat je gewoon zegt
+[00:45:07.400 -> 00:45:09.940] dit maatwerk om het aansluiten
+[00:45:09.940 -> 00:45:11.300] dat betaal je gewoon voor per uur
+[00:45:11.300 -> 00:45:13.600] en dan betaal je ook nog het abonnement voor gebruik
+[00:45:16.260 -> 00:45:20.780] Ja, je kan toch gewoon zeggen een eenmalige onboarding van 1000 euro en is 50 euro per medewerker per maand.
+[00:45:21.040 -> 00:45:22.380] Doe maar gewoon lekker subscription fees.
+[00:45:22.760 -> 00:45:24.040] Dat kan ik ook maandelijks factureren.
+[00:45:24.960 -> 00:45:28.020] Als jij weer 100 gebruikers hebt per maand, is er 5000 euro.
+[00:45:28.980 -> 00:45:37.120] Wat het mooie is van subscriptions, als je dat altijd lukt, dan weet je gewoon, oké, we hebben gewoon zoveel geld.
+[00:45:37.580 -> 00:45:37.980] Altijd.
+[00:45:38.940 -> 00:45:39.840] Dus er komt gewoon zoveel binnen.
+[00:45:40.340 -> 00:45:42.520] Als jij 100 gebruikers hebt per 50.
+[00:45:43.320 -> 00:45:43.520] Ja.
+[00:45:43.520 -> 00:45:49.020] Dan weet je gewoon dat je 5.000 maand hebt.
+[00:45:49.020 -> 00:45:50.020] Precies.
+[00:45:50.020 -> 00:45:52.020] Dat is wel lekker.
+[00:45:52.020 -> 00:45:54.020] Als je er 10.000 hebt.
+[00:45:54.020 -> 00:45:58.020] En dat gaat enigszins snel.
+[00:45:58.020 -> 00:46:01.020] Je kan niet van 100 naar 10.000.
+[00:46:01.020 -> 00:46:03.020] Dat is een beetje een liefde.
+[00:46:03.020 -> 00:46:04.020] Dat je 100 gebruikt hebt.
+[00:46:04.020 -> 00:46:06.020] Dat je 10.000 hebt.
+[00:46:06.020 -> 00:46:07.020] Dat het dan prima schaalt.
+[00:46:07.020 -> 00:46:08.020] Het schaalt wel goed.
+[00:46:08.020 -> 00:46:10.020] Maar dat moet natuurlijk wel een extra.
+[00:46:10.020 -> 00:46:13.940] Ja, maar zo zijn we toch ook allemaal begonnen met Netflix en weet ik het wat.
+[00:46:14.240 -> 00:46:16.300] Aan het begin is het allemaal onleuk en betaal je 6 euro.
+[00:46:16.580 -> 00:46:19.720] En tien jaar later is het gewoon 30 euro per maand.
+[00:46:19.820 -> 00:46:20.700] Dan ben je gewoon het haasje.
+[00:46:20.800 -> 00:46:21.540] Je kan niet meer zonder.
+[00:46:21.800 -> 00:46:22.560] Je kan je niet meer zonder.
+[00:46:22.800 -> 00:46:24.460] Dus dat is ook onze hele instelling.
+[00:46:24.540 -> 00:46:25.460] Dat heb je toen ook goed gezegd.
+[00:46:25.540 -> 00:46:28.600] Het moet allemaal perfect worden en testen en goedkoop.
+[00:46:28.600 -> 00:46:31.160] Maar je wil gewoon over tien jaar dat iedereen er gewoon aan vast zit.
+[00:46:31.240 -> 00:46:32.100] En niet meer zonder mee kan.
+[00:46:32.200 -> 00:46:33.560] En dan ga je gewoon je prijzen verhogen.
+[00:46:34.640 -> 00:46:34.740] Ja.
+[00:46:35.340 -> 00:46:36.640] Want ja, dan kunnen ze gewoon niet meer zonder.
+[00:46:36.760 -> 00:46:37.780] Er is een ATS gekoppeld.
+[00:46:37.880 -> 00:46:39.080] De recruiters gebruiken het.
+[00:46:39.080 -> 00:46:40.440] Het is een te goed systeem.
+[00:46:41.220 -> 00:46:42.500] Dan wil je ook niet meer terug.
+[00:46:43.140 -> 00:46:44.840] En jullie werving werkt er heel goed mee.
+[00:46:45.080 -> 00:46:46.800] Dus het is die combinatie, denk ik.
+[00:46:47.440 -> 00:46:47.540] Ja.
+[00:46:49.940 -> 00:46:52.280] Want er gaan ook concurrenten zijn met het ATS-systeem.
+[00:46:52.400 -> 00:46:53.560] Iedereen heeft een ATS-systeem.
+[00:46:53.640 -> 00:46:54.760] En één gaat het beter dan de ander.
+[00:46:55.480 -> 00:46:59.120] Maar het is dat jullie er ook gewoon kandidaten al voor mensen intumpen.
+[00:47:00.260 -> 00:47:02.740] Maar jij kan het ook inzichtelijk maken.
+[00:47:02.880 -> 00:47:06.760] Zo'n ATS-systeem die wij hebben, dat kost je normaal gesproken 15.000 euro.
+[00:47:06.760 -> 00:47:12.580] En jij kan het voor 100 euro per maand gratis gebruik van maken, zodat je klant bent.
+[00:47:12.580 -> 00:47:17.920] Ja, en er is een onboard, er is een training voor je personeel, er is een aansluiting met
+[00:47:17.920 -> 00:47:18.920] je systeem.
+[00:47:18.920 -> 00:47:23.340] Hij wordt al gevuld, weet je wel, want je doet een ontwerving.
+[00:47:23.340 -> 00:47:29.000] Dus alle dingen waar al deze projecten op stuk lopen, die verzorgen wij.
+[00:47:29.000 -> 00:47:35.160] En je kan zelfs zeggen, je kan een jaar license kopen voor 1500, maar daar moeten wij een keer
+[00:47:35.160 -> 00:47:37.180] voor zitten ook met Sander. Dat is gewoon een goede
+[00:47:37.180 -> 00:47:38.680] back-end. Het hoeft niet gelijk,
+[00:47:39.180 -> 00:47:41.180] maar je kan wel zeggen, ik ga die klant ontwikkelen. Dus na
+[00:47:41.180 -> 00:47:43.100] drie maanden komt er een gesprek op kantoor en dan
+[00:47:43.100 -> 00:47:44.700] gaan we dit allemaal laten zien en aanbieden.
+[00:47:45.360 -> 00:47:46.680] Ja. Ja, dank je wel.
+[00:47:47.780 -> 00:47:48.960] Oké, ik weet denk ik genoeg.
+[00:47:49.080 -> 00:47:51.020] Ik heb wel veel tijd nodig, denk ik, om het goed
+[00:47:51.020 -> 00:47:53.240] uit te werken. Het maakt niet uit, want de site
+[00:47:53.240 -> 00:47:55.220] is helemaal niet klaar. Dat is ook allemaal uitgesteld.
+[00:47:56.360 -> 00:47:57.340] Maar wat ik doe is,
+[00:47:57.760 -> 00:47:59.220] ik zet het, en misschien gaat het wel
+[00:47:59.220 -> 00:48:00.860] snel, want ik kan met AI veel doen, want
+[00:48:00.860 -> 00:48:02.400] ik heb het gesprek opgenomen.
+[00:48:02.940 -> 00:48:05.140] Ik zet het om naar, zeg maar, wat zijn alle requirements?
+[00:48:05.160 -> 00:48:11.460] die we hebben besproken. Dan neem ik die door en dan gooi ik het weer in dit systeem. Dit is een soort
+[00:48:11.460 -> 00:48:19.140] van AI design ding zeg maar. Die maakt dan de eerste schermen. En dat hoeft niet te zijn in de
+[00:48:19.140 -> 00:48:24.000] stijl die wij willen, maar dan weten we wel van oké, zit alles erin, is het goed zo, kunnen we het
+[00:48:24.000 -> 00:48:31.620] gesprek voeren en dan kunnen we zo verder itereren. En als dan af is, dan ga ik naar het team ook en
+[00:48:31.620 -> 00:48:35.380] En dan zeg ik van oké, hoeveel kunnen jullie het maken en welke volgorde.
+[00:48:36.440 -> 00:48:44.160] Dus het hele designproces is eigenlijk ook niet het langste, maar dat is ook gewoon een proces waar we nog even doorheen moeten.
+[00:48:44.300 -> 00:48:45.280] We gaan niet meteen nu beginnen.
+[00:48:46.340 -> 00:48:49.260] Nee, maar ons brandboek is nog niet eens af.
+[00:48:50.160 -> 00:48:53.060] Ja, dus je hebt UX en UI.
+[00:48:53.060 -> 00:48:55.680] En UX is een beetje gewoon van oké, welke knoppen zijn er überhaupt?
+[00:48:57.440 -> 00:48:59.400] Wat zie je? Welke knoppen zijn er?
+[00:48:59.400 -> 00:49:01.840] Waar staat het ongeveer in het scherm?
+[00:49:01.840 -> 00:49:06.900] En dat staat eigenlijk nog los van het branddesign wat er ook nog bij komt.
+[00:49:06.900 -> 00:49:11.840] Maar ik denk dat bijvoorbeeld hoe dit eruit ziet, dat is eigenlijk prima.
+[00:49:11.840 -> 00:49:14.280] Geef het een job scene kleurtje.
+[00:49:14.280 -> 00:49:17.840] En ik denk dat je dan echt even een keer met Sander moet gaan sparren.
+[00:49:17.840 -> 00:49:19.840] Want hij komt letterlijk hier vandaan.
+[00:49:19.840 -> 00:49:24.160] Dit is wel een beetje Sanderse afdeling van welk knop je wil qua en wat moet wat kunnen.
+[00:49:24.160 -> 00:49:27.360] Daar gaat hij waarschijnlijk helemaal induiken.
+[00:49:27.360 -> 00:49:29.820] want ik wil dat daar hebben, dit knopje hier.
+[00:49:31.260 -> 00:49:31.880] Ja, ja, zeker.
+[00:49:32.000 -> 00:49:32.760] Dat doen wij ook.
+[00:49:33.220 -> 00:49:35.720] Waarom? Dus ja, dat laat ik wel aan jullie over.
+[00:49:36.700 -> 00:49:38.200] Het moet er ook wel sexy uitzien.
+[00:49:38.940 -> 00:49:40.140] Zo echt een beetje die Apple-gedachte.
+[00:49:41.140 -> 00:49:42.240] Want het is moeilijk,
+[00:49:42.340 -> 00:49:43.840] maar wij maken het gewoon makkelijk voor jou.
+[00:49:43.960 -> 00:49:45.040] Dus kom maar gewoon op woorden.
+[00:49:45.520 -> 00:49:47.420] Je hoeft een paar dingen te doen, wij doen de rest.
+[00:49:48.120 -> 00:49:49.560] Dat heeft meer te maken met
+[00:49:49.560 -> 00:49:54.460] de essentie kennen van wat er gedaan moet worden
+[00:49:54.460 -> 00:49:55.700] dan dat het er sexy uitziet.
+[00:49:55.700 -> 00:49:59.040] Nee, maar daarom moeten wij heel veel gesprekken voeren.
+[00:49:59.120 -> 00:49:59.840] Wat klanten vragen.
+[00:49:59.940 -> 00:50:00.380] Wat ze willen.
+[00:50:00.500 -> 00:50:01.200] Wat ze nodig hebben.
+[00:50:01.320 -> 00:50:04.060] En dat moet vertaald worden naar een platformachtig idee.
+[00:50:04.760 -> 00:50:05.340] Ja, naar zo'n...
+[00:50:05.340 -> 00:50:07.420] Wij gaan gewoon drie klanten benaderen.
+[00:50:07.540 -> 00:50:08.080] Vaste klanten.
+[00:50:08.220 -> 00:50:09.940] Om gewoon een demo te starten ook hoor.
+[00:50:11.280 -> 00:50:12.840] Ja, ik voel er best wel wat voor.
+[00:50:12.920 -> 00:50:16.080] Om gewoon die Apple filosofie op ATS toe te passen.
+[00:50:16.700 -> 00:50:18.560] Want je weet gewoon dat het nu niet zo is.
+[00:50:19.080 -> 00:50:20.040] Zeg maar, je weet gewoon...
+[00:50:20.040 -> 00:50:20.460] Mooi toch?
+[00:50:21.420 -> 00:50:22.480] Weet je wel, Hupzot ook hè.
+[00:50:22.520 -> 00:50:23.740] Hupzot is een prima systeem.
+[00:50:23.740 -> 00:50:28.300] Maar je kookt gewoon abonnement en je moet altijd nog zelf inrichten.
+[00:50:28.300 -> 00:50:31.060] Ja, je snapt er gewoon geen reet van.
+[00:50:31.060 -> 00:50:34.980] Ja, en dan heb je iemand zoals mij nodig die het allemaal voor je kan doen.
+[00:50:34.980 -> 00:50:36.100] Nou, daarom is het perfect met jou helemaal.
+[00:50:36.100 -> 00:50:38.180] Jij kan hier helemaal losgaan, alles bouwen.
+[00:50:38.180 -> 00:50:41.740] Jij mag het gewoon helemaal neerzetten.
+[00:50:41.740 -> 00:50:46.780] Ja, dus als wij dan gewoon zeggen van dat gaan we dus niet doen.
+[00:50:46.780 -> 00:50:49.060] Wij gaan gewoon zeggen van oké, het is gewoon één ding.
+[00:50:49.060 -> 00:50:50.060] Dit is gewoon hoe het werkt.
+[00:50:50.060 -> 00:50:52.060] En het werkt gewoon heel goed.
+[00:50:52.060 -> 00:50:58.060] Eerst moest je iedereen bed en nummers zoeken en nu open je thuisbezorgd, staan alle restaurants onder je.
+[00:50:58.060 -> 00:51:00.060] En je kan gewoon bestellen en je bent klaar.
+[00:51:00.060 -> 00:51:08.060] Sluit het aan op Indeed en dan koppel je lekker met Indeed en dan gaan we langzaam Indeed overnemen.
+[00:51:08.060 -> 00:51:14.060] Zeker. Maar wat zij zegt, zonder niks zeggen altijd, wat je met fintech had.
+[00:51:14.060 -> 00:51:18.060] Je wil gewoon door worden gelinkt. Als je betaalt op een site ga je altijd door naar Ideal.
+[00:51:18.060 -> 00:51:23.540] Als jij een kandidaat hebt en jij kan Jobstream aanschaffen, gaat die kandidaat gewoon letterlijk door Jobstream heen?
+[00:51:23.540 -> 00:51:28.860] Ja, ja. Ja en wie is tics en weet je wel?
+[00:51:28.860 -> 00:51:34.660] Top, super bedankt Jeroen. Ben jij morgen ook al bij De Hulten?
+[00:51:34.660 -> 00:51:36.860] Nee, morgen nog niet.
+[00:51:36.860 -> 00:51:40.460] Ik zit morgen bij De Hulten en Maxine Social Media.
+[00:51:40.460 -> 00:51:45.340] Oja, ik kan eventueel wel lang komen, maar ik denk dat ik pas donderdag ben.
+[00:51:45.340 -> 00:51:46.100] Ja prima.
+[00:51:47.060 -> 00:51:48.900] Want er zit al genoeg Hilton.
+[00:51:50.280 -> 00:51:52.920] Ik ga Max even dronken boeren.
+[00:51:53.400 -> 00:51:53.580] Oh nee.
+[00:51:55.980 -> 00:51:56.540] Succes ermee.
+[00:51:56.660 -> 00:51:57.780] Dat gaat niet lukken denk ik.
+[00:51:58.900 -> 00:51:59.320] Doe je best.
+[00:51:59.580 -> 00:52:01.660] Ik heb jou trouwens ook nog de cyber dingen doorgestuurd.
+[00:52:01.760 -> 00:52:02.480] De cyber security.
+[00:52:03.800 -> 00:52:05.760] Kunnen wij dat ook nog even samen doornemen?
+[00:52:07.440 -> 00:52:08.080] Ja is goed.
+[00:52:08.180 -> 00:52:09.200] Ik heb er nog niet naar gekeken.
+[00:52:09.440 -> 00:52:09.940] Ik ook niet.
+[00:52:11.260 -> 00:52:12.000] Dankjewel Roos.
+[00:52:12.800 -> 00:52:13.480] Ja is goed.
+[00:52:13.480 -> 00:52:14.480] Eén dank, bedankt.
+[00:52:14.480 -> 00:52:16.980] Wil je volgende week een afspraak voor inplannen?
+[00:52:16.980 -> 00:52:18.980] Ja, is goed. Doe maar.
+[00:52:18.980 -> 00:52:20.980] Dinsdag 23 ofzo?
+[00:52:20.980 -> 00:52:22.980] Ja.
+[00:52:22.980 -> 00:52:24.980] Schiet maar eens in rond deze tijd.
+[00:52:24.980 -> 00:52:25.980] 2 uur.
+[00:52:34.980 -> 00:52:37.980] Mag gewoon Jeroen uit Jobsteam zijn toch?
+[00:52:37.980 -> 00:52:40.980] Ja.
+[00:52:40.980 -> 00:52:44.980] Je kijkt als het goed is ook wel binnen hier.
+[00:52:44.980 -> 00:52:50.980] Alleen soms dan moet ik even kijken of ik hem goed binnen krijg, maar volgens mij zie ik het niet gewoon.
+[00:52:54.980 -> 00:52:56.980] Top, super bedankt Jeroen.
+[00:52:56.980 -> 00:53:00.980] Yes, top. Even bedankt en fijne middag.
+[00:53:00.980 -> 00:53:02.980] Jij ook man, Werks. Dankjewel.
+[00:53:02.980 -> 00:53:04.980] Yes, zelden.
