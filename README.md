@@ -2,6 +2,8 @@
 
 This repository captures the discovery, requirements, and architecture for Jobstream's customer-facing recruitment portal.
 
+Published requirements repository: [jeroenvermunt/jobstream-portal-requirements](https://github.com/jeroenvermunt/jobstream-portal-requirements). The immutable engineering handover is tagged [`handover-HB-2026-08-31`](https://github.com/jeroenvermunt/jobstream-portal-requirements/tree/handover-HB-2026-08-31).
+
 ## Project Context
 
 **Goal:** Deliver a secure, easy-to-use portal where customer recruiters can work with candidates supplied by Jobstream, progress them through a customer-side recruitment pipeline, and record what follow-up occurred.

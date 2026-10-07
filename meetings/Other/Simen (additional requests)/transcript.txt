@@ -1,0 +1,300 @@
+# Participants
+
+## Jobstream
+- Sonnie van den Berg
+- Jeroen Vermunt
+
+## Contact
+- Simen
+
+---
+
+# Transcript
+
+**Jeroen Vermunt** (0:00): in die zin een stuk goedkoper is eh om ermee te beginnen, want er zijn geen zeg maar implementatiekosten ook.
+**Simen** (0:00): Oké.
+**Jeroen Vermunt** (0:08): Ehm dus het dit komt je komt hier binnen aan sollicitanten die zomaar worden aangeleverd. Nou, daar hebben we een proces van gemaakt. Eh misschien kan je het zo ook weten.
+**Simen** (0:15): Ik kan ik kan het niet heel goed zien. Dus eh ik moet eigenlijk kijken kan ik dit groter krijgen. Ik weet normaal niet met Google. Wacht even.
+**Sonnie van den Berg** (0:23): Mhm. Mhm.
+**Simen** (0:24): Probeer even een nieuw venster te doen.
+**Simen** (0:27): Wacht even jongens.
+**Sonnie van den Berg** (0:29): Mhm.
+**Simen** (0:31): Ja, ik heb hem nu Ik zie jullie niet meer, maar ik heb hem wel even een ander venster.
+**Jeroen Vermunt** (0:35): Ja.
+**Simen** (0:38): Oké.
+**Jeroen Vermunt** (0:41): Ehm zie je het nu wel?
+**Simen** (0:42): Ja.
+**Jeroen Vermunt** (0:43): Ja, dit is eigenlijk hier de dit is zeg maar de ja, de dat soort van verschillende fases kan zien. Dus wij zeggen oké, we hebben leverancier iemand aangeklaagd voor contact. Nou, je moet contact opgelegd worden. Daar vindt een gesprek plaats en dan ga je uiteindelijk uit naar zeg maar het dus aangenomen of niet zeg maar.
+**Simen** (0:59): Hmn.
+**Jeroen Vermunt** (1:00): En ehm eigenlijk zo is het zeg maar ingericht dat dat wij het dan
+**Simen** (1:04): Hmn.
+**Jeroen Vermunt** (1:05): eh wanneer wij zeggen wij doen eigenlijk het voorproces. Wij beoordelen of iemand zelf niet geschikt is en dan dan pas komt het zeg maar hier in te staan om ook zeg maar de overdracht te doen die ook GDPR ook compliant is. Dus zeg maar we kunnen eh ja, we hebben met die samen samen gezeten dat zeg maar hoe kunnen wij ook zeg maar juridisch
+**Sonnie van den Berg** (1:12): Mhm.
+**Jeroen Vermunt** (1:26): AVG proof eh de kandidaten aanleveren? Nou, dat is nog best wel complex, omdat wij eerst natuurlijk de data hebben en die daarna overdragen. Daarom helpt dit ook bij. Ehm dus dit is eigenlijk de manier van informatieoverdracht. Ehm waar je op Nou, je kunt erop klikken, dan kun je ook het proces zien van eh oké
+**Jeroen Vermunt** (1:49): wat wat voor persoon is dit? Welke activiteit is er is er geweest? is en dan kan je ermee doorgaan. En dat is eigenlijk het het punt ook dat we zeggen: "Oké, nu neem een contract op en ga je zeg maar verder met deze kandidaat." Ehm, dat heeft dan wat meerdere elementen ook, dus je kunt zien je kunt ook samenwerken. Dus nou, heb je ga je door met die kandidaat, dan kun je zien ehm ja, de contactgegevens natuurlijk over welke factuur het gaat, maar je kunt hier ook samenwerken met teamgenoten en door middel van zeg maar een een hapenstaartje kan ik zeg maar iemand tegen en dan kan ik zeg maar een comment achterlaten. En op die manier heb je eigenlijk één plek waar je al al je notities zet eh waar de informatie van de kandidaat is vastgelegd en waar je ook alle activiteiten kan zien die er heeft plaatsgevonden. En het is ook niet meer dan dat. Dus het is vooral gefocust op welke activiteiten is er geweest, eh welke notities zijn er en welke relevante sollicitatie informatie is er. Eh heel erg gekaderd naar die dingen en ook niet door jou We willen eigenlijk daar aan zo min mogelijk dingen toevoegen en vandaar dat we het zo eh dat al die dingen erin inzitten en niet meer.
+**Simen** (3:00): Oké.
+**Jeroen Vermunt** (3:00): Ehm en wat uiteindelijk ehm ook daarin is dat dus je een overzicht hebt van oké, we hebben er zoveel zijn aangeleverd, daarvan zijn er zoveel aangekomen of niet. Ehm wij denken dat zeg maar snelheid van opvolging heel belangrijk is ehm voor voor de eerste opvolging vooral, dus we houden ook bij binnen 24 uur zijn er zes opgevolgd. Nou, de zoiets ja, sommige duurde wat langer. Op die manier heb je ook controle over ehm ja, hoeveel recruiters heb je? Eh, hoe snel reageren jouw recruiters? En kan je ook verschillende recruiters eh toevoegen die je ook zeg maar kunt ondersteunen met je opvolging.
+**Simen** (3:40): Hey, ik kan ik kan kritisch
+**Jeroen Vermunt** (3:41): Dus dat is eigenlijk heel snel
+**Simen** (3:42): zijn tussendoor. Kan ik kritisch zijn al tussendoor, want
+**Simen** (3:46): dit is niet hoe ik een ATS wil inregelen. Als je begrijpt wat ik bedoel. Ik ehm ik kijk er totaal anders naar.
+**Jeroen Vermunt** (3:51): Ja.
+**Simen** (3:51): Ehm.
+**Sonnie van den Berg** (3:53): 70 72 73
+**Simen** (3:54): Dit is voor mij heel erg commercieel ingezet.
+**Simen** (3:56): Met andere woorden van uitzendbureau kan dit Dat is leuk zijn. Is niet voor een corporate omgeving
+**Jeroen Vermunt** (3:59): Ja.
+**Simen** (4:00): waar je een aantal vacatures hebt vanuit waar waar je vanuit een vacature flow approve flow in gaat zetten, geautomatiseerd.
+**Jeroen Vermunt** (4:00): Ja.
+**Sonnie van den Berg** (4:05): 92 95 96 97
+**Simen** (4:06): En dan op basis van je openstaande vacatures uiteindelijk ook gekoppeld aan een HR qua qua poppetje qua headcount. Ja, dat zie ik allemaal niet terug. En dat dat moet ik ook eerlijk zeggen, dat zie ik ook niet gebeuren met een systeem zoals wat jullie leveren.
+**Sonnie van den Berg** (4:08): 98 99 100
+**Jeroen Vermunt** (4:19): Ja.
+**Simen** (4:19): Dit wat ik nu zie, dat doen meerdere partijen, hè, eh niet allemaal met jullie front end. Daar ben ik heel eerlijk in, hè. Wat ik net zei, er zijn ook partijen in Nederland die doen het allemaal mee op werkzoekende in deed, LinkedIn et cetera. En dan doen ze een matching tool, et cetera. Dus die stappen en zo dat kan ik begrijpen vanuit de sollicitant. Wat voor mij veel cruciaal is is vanuit de vacatureoverzicht, het overzicht met welke vacatures heb je per recruiter. Wat speelt er, welke status hebben ze? Lost al, daar zit ook een kandidatenflow aan met de kandidatenstatus. En dan moet je vanuit die dashboard in kunnen komen, maar ook vanuit de kandidaten dashboard zoals je nu laat zien. En voor mij gaat het ook veel meer om de koppeling straks aan de aan de HRS eh te doen via API om ze toch te kunnen ontboorden. Dat is dat is waar de toekomst in zit. En dat zie ik hier allemaal niet in terug op dit moment. Dus dit is heel erg op commercie van hoe snel neem ik contact op. Dat is van uitzendbureau zeer cruciaal. Maar mij geen flikker uit hè. Tuurlijk probeer ik zo snel mogelijk met 250 architecten heb ik geen inzicht of mijn collega in België binnen 24 uur reageert. Dus ik kan er heel veel SLA's aan hangen, maar dat is niet waar mijn prioriteit nu zit. Voor mij zijn de prioriteiten veel meer naar 1% op Europa, één praktisch systeem waar je een approve flow in kunt bouwen. Daaraan zijn we nu openstaan voor architecten. Dat je van nou daar gaat pushen in je job marketing en zo kan je later weer GDPR compliant in jouw systeem komen. en ze dan gaat ontborden. In Nederland koppeling naar APAFAS. Internationaal ligt eraan. Kan manueel zijn, kan ook in het systeem zijn. Dat is veel meer waar ik naar naartoe wil nu in plaats van wat ik hier zie, als ik heel eerlijk ben.
+**Jeroen Vermunt** (4:41): Ja.
+**Jeroen Vermunt** (5:42): Ja, ja nee super super waardevol eh ja dan je zegt eigenlijk liever zeg maar praktijk centraal en opvolging in
+**Simen** (5:49): Ja.
+**Simen** (5:51): Ja, ik ik ik denk
+**Simen** (5:54): zijn ook meerdere recruitment systemen die vanuit de commerciële hoek hè. Ik heb CareerX ingericht voor eh voor Joden in Nederland. Is heel erg commercieel. Daar kun je heel erg je goed je flow op funnels op basis van je SLA's inrichten. Dat is voor mij vanuit de corporate organisatie veel minder interessant. Als ik dan een tip mag geven, ga meer voor de MKB's voor te gebruiken aan deze kant te kijken naar de recruities van deze wereld of de Mr. Tels en hoe jullie het proces in willen regelen. Misschien kun je daar een demo van krijgen.
+**Jeroen Vermunt** (6:19): Ja.
+**Simen** (6:19): Dan kun je ook beter zien wat wat missen we nu. Kijk, ik vind even los van de AI ontwikkeling hè, daar wil ik het even nog niet te zeer over hebben. Voor mij is juist die stabiele basis in het proces, uniformiteit, approve en flow, zodat het geaccedeerd wordt op de juiste manier. overzicht van culturen, zeg maar, data. Daaruit extraheren is voor mij veel belangrijk vanuit een vanuit de corporate omgeving. Dat wat je nu ziet op je kandidaten en je true boot hè, hoe snel heb ik gereageerd? Dat maakt mij eigenlijk op dit moment niet zoveel uit. Hè, ik zit gewoon met een probleem en daarom heb ik jullie ook om een funnel en kandidaten te creëren soms. Hè, LinkedIn werkt goed voor ons Europees niveau, maar Nederland weet wel, we hebben een KUT markt, daar hebben we jullie hard voor nodig als we eigenlijk een keer eh een keer dit te fan hebben hè. Dus ik heb ik heb veel meer behoefte aan wat jullie bieden voor mij in
+**Simen** (7:03): visibility uit uit source van de marketing en jullie komen met de goede kandidaten en dan pak ik het wel in mijn proces op voor nu, dan dat ik nu naar een ATS moet gaan kijken, want dat stukje wat ik nu heb heb ik in de ATS al ingeregeld, alleen dat is niet waar ik naartoe wil hè, op het Europese niveau. Dus ik snap wat jullie willen doen. Ik snap ook zeker wat jullie zeggen vanuit een MKB ondersteuning ATS kan een toevoeging waarde zijn als je ook de groep met marketing in de voorselectie, maar dan zou ik het wel ook op die manier altijd meer inregelen van twee sollicitanten maar ook vacatures. Vanuit de vacatureflow ook naar de sollicitanten kunnen doorklikken. Hè, en en dat je daar in de stroom gaat bewaken met ehm eh ehm open for recruitment review eh ehm First screening eh eh first interview, second interview, offer pending. Snap je een beetje wat ik bedoel? Dat is eigenlijk hoe alle grote clubs waar ik gewerkt heb hun ATS met name corporate inregelen. Ook een beetje bij Carrix. Alleen daar hadden we wel ook strakker ingezet op de inderdaad het throughput SLA's. Hoeveel man zijn er binnen het 24 gecontacteerd? Die zijn niet gecontacteerd. Siemens wordt die mensen die die eh mensen na gaan bellen. Dus er zit een beetje een gedachte achter van ja, wil je het voor de commercie inregelen of wil je het voor de corporate omgeving inregelen als ATS? Waarbij je ook ook goed naar nadenken, denk ik, deze over. Ehm,
+**Simen** (8:18): de clubs van 5.000 man moeten eigenlijk naar geprofessionaliseerd eh HRIS/ATS
+**Simen** (8:23): gaan kijken of een koppeling, hè, dat je later naar je ATS gaat koppelen aan een HRS. Dan moet je eigenlijk steeds met een tool als je groter wordt. En dan wordt juist die API connectie van buitenaf heel belangrijk ook ten aan zien wil je onboarding. Hè, ook die eh die connectie vanuit die ehm ehm vanuit ATS van job marketing via een bepaalde tool doen. Hè, er zijn genoeg van die partijen die bieden dat aan. Dan kun je alles kan alles die kopen er ook van je in op Europees niveau. En die jobboards opzetten. Dat dat is een beetje hoe ik het gewend ben. Dus dat dat mis ik wel hier heel erg in wat ik nu tenminste tot nu toe zag hè. Ik weet niet of er nog andere eh layouts zijn vanuit het vacatureniveau. Dit is heel erg vanuit het kandidaat niveau wat ik zag toch? Of niet?
+**Jeroen Vermunt** (9:01): Ja, wat wat we willen doen en daarin
+**Jeroen Vermunt** (9:05): kijk ja willen juist niet teveel zeg maar eh opties aanbieden, want dan dan verliezen wij controle over hoe het proces werkt
+**Simen** (9:10): Dat dat
+**Simen** (9:14): snap ik.
+**Jeroen Vermunt** (9:14): en eh
+**Simen** (9:14): Maar dan ben ik wel even eerlijk met jullie.
+**Jeroen Vermunt** (9:16): Ja.
+**Simen** (9:17): Ehm
+**Simen** (9:19): dat er meerdere partijen natuurlijk bij mij aankloppen hè. En dan zeg ik: "Ja, sorry, ik heb mijn partner." Maar ik luister wel af en toe naar dingen dat ik ik denk: hm, dat moet ik even aanhoren. En dan moet ik kijken naar een aantal partijen en ik weet even niet alle namen, maar die zijn allemaal dit hetzelfde aan het doen op de achtergrond, dat is wat jullie aan het doen zijn. En soms zelfs al wat stappen verder zelfs met AI, ook in de matching tool en hoe je zelf je semantische zoekdracht opdracht kunt doen op die basis. Hè, want dat gaat op basis van de database in in deed ehm werkzoeken.nl et cetera. Dus ja, even een open eerlijk antwoord. Ehm, ik zou hier niet op staan te wachten nu.
+**Simen** (9:53): Kan best zijn dat kleine partijen daar wel meer op staan te wachten, maar dan moet je heel goed gaan navragen bij je klantportfolio. Als je dat in wil rechten, is het dan meer vanuit de controle op wat voor factures heb ik, de data en wat voor flow en daarin je proces of moet het uit vanuit de kandidaat gedachte zijn? Wat voor mij meer commercieel is geweest toen ik naar uitzendbranche zat of vanuit Joop eh eh moest werken met mijn 12 recruiters. Ging dat veel meer op SLA's. En dat vind ik nu voor de organisatie waar staan vind ik de invloed via jullie. Dat kan dat kandidatenrecht veel belangrijker dan ik moet vanuit de kandidaten met het proces gaan werken. Dat dat is echt niet hoe ik het doe. Dat doe ik nu met mijn collega ook niet trouwens. Hè, ik doe echt alles vanuit de basis vacatures. Dat is gekoppeld aan de eh het het CMS. Daar komen allemaal in Avast binnen ook met sollicitanten tenzij ze op een andere manier binnenkomen. In Europa doe ik alles voor werken in een SharePoint omgeving die in een performance dashboard is gezet omdat ik daar geen ATS heb. Dus dat is heel erg data gedreven waarom ik dat zo in heb geregeld op KPI's zoals time to fill, eh ehm eh agency hires, eh LinkedIn hires, et cetera. Dat is een beetje hoe ik het in heb geregeld.
+**Jeroen Vermunt** (10:55): Ja.
+**Jeroen Vermunt** (10:56): Ja, helder. Ja, dus de ik denk dat op zo niet dit dit is zeg maar een kleine stap zeg maar naar iets groters. Dus eh later later
+**Simen** (11:03): Ik zou wel goed denken waar willen jullie het dan inzetten.
+**Jeroen Vermunt** (11:06): Ja.
+**Simen** (11:07): Want de de andere partijen die ik dan gesproken heb, bijvoorbeeld de Robin of zo van deze wereld, die werken met best wel veel uitgezonderd. Ja, daar staat het heel handig voor als je je funnel zo inregelt. Niet zo vaak voor de corporate partijen. Dus ik weet niet waar jullie klantenbehoefte aan hebben. Ik zou dat zeker wat jullie nu bij mij doen echt even goed gaan checken. Als je een paar experts in recruitment field hoe ze daar behoefte aan hebben en hoe zouden ze het ingericht willen zien? Ik ben het wel met je eens. als de kleinere clubs, dan heb ik het wel echt over kleinere clubs, want eerlijk gezegd, ik vind dat wij met drie eh 2500 man al eigenlijk professioneel hadden moeten zijn op Europa qua ATS. Ik weet dat mijn con-collega's best wel veel ook al naar de recruties enzo aan het gaan zijn, hè. Ehm ehm dus ja, ik zal wel even heel goed gaan uitzoeken van gaan we wel de goede richting in of verzinnen wij dadelijk iets wat dadelijk niet aansluit bij de bij eh wat jullie willen verkopen.
+**Sonnie van den Berg** (11:13): Ja.
+**Jeroen Vermunt** (11:56): Ja.
+**Simen** (11:56): En dat is ja.
+**Jeroen Vermunt** (11:56): Maar zou het voor jullie misschien beter zijn als het niet dit is, maar ik heb een directe koppeling met eh aanvaarding via de A die dat niet op die manier aanleveren of Ja.
+**Simen** (12:06): Want ik wil van afval afval ATS.
+**Simen** (12:08): Met andere woorden, ik ga naar een ATS implementatie toe. Ik ben bezig met mijn mijn road map daarin. En ik ben heel leeg. Daar moet ik wel kijken naar wat past bij een corporate omgeving dat mijn proeven flow goed in kan regelen. IT is dus ook heel belangrijk. Hoe is het allemaal iets gecertificeerd IT technisch en te koppelen. Hè, daar komt een hele belangrijke factor bij de organisatie zoals ons om. Dat ik geaccedeerd van dus een goede overzicht heb en dat ik daar ook de throughput op kan doormeten. Hè, hoeveel dagen staat het open? Waarom Hoeveel staan er op offerpending? Waar ehm wat is niet proeft. Dat dat zou ik veel meer op Europees niveau moeten gaan sturen dan op kandidaat niveau als ik heel eerlijk ben.
+**Sonnie van den Berg** (12:18): Ja.
+**Simen** (12:45): En ik ja, ik heb liever meer kandidaten en dat ik het algemeen afwijzen doe in één systeem. Dat doen we nu ook hè, alles buiten de EU dat gaat nog niet geautomatiseerd, maar bij mijn vorige bedrijf moet je je voorstellen bij Connexa of iSIMS of eh Workday. Ja, dan had ik gewoon soms wel 200 mensen op de vacature. Dat is heel snel bam bam bam afwerken, want je hebt 50 vacatures, dus je gaat heel erg vanuit vacatureniveau acteren. Is hier wat minder, omdat we minder breed en minder volume hebben en dat is ook positief. Maar ik zou niet nou zien zitten, want het API connectie zou ook moeten zijn niet voor hier alleen AVAST.
+**Simen** (13:20): Het zou ook moeten zijn van ja, misschien hebben we wel eh people soft in UK. Dan moet ik daar ook een koppeling mee gaan maken. Dus daar moet ik veel meer over nadenken qua scalability.
+**Simen** (13:29): En dan ben ik heel erg een recruit op Mister Taler. Zijn er natuurlijk super ver in. Als je kijkt naar de organisatie van onze grote ten opzicht van de items die zijn onbetaalde of Workday hè. Workday zou maar €600.000 kosten als ik het full flesje in wil richten qua HS en ATS. Dat kan niet in deze organisatie. Dus ja, ik denk dat er wel
+**Simen** (13:47): interesse zou zitten in de markt. Maar
+**Simen** (13:51): Ik zie heel veel ontwikkelingen op dit front. Ik zie ook dat Bright bijvoorbeeld in Hubspot ook een ATS heeft gebouwd, terwijl het eigenlijk heel erg CRM gericht is hè. En een Hubspot zou ik dus ook kunnen ombouwen, terwijl ik ik moet in de ERP Enterprise Architectuur moet ik met Hubspot werken. Dus ja, ik zou ook die die weg in kunnen gaan. Dat zou het makkelijker maken qua roadmap voor mij, maar dat is niet waar ik naartoe wil. Ik wil een full flash professioneel programma die vooroploopt in de markt, waar ik ook mee ga met alle automatische updates en dat ik veel met mijn flow kan beïnvloeden op het Wat staat er op open, finance meer approvals heeft. Hey, jongens, het gaat nu wat slechter. We gaan die vacatures er niet doorheen ketsen. Dat systeem moet veel beter ingeregeld worden bij ons even los van het 4G compliance stuk.
+**Sonnie van den Berg** (14:31): Ik vind wel heel goed de feedback die jij op dit moment geeft, Simon, want eh jij denkt letterlijk al na over het systeem waar wij ook over na hebben gedacht.
+**Simen** (14:40): Hm hm.
+**Sonnie van den Berg** (14:40): Eh alleen je moet ergens beginnen in de zin van lancering.
+**Simen** (14:44): Begrijpen jullie? Maar dan is het wel wie
+**Sonnie van den Berg** (14:45): Ja.
+**Simen** (14:46): staat er op de wacht hè? Ik ben gewoon transparant met jou sorry. Ik sta zeker op jullie te wachten vanuit het eh het marketing het het recruitment marketing stuk en hoe jullie dat doen. Dat werkt top.
+**Sonnie van den Berg** (14:48): Ja.
+**Sonnie van den Berg** (14:55): Hm hm.
+**Simen** (14:56): Ik sta niet zo te wachten op dit product nu.
+**Sonnie van den Berg** (14:59): Nee.
+**Simen** (14:59): Even heel eerlijk en dan vind ik de manier hoe ik nu doe. Is werkzaam. Omdat ik al veel meer ben met ja, ik ben al bezig met mijn road map. En waar wil ik naartoe? En wat heb ik daarvoor nodig? En dat kan misschien niet nu een HRS zijn. Maar dan kijk ik wel alvast met welke goede systemen zijn er straks welke API te koppelen op Europees niveau? Als ik wel een keer naar een HRS ga. En in die situatie heb ik in mijn carrière al heel vaak meegemaakt. En ehm ja, ik wil het gewoon wel altijd scalable maken. Met andere woorden, lokale oplossingen kunnen niet altijd voor elk land de juiste oplossing zijn. en qua scalability. En ik zie gewoon dat er heel veel ontwikkelingen in de markt zijn op dit front ook. Dat is best wel moeilijk. Ik vind het een moeilijke markt wat jullie nu proberen te doen, omdat ehm
+**Simen** (15:43): ja, even vanuit mij, ik heb alleen een grote club gewerkt, met name de iSims, de Workdays, de succesvolle ondernemers. Het zijn echt grotere jongens.
+**Sonnie van den Berg** (15:46): Ja,
+**Sonnie van den Berg** (15:49): ik denk
+**Simen** (15:50): Daaronder heb ik ze
+**Sonnie van den Berg** (15:50): wat jij zegt eh het zijn het zullen vooral
+**Simen** (15:51): wel eens gezien, maar niet heel veel gewerkt, alleen de carriere ik ze de boel rond en dat soort zaken.
+**Sonnie van den Berg** (15:55): eh kleinere
+**Simen** (15:55): Is altijd commercieel.
+**Simen** (15:57): Ik weet niet zozeer of er gat in de markt te vinden
+**Sonnie van den Berg** (15:58): MKB-bedrijven zijn tot
+**Simen** (15:59): is voor dit nu, omdat er veel van dit soort partijtjes die ook een koppeling doen met het semantisch zoeken op bijvoorbeeld de Indeed en zo, ook zoiets aanbieden. Ik zag ook dat er een sourcing partij nu is. Die probeert ook een talentpool aan te bieden en een ATSje flow à la LinkedIn. Ja, is dat iets waar bedrijven op staan te wachten? Vind ik moeilijk nu. Dat weet ik niet.
+**Sonnie van den Berg** (16:03): maximaal 100
+**Simen** (16:24): Ja. Ja, misschien dat
+**Sonnie van den Berg** (16:25): manpersoneel. Maar alle feedback die jij net geeft, dat gaan we dus allemaal al implementeren. Eh het ding is, hier moeten we mee beginnen. Dus eh in de zin van gebruiksvriendelijkheid
+**Simen** (16:37): Ja, alleen dan
+**Sonnie van den Berg** (16:37): eh willen we gewoon alleen weten oké, is het gebruiksvriendelijk voor misschien wat kleinere
+**Simen** (16:40): is de stap op
+**Sonnie van den Berg** (16:41): bedrijven? Eh
+**Simen** (16:43): overzicht vacature
+**Sonnie van den Berg** (16:44): ja.
+**Simen** (16:46): ten opzicht van overzichtelijke die die flows moeten er allebei inzetten. Dat is denk ik een basis die echt moet
+**Sonnie van den Berg** (16:52): Ja.
+**Simen** (16:52): even los van hoe je dan die SLA's wil inrichten. Ja, wat ik al zei, ik vind dat nu wat minder belangrijk hè. Ik vind het meer belangrijk dat ik stuur op hé
+**Sonnie van den Berg** (17:00): Oh.
+**Simen** (17:02): 3 jaar terug hadden we 40% agency hires is zoveel euro. Nu heb ik nog maar 10% agency hires is zoveel euro voor sparen omdat ik hier zit collega. Zo zo doe ik het zeg maar. Ja. Ja, ik
+**Sonnie van den Berg** (17:10): Ja,
+**Sonnie van den Berg** (17:13): ik vind het een hele waardevolle feedback hier, want eh dat Ja.
+**Simen** (17:16): ik zou het zeker ook even doen bij een aantal partijtjes en ook waar ik geen ervaren groep met zitten, want dan heb je veel met die klantbehoefte. Terwijl ik zeker snap wat jullie doen, maar ik zie dat meer bij een commerciële organisatie passen dan bij een corporate omgeving.
+**Sonnie van den Berg** (17:29): Want eventjes een andere vraag. Eh nou, jij geeft nu net zojuist eh al die feedback. Eh wij zitten met onze gedachtegang ook wel een beetje in die hoek. Jij bent daar wat meer ervaren in dan wij. Dus daarom hebben we zoveel aan je feedback. Maar wij hebben ook al wel wat verder in die hoek gedacht.
+**Simen** (17:45): Hm hm.
+**Sonnie van den Berg** (17:45): Ons plan is om dat om dat uit te rollen eh misschien begin 2027, maar dan wel echt de ja, de de de de professionelere versie.
+**Simen** (17:54): Hm.
+**Sonnie van den Berg** (17:55): Dit is echt het beginsel.
+**Simen** (17:56): Hm hm.
+**Sonnie van den Berg** (17:57): Ook voor data en dergelijke is dit gewoon heel handig voor partijen die dit wel willen doen. Maar per wanneer moet jij dan ongeveer bijvoorbeeld over naar zo'n systeem? Heb je daar een einddatum voor of ehm
+**Simen** (18:07): Nou,
+**Simen** (18:09): ja, ik wil voor 2030 heel Europa op mijn systeem hebben, maar ik ben wel heel eerlijk dat ik nu aan het kijken ben naar de systemen waar ik van weet dat een heel aantal topics zo zoals ISO certificering, GDPR,
+**Simen** (18:23): het job marketing, het approve proces heel goed onderlegd is, even los van AI ontwikkelingen hè. Ik ik focus heel veel meer op dat stuk dan dat ik zeg op oh de influx van kandidaten hè.
+**Sonnie van den Berg** (18:34): Hm hm.
+**Simen** (18:35): Ja, dat dat dan heb ik het niet zozeer over de recruitment marketing wat jullie natuurlijk doen. Dat is wel handig dat jullie dat gekoppeld hebben, maar hoe ik het gewend ben bij de grote clubs is dan heb je een bepaalde tool erop daarnaast van job marketing waar ook gemonitord wordt van hé, je kunt nu niet meer credits kopen, want ik deed het maar UK deed het ook whatever. Je hebt maar 10.000 credits op dit platform. Op het stack overflow, dan kreeg je het niet meer. Dat zit veel meer in de job portal en het posting vanuit de ATS naar de naar de markt. In plaats van hoe ik het nu heb ingericht met de met CMS scraping.
+**Simen** (19:04): Ja, en ik ben wel heel erg kritisch. Ja, ik weet niet of ik zoiets überhaupt zou willen qua scale ability bij een kleine organisatie. Je moet ook niet afhankelijk zijn van een organisatie die om kan vallen. Hè, even even kritische kritische nood. Hè, je wil wat stabiliteit hebben in een organisatie die eigenlijk vijf man is, 5000 man is. En hoe je je basis inricht, waarbij je ook de technische koppeling straks aan HRS interpretatie ook goed hebt staan. Dus er mag geen enkel IT dingetje onbenut blijven of ISO certificeren over GDPR compliance Dat mag niet onbenut blijven. Daar zullen jullie heus over nadenken.
+**Sonnie van den Berg** (19:34): Ja.
+**Simen** (19:34): Maar dat is waar een organisatie als wij
+**Simen** (19:38): echt extreem strikt op zijn. Nee, ik ben er zelfs wat
+**Sonnie van den Berg** (19:40): Ja.
+**Simen** (19:41): met de organisatie is daar heel strikt op. En dat maakt het heel moeilijk ook om nieuwe dingen te kunnen doen in dit soort cursussen, want er zijn ook hartstikke leuke tools die ik nou buiten jullie zou willen gebruiken, maar dat ik niet mag.
+**Sonnie van den Berg** (19:54): Ja, denk echt eh hele sterke feedback. Hier hebben we heel veel aan. Eh
+**Simen** (19:58): En nog jongens, ik denk het is slim om er over na te denken. Ik denk zeker dat je Kijk, er zijn best wel wat kleinere uitzendbaas die ik denk die hiervan kunnen profiteren. Als ze zelf wel niet hun eigen ontwikkelingen doen, want dat lijkt me sterker, dan moet je dat ook vaak inkopen. Vanuit een corporate, als je boven de 1000 man komt, betekent dat het wat moeilijker wordt als je naar de lange termijn scalability kijkt. Of je moet bijvoorbeeld heel lokaal zijn of je moet met minder struct ingeregeld zijn. Ja, dan kun je die er wel wat aan hebben. Als ze ook alles voor jullie doen hè. Dat dat dat weet ik natuurlijk niet. Ik weet niet wat voor klanten voor jullie hebben. Ik zie gewoon dat mijn concollega's ook best wel veel nu naar de ja, de implementaties gaan van best wel professioneel systeem zoals succesfactoren. Of daar Eh, ja, of bijvoorbeeld recruit of dat soort systeem.
+**Sonnie van den Berg** (20:00): Ja.
+**Sonnie van den Berg** (20:43): Nee, klopt. Eh heb je ook gelijk in. Eh ik heb wij hebben het wij hebben deze meeting ook al gedaan met eh eerder eh andere samenwerkingen. Dus eh ik zeg
+**Simen** (20:51): En kwam daar kwam daar dan iets anders uit? Even nieuwsgierig voor mij.
+**Sonnie van den Berg** (20:54): Ja, kijk eh bijvoorbeeld een Royal en een Hartog, die ken je denk ik ook wel. Nou, daar hebben we bijvoorbeeld mee gedaan. Ja, die had een paar eh toevoeging. Dus bijvoorbeeld het knopje dat ze dus wel een eh extra gebruiker kunnen toevoegen. Nog wat andere dingen, maar de gebruiksvriendelijkheid ging het hem heel erg om, omdat hij dus met recruit die werkt. Nou, recruit die is een hele dure grap. Eh dus hij zou in de toekomst, wanneer dit systeem dus ook verder is, net als wat jij zegt, zou die hier wel gebruik van willen maken. Ehm en vooral met het eh en met het gedeelte van als die compleet is. Nu op dit moment, ja, hij zou het willen gebruiken voor het systeem voor zijn team zodat zij alvast kunnen wennen. Maar nog niet helemaal overgaan. Zij hebben ook 2800 man in dienst.
+**Simen** (21:38): Ja.
+**Sonnie van den Berg** (21:39): Dus daarvoor moet het systeem verder zijn. Maar dit is zeg maar de echte aftrap. Eh en heel veel punten die jij net hebt genoemd hebben we ook over nagedacht.
+**Simen** (21:42): Ja.
+**Simen** (21:50): Hm hm.
+**Sonnie van den Berg** (21:50): Dus zijn er ook punten die jij net hebt genoemd waar we nog niet over hebben nagedacht. Dus daarom hebben we dit soort gesprekken ook.
+**Simen** (21:55): Hm.
+**Sonnie van den Berg** (21:55): En eh ja, het doel is toch wel
+**Sonnie van den Berg** (22:00): We gaan het anders doen. We gaan het beter doen dan de rest, maar het heeft gewoon tijd nodig. Het is niet morgen in één dag gebouwd.
+**Simen** (22:05): Weet je, moet me gewoon op de hoogte houden hè.
+**Sonnie van den Berg** (22:06): Ja.
+**Simen** (22:06): U weet zo hoe het loopt. Kijk, ik neig sneller naar de recruitings of dat soort Hè, ik noem het maar even.
+**Sonnie van den Berg** (22:12): Ja.
+**Simen** (22:13): Vanuit scalability ervaringen met connecties API gerelateerd Europese bedrijven ook met jobportals et cetera. Het is allemaal heel standaard en makkelijk. Het klopt ook qua kosten. Alleen
+**Simen** (22:26): ja, weet je ehm ik ben gewend om 15 keer zoveel te betalen voor systemen dan dat als je begrijpt wat ik bedoel.
+**Sonnie van den Berg** (22:31): Ja.
+**Sonnie van den Berg** (22:34): Tuurlijk.
+**Simen** (22:34): En dat is een beetje de complexiteit die ik heb. Ik heb nooit echt buiten de creëring van de commerciële organisaties ehm waar ik gewerkt heb, implementatie gedaan, alleen op heel groot niveau. Hè, ehm en dan heb je er echt over minimaal eh 20 30.000 man voor één eh één voor één
+**Sonnie van den Berg** (22:49): Ja.
+**Simen** (22:50): één één één één gebied hè, bijvoorbeeld Europa bij Sabik, ja. Komen wel bij 15 eh 15.000 man, dan ga je succesvol of anders implementeren.
+**Simen** (22:59): Ja, dat is een ander niveau en dat zijn ook zo tools die gewoon niet te betalen zijn voor een organisatie als ons op dit moment, hè, eerlijk gezegd.
+**Sonnie van den Berg** (23:00): Ja.
+**Sonnie van den Berg** (23:07): Ja, voor nu vind ik dit de allerbeste feedback eh die we hebben gehad.
+**Simen** (23:10): Hm hm.
+**Sonnie van den Berg** (23:11): We gaan het helemaal We gaan het allemaal meenemen. We houden je ook op de hoogte
+**Simen** (23:11): Ja,
+**Simen** (23:14): hou me zeker op de hoogte. En ik denk wel als Als je bij
+**Sonnie van den Berg** (23:15): Ja.
+**Simen** (23:16): die basis begint waar we net het begin over hadden, dan dan ga je
+**Sonnie van den Berg** (23:18): Ja.
+**Simen** (23:19): al stappen zetten. Wat ik erg moeilijk vind is ga ook even gewoon goed om je heen kijken wat voor concollega's nu met wat voor dingen bezig zijn. Want er zijn echt veel partijtjes
+**Sonnie van den Berg** (23:26): Ja.
+**Simen** (23:27): met allemaal dit soort ontwikkelingen bezig
+**Sonnie van den Berg** (23:28): Ja.
+**Simen** (23:29): waar ik denk: yo.
+**Simen** (23:31): Concurrentiestrijd wordt wel heel heftig hè. Kijk, mijn eigen collega, dat is een beetje een gekkie, die heeft zelfs een een kloot een heel schitterend ATS gebouwd met zelfs selectiecriteria. Fantastisch.
+**Sonnie van den Berg** (23:34): Ja.
+**Sonnie van den Berg** (23:40): Ja.
+**Simen** (23:41): Ik zou het ook zelf kunnen doen.
+**Simen** (23:43): Maar ik ben wel meer vanuit de scalability en de
+**Sonnie van den Berg** (23:45): Ja.
+**Simen** (23:46): eh de de back eh de ontwikkelingen ja, wil ik gewoon een legitieme partij hebben die me kan helpen omdat wij steeds groter worden en wij eh natuurlijk ook IT technisch heel veel te verantwoorden hebben. Eh ook GDPR compliance ISO certificering dat je ook vaak dit heel goed onderbouwd moet hebben.
+**Sonnie van den Berg** (24:01): Nee, ja, eh goede
+**Sonnie van den Berg** (24:04): tips. Eh, kijk, stapje voor stapje. Dus
+**Simen** (24:11): Hm hm.
+**Sonnie van den Berg** (24:12): Dus eh ik heb er verder ook niet zoveel meer aan toe te voegen. We hebben heel veel feedback van jou en we moeten dit allemaal ook eventjes verwerken eh en eh vervolgens ook doorgaan voeren. Ehm
+**Simen** (24:19): Snap ik.
+**Simen** (24:23): Help ook even mee. Sorry, je noemde de partij in de begin jullie noemden een andere naam dan Jobstream als partij. Help me even, want dat snap ik niet helemaal.
+**Sonnie van den Berg** (24:32): Bedoel Wat bedoel je? Bedoel je eh recruiting wat ik net zei?
+**Simen** (24:35): Nee nee, in het begin toen noemden jullie eh eh jij ja, Jeroen, jij bent van je eigen organisatie. Jij had een eigen organisatie, maar jullie noemden een partij. Is dat dan een partij van jullie, Sony? Ik snap het niet helemaal.
+**Sonnie van den Berg** (24:47): Eh ik moet even denken wat wat we hebben gezegd. Nee, ik ik hadden we het niet over de rebranding.
+**Jeroen Vermunt** (24:48): Ja,
+**Simen** (24:54): Ja, dat kan zijn. Dat weet ik het even niet meer, maar dat
+**Sonnie van den Berg** (24:55): Volgens mij hadden we het over de rebranding dat dit al een kleine sneakpeek is. Dit is totaal nog niet eh te zien wat we eh hoe de rebranding gaat worden. Maar eh nee, ik heb geen andere partij nog mee.
+**Simen** (24:59): Ja, oké.
+**Simen** (25:06): Oké.
+**Jeroen Vermunt** (25:07): misschien eh de Delta links is in het begin eh genoemd, maar
+**Sonnie van den Berg** (25:09): Oh ja.
+**Sonnie van den Berg** (25:12): Ja, dat is eh de belangenbehartiger van de Rotterdamse Haven
+**Sonnie van den Berg** (25:16): waar we het stageplatform voor hebben gebouwd.
+**Simen** (25:16): Ik
+**Sonnie van den Berg** (25:21): Eh ja, dit is ons platform. Kan je misschien wel even
+**Simen** (25:23): zal even even spieken.
+**Simen** (25:26): Oké.
+**Sonnie van den Berg** (25:27): Kijk.
+**Simen** (25:30): Maar jullie hebben dus een site gebouwd als stageplatform.
+**Sonnie van den Berg** (25:33): Ja.
+**Sonnie van den Berg** (25:35): Ja, echt in samenwerking met Delta Links. Nou, wat ik zeg dat
+**Simen** (25:37): Ah, Delta Links was het. Ja, help me even mee. Wat doet Delta Links?
+**Sonnie van den Berg** (25:40): Die zijn
+**Simen** (25:41): Want die kende ik even niet die naam.
+**Sonnie van den Berg** (25:42): En de belangenbehartiger van de Rotterdamse Haven. Eh elk bijna elk bedrijf in de Rotterdamse Haven is zeg maar eh lid bij hun en eh zij werken aan wetsvoorstellen voor de bedrijven in de Rotterdamse Haven.
+**Simen** (25:48): Oké.
+**Simen** (25:54): Ja.
+**Sonnie van den Berg** (25:55): En eh ja, de innovaties waar eh men aan moet gaan voldoen eh anders blij anders word je eruit geconcurreerd door andere havens. Ehm daar hebben staan wij direct in contact mee en eh ja, hier vinden wij dus stages voor. Nou, dit is ook een beginpunt al. Eh, er zijn nu al 50 bedrijven of iets dergelijks aangesloten. En eh ja, het is echt een exclusieve samenwerking. Dus er komt een boost knop op waarin ze bij ons hun stageplekken kunnen boosten waardoor wij ze voor hun kunnen vinden.
+**Simen** (26:27): Wat wat wat moet je dan voor commercieel model? Wat zit daar achter? Waarom ik het vraag hè? We hebben ook meer te jong zoals die doen dat een in samenwerking met Fontis via uit regio heb je eigen stageplatform. Dat doen ze dan gratis omdat het via een Fontis evenement is. Kunnen mensen zich oriënteren op je cultuur. Ik ken Magnet Me. Ik ken nog twee partijen die hier echt heel erg zich op richten met al veel groter dan alleen Rotterdamse Haven.
+**Sonnie van den Berg** (26:48): Ja.
+**Simen** (26:48): Hoe zit het commerciële model voor jullie hierachter?
+**Sonnie van den Berg** (26:51): Nou, kijk, wij hebben dit eh echt gedaan uit Nou, ik wil niet zeggen een vriendendienst, maar eh met het oog op de business in de toekomst. Dus eh wij hebben nu direct eh eh toezegging gekregen dat wij ons boodschenknop erop kunnen zetten. Nou, daar verdienen we niks aan. Daar zit eh dat is geen commercieel model, maar je komt wel direct in de contact met de bedrijven waarin wij dus door gaan vragen met wat er allemaal nodig is en
+**Simen** (26:59): Hè?
+**Simen** (27:16): Maar eigenlijk heb je dus nu het platform gebouwd, maar daar daar verdien je nu niks dus meer aan aan die stagiairs. Klopt dat dan? Of zeg je dat verkeerd.
+**Sonnie van den Berg** (27:22): Wel, want er komt een boostknop op, dus er zal een verdienmodel achter zitten.
+**Simen** (27:26): Wat is het boost knop? Is dat dat je je zicht beter zichtbaar bent als eh
+**Sonnie van den Berg** (27:29): Ja, dus je bent beter zeg maar op het platform en andere platformen waar de stagiaires op aanwezig zijn.
+**Simen** (27:30): Ja, oké.
+**Simen** (27:34): Ja, ja.
+**Sonnie van den Berg** (27:34): Dus het is heel moeilijk om die mensen te bereiken. Die zitten op TikTok, Snapchat eh
+**Simen** (27:37): Ja, ik snap het.
+**Sonnie van den Berg** (27:37): nou ja, al die eh ja, en daar
+**Simen** (27:38): Ja. Dat snap ik.
+**Sonnie van den Berg** (27:39): zijn wij dus weer heel goed in. Eh
+**Simen** (27:41): En dan vind ik het wel interessant als je dan die recruitment marketing model kijkt. Dan vind ik het wel interessant.
+**Sonnie van den Berg** (27:42): Ja.
+**Sonnie van den Berg** (27:46): Ja, dus wat ik net ook al zei, wij hebben nog een aantal platforms aan toegevoegd. Ja, waar dus de jongeren meer zitten. Ja, en dat is ook de toekomst en eh ja, daar gaan we heel erg naartoe bewegen ook met het Delta Lings verhaal. Dus wij krijgen budget vanuit hun om dit te verbeteren waar jullie dus indirect ook eh profijt van kunnen hebben voor de toekomst.
+**Simen** (28:04): Ja.
+**Sonnie van den Berg** (28:05): Eh en nu ook al profijt van hebben, want nu komen er ook al kandidaten op af. Eh maar dat wordt natuurlijk veel beter. En ja, dit echt
+**Simen** (28:11): Ja.
+**Sonnie van den Berg** (28:12): samen met Delta Lings. Nou, we gaan dit dus ook met Oram doen en Oram is in Amsterdam de partij eh die de belangbehartig van de Amsterdamse haven. Daar zitten nog meer bedrijven op aangesloten, want het loopt helemaal tot IJmuiden, dus dat zijn er 1.200 en daar wordt het een stage en eh een een platform met betrekking tot werkzoekende. Dus daarvoor wordt het een dubbele eh dat heeft het dubbele zin, dus een werkzoekende en stagiares. En eh ja, dat wordt wel echt meer een commercieel model in de zin van het bouwen van het platform, dus daar zouden we ook op mogen verdienen en eh ja, dus direct het concept pakt met eh ja, met de bedrijven zelf. Dus dat zou betekenen dat er nu met Delta Links erbij 1.800 bedrijven ja, we mogen ze benaderen namens de naam van eh Oram en Delta Links en iedereen kent ze in die markt. Dus ja, dit kan ons wel eh flink eh schop onder ons reet geven. Eh en daarin is
+**Simen** (28:50): Ja.
+**Simen** (29:09): Ja, maar dat is dit zijn wel dingen waar ik wel eigenlijk in geloof. Kijk, ik vind dat toch wel heel veel van dit soort verspreide activiteiten zijn, hè? Ik snap het als dat je het bundelt vanuit Amsterdam of vanuit Rotterdam. Het is heel logisch dat je centraliseert, want je maakt een beetje niet van door die locatie regio, dus dat snap ik. Zeker met het recruitment marketing in het model wat erachter zit, dus daar geloof ik heilig in.
+**Sonnie van den Berg** (29:16): Ja.
+**Simen** (29:28): Ja, dus dat vind ik wel echt interessant. Alleen
+**Sonnie van den Berg** (29:30): Ja, en dit gaan we dus in ook een haven doen.
+**Simen** (29:32): Wij hadden Supply Chain Valley, dat is helaas eh kapot, maar daar zou dit ideaal voor zijn. Echt.
+**Sonnie van den Berg** (29:38): Ja, kijk en wij bouwen dit soort platformen, dus eh ja, als jij weet dat het daar kapot is en je hebt een ingang en eh je hebt er zelf behoefte aan dat het verbeterd wordt, raad ons vooral aan. Het gebeurt ook aan
+**Simen** (29:51): Weet je, ik ik ik zal het wel eens een keer
+**Sonnie van den Berg** (29:52): Ja.
+**Simen** (29:53): met Short Ik weet niet die Kun je me even die link sturen eh Sony van Ik weet niet of Amsterdam al live is, maar dit even van Rotterdamse Haven en dat andere. Kun je me dat even mailen? Want ik ga wel even met de voorzitter van Surprise & Value. Short Ewers is een ja, één van de broers uit ons bedrijf die is daar uit gestapt. Die is voorzitter
+**Sonnie van den Berg** (30:07): Ja.
+**Simen** (30:08): geweest. Spreken, want we hebben het gewoon Het is niet als collectief vanuit Zuid hè zoals Brainport hè. Ik denk dat Brainport ook trouwens geïnteresseerd zou zijn in dit verhaal als ik eh als ik heel lelijk ben.
+**Sonnie van den Berg** (30:16): Klopt. Klopt.
+**Sonnie van den Berg** (30:19): Ja. Nou, misschien is het leuk als je naar beneden scrollt. Scroll eens helemaal naar beneden, Jeroen, hier. Even kijken eh dan zie je ook eh helemaal, gewoon helemaal naar onder. Ja, eh werk in de Rotterdamse haven staat erop aangesloten. Dus initiatief van Feyenoord en indeed. Nou, wij dus eh en eh de Europese Unie. Dus wij willen dit in elke haven gaan uitrollen en ja, als er kansen zoals eh wat jij net noemt eh voorbij komen, kunnen we daar ook weer in schalen. Ehm ja, dit is onze specialiteit. We hebben ja, we hebben een eh een heel goed team met developers zitten. En eh eh ja, onze head of technology Jeroen die dat begeleid.
+**Simen** (30:34): Ja.
+**Simen** (30:57): Ja, doe even, want ik denk eh je moet ook
+**Sonnie van den Berg** (30:57): Eh samen met Sander eh mijn andere partner. Ja, en ik ben natuurlijk
+**Simen** (31:01): een gaatje vinden bij
+**Sonnie van den Berg** (31:02): ook involved. Eh alleen dit is meer hun pakje aan. Eh ik ik ik mail deze sowieso naar je toe.
+**Simen** (31:09): Brainport Development. Die wel interesse heeft vanuit Eindhoven zijn natuurlijk met AZM met de boost die
+**Sonnie van den Berg** (31:12): Ja.
+**Simen** (31:13): er nog aankomt. Ik denk dat als ik daar naar kijk vanuit mijn expertise was dit wel echt iets waar ik eh veel
+**Sonnie van den Berg** (31:16): Ja.
+**Simen** (31:18): aan mij aan baat aan had gehad, eerlijk gezegd. Het is jammer dat supply is wel niet meer bestaan, maar ik zal het wel eens met jou bespreken van hé, heb je tips, ideeën? Want ik denk een sector in
+**Sonnie van den Berg** (31:23): Hm hm.
+**Sonnie van den Berg** (31:29): Ja.
+**Simen** (31:31): Transport Logistiek. Zou bij jullie heel veel baat hebben. Is gewoon heel oud. Dated het platform. Als je begrijpt wat ik bedoel.
+**Sonnie van den Berg** (31:37): Ja. Ja, wij kijk dit is onze specialiteit ook eh één van de specialiteiten binnen Jobstream. Ook leuk om te weten Sander Klos onze andere partner partner die heeft onder andere ook gebouwd aan Watertalent. Eh en dat is gewoon de grootste private equity in de wereld. Ehm.
+**Sonnie van den Berg** (31:54): Ja, dat is ook die hebben we we bouwen ook veel aan deze platformen. Ik Maar ik meld dit naar je toe. Mail dit naar je toe. We houden nog contact over de de customer service vacatures. Nou, daar kom jij in de lucht wanneer het nodig is.
+**Simen** (32:00): Goed.
+**Simen** (32:07): Ja, ik ga even
+**Sonnie van den Berg** (32:07): Dan je feedback 100% mee, want ik ben er heel blij mee wat je net allemaal aangeeft.
+**Simen** (32:11): Ja,
+**Sonnie van den Berg** (32:12): Eh.
+**Jeroen Vermunt** (32:12): Ik heb
+**Simen** (32:13): nogmaals ik kijk ook naar een eh structurele lange termijn samenwerking zoals we vaak heb gezegd hè. Dus ik ben gewoon eh transparant en eerlijk hoe ik daar naar kijk.
+**Sonnie van den Berg** (32:16): Ja.
+**Sonnie van den Berg** (32:21): Top.
+**Simen** (32:21): En hou me zeker op de hoogte. Ik Ja, wat er ontwikkeld wordt vanuit jullie zijde. Ik denk dat jullie de goede zaak aan het doen zijn. En ik eh ja, ik heb op dit moment meeste de baas met jullie recruitment marketing. Ook vanuit Vos, eerlijk gezegd, op dit moment.
+**Sonnie van den Berg** (32:33): Ja.
+**Simen** (32:34): Ehm, ja, dus ik ga even de ijs ophalen. Komt die vacature af jullie kanten op en dan hou ik hem op de hoogte als er iets gaat spelen.
+**Sonnie van den Berg** (32:42): Top. Oké. Ja, super bedankt voor je tijd, Simon.
+**Simen** (32:45): Goed jongens. Nou,
+**Sonnie van den Berg** (32:46): Wij houden je contact. Ik mail jou nog even deze link door. Ehm en eh ja, wij wij spreken elkaar spoedig. Yes.
+**Simen** (32:55): Goed jongens, succes hè.
+**Sonnie van den Berg** (32:56): Super bedankt.
+**Jeroen Vermunt** (32:57): heel erg bedankt.
+**Simen** (32:58): Oh, hoi hoi.
+**Sonnie van den Berg** (32:58): Oké, groetjes. Hi.
+**Simen** (33:00): C'est
